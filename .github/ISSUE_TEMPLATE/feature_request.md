@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: Tarefas
 about: Suggest an idea for this project
 title: ''
 labels: ''
@@ -7,14 +7,23 @@ assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Descrição da tarefa
+(coloque aqui qual é a área em que a tarefa se propõe a trabalhar)
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Técnicas utilizadas
+(descreva aqui quais técnicas serão utilizadas para gerar os artefatos)
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+- [ ] técnica 1
+- [ ] técnica 2
+- [ ] técnica 3
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+## Artefatos gerados
+(descreva aqui quais são os artefatos que devem ser gerados ao completar a issue)
+
+- [ ] artefato 1
+- [ ] artefato 2
+- [ ] artefato 3
+
+## Gitflow
+- nome da branch: <nome_da_branch>
+- dupla: <membro1> e <membro2>
