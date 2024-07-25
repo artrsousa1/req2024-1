@@ -1,0 +1,64 @@
+site_name: Play Store - Requisitos de Software
+repo_name: Requisitos de Software - Play Store
+repo_url: https://github.com/artrsousa1/req2024-1
+theme:
+  name: material
+  font:
+    text: Ubuntu
+
+    features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.prune
+    - navigation.top
+    - navigation.footer
+    - navigations.indexes
+    - content.code.copy
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+  nav_style: dark
+  language: pt
+  repo: fontawesome/brands/github
+  logo: assets/google_play.png
+  favicon: assets/google_play.ico
+
+  palette:
+    - scheme: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Alternar para modo escuro
+      primary: grey
+      accent: light blue
+
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Alternar para modo claro
+      primary: black
+      accent: light blue
+  
+  markdown_extensions:
+    - pydownx.arithmatex:
+        generic: true
+    - pydownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+      pigments_lang_class: true
+    - pymdownx.keys
+    - pymdownx.smartsymbols
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.betterem
+    - pymdownx.inlinehilite
+    - admonition
+    - footnotes
+    - pymdownx.details
+    - pymdownx.superfences
+    - attr_list
+    - pymdownx.snippets
+    
+  
