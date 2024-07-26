@@ -35,6 +35,8 @@ Para compreendermos o aplicativo e definirmos o escopo a ser trabalhado na maté
 
 *Autores: Toda equipe*
 
+[Áudio da reunião - 25/07/2024](https://drive.google.com/file/d/1h--qKUerv0Oz2Zpbp3n9wXtWrgphgebi/view?usp=sharing)
+
 
 ### Brainstorming:
 Brainstorming é uma técnica criativa usada para gerar uma grande quantidade de ideias sobre um problema ou desafio. Durante uma sessão de brainstorming, os participantes se reúnem para sugerir ideias de forma livre e espontânea, sem julgamentos imediatos. O objetivo é explorar diversas possibilidades e encontrar soluções inovadoras. As ideias são geralmente registradas e depois avaliadas para identificar as mais viáveis. Essa técnica é útil para estimular a criatividade, promover a colaboração e encontrar novas abordagens para resolver problemas.
@@ -43,16 +45,43 @@ Brainstorming é uma técnica criativa usada para gerar uma grande quantidade de
 
 *Autores: Toda equipe*
 
+Ficando assim definido as categorias de:
+
+- APP
+
+- Jogos
+
+- Livros
+
+- Filmes
+
+- Fluxo de usuário
+
+- Pagamentos e assinaturas
+
+- Controle
+
+- Gamificação
+
+[Vídeo da reunião - 25/07/2024 ](https://drive.google.com/file/d/1dOZtm7r8HbKJ7u3yDaViFvzDe5CbB4tG/view?usp=sharing) até o minuto 13:57.
+
 ### MoSCow:
 MoSCoW é uma técnica de priorização usada para classificar requisitos, tarefas ou projetos com base em sua importância. O nome MoSCoW é um acrônimo que representa quatro categorias:
 
 Must Have (Deve Ter): Requisitos essenciais que são indispensáveis para o sucesso do projeto.
+
 Should Have (Deveria Ter): Requisitos importantes, mas não essenciais, que melhoram o projeto se incluídos.
+
 Could Have (Poderia Ter): Requisitos desejáveis que são bons de ter, mas que podem ser adiados se necessário.
+
 Would Have (Seria bom ter): Requisitos que são menos importantes e que podem ser deixados de lado se o tempo ou os recursos não permitirem.
 
 ![alt text](../assets/moscow.jpeg)
     *Autores: Toda equipe*
+
+Priorizando para primeira entrega o escopo de App, jogos, Fluxo de usuário, pagamento e assinatura e controle.
+
+[Vídeo da reunião - 25/07/2024 ](https://drive.google.com/file/d/1dOZtm7r8HbKJ7u3yDaViFvzDe5CbB4tG/view?usp=sharing) do minuto 13:57 até o fim.
 
 
 # Histórico de Versões
@@ -60,3 +89,4 @@ Would Have (Seria bom ter): Requisitos que são menos importantes e que podem se
 | Versão | Data       | Alterações Principais                             | Autor        |
 |--------|------------|---------------------------------------------------|--------------|
 | 1.0.0  | 25-07-2024 | Lançamento inicial da documentação.               | Carlos Alves, Hugo Queiroz     |
+| 1.0.1  | 26-07-2024 |Adicionando vídeos e acrescentando informações adicionais.               | Carlos Alves|
