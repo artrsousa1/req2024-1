@@ -4,6 +4,7 @@ repo_url: https://github.com/artrsousa1/req2024-1
 
 nav:
   - Início: index.md
+  - Home: home/home.md
   - Pré-Rastreabilidade: pre-ras/pre-ras.md
   - Elicitação: elicitacao/elicitacao.md
   - Modelagem: modelagem/modelagem.md
