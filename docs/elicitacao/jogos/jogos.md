@@ -19,13 +19,16 @@ _Fonte: autores_
 
 ## Arquivos de áudio
 
+[Clique aqui para acessar um diretório no Google Drive com os arquivos de áudio.](https://drive.google.com/drive/folders/18ZcscWDNY1OUcLuZcanFcm-xrGkef79p?usp=sharing)
+
 ## Histórias
 
 ## Requisitos elicitados
 
 ## Histórico de Versões
 
-| Versão | Data       | Alterações Principais                           | Autor                        |
-| ------ | ---------- | ----------------------------------------------- | ---------------------------- |
-| 1.0    | 29-07-2024 | Adição de Rich Picture para a área de jogos     | Arthur Sousa e Lucas Queiroz |
-| 1.0.1  | 29-07-2024 | Adiciona mais informações sobre a área de jogos | Arthur Sousa e Lucas Queiroz |
+| Versão | Data       | Alterações Principais                              | Autor                        |
+| ------ | ---------- | -------------------------------------------------- | ---------------------------- |
+| 1.0    | 29-07-2024 | Adição de Rich Picture para a área de jogos        | Arthur Sousa e Lucas Queiroz |
+| 1.0.1  | 29-07-2024 | Adiciona mais informações sobre a área de jogos    | Arthur Sousa e Lucas Queiroz |
+| 1.0.2  | 29-07-2024 | Adiciona arquivos de áudio da análise de protocolo | Arthur Sousa e Lucas Queiroz |
