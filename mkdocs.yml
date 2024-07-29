@@ -9,7 +9,7 @@ nav:
   - Elicitação: elicitacao/elicitacao.md
   - Modelagem: modelagem/modelagem.md
   - Análise: analise/analise.md
-  - Rastrabilidade: rastreabilidade/rastreabilidade.md
+  - Rastreabilidade: rastreabilidade/rastreabilidade.md
 
 theme:
   name: material
