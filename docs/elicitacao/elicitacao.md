@@ -5,7 +5,7 @@
 ## Histórico de Versão 
 | Data | Autor | Descrição | Versão |
 | :--: | :--: | :-- | :--: |
-| 26/07/2024 | Hugo e Cecília | Criação do documento e adicionando requisitos | 0.1 |
+| 29/07/2024 | Hugo e Cecília | Criação do documento e adicionando requisitos | 0.1 |
 
 ## Introspecção
 
@@ -79,10 +79,6 @@ considerando diversos cenários de uso, possíveis problemas e soluções.
 29. Filtrar aplicativos
 
 
-
-
-
-
 ## Storytelling
 
 Storytelling na elicitação de requisitos é uma técnica que utiliza narrativas para capturar e comunicar os requisitos de um sistema de forma mais clara e envolvente. Em vez de apenas listar especificações técnicas, o storytelling incorpora histórias e cenários que ilustram como o sistema será usado na prática. Isso ajuda a criar um entendimento mais profundo e compartilhado entre as partes interessadas, como desenvolvedores, clientes e usuários finais.
@@ -129,3 +125,6 @@ Ações: Ela abre o celular e busca pela PlayStore. Ela observa o símbolo de pe
 | REQ17 | O aplicativo deve permitir compartilhar app | Introspecção |
 | REQ18 | O aplicativo deve permitir a avaliação de um app | Introspecção |
 | REQ19 | O aplicativo deve permitir marcar um app como inapropriado | Introspecção |
+| REQ20 | O aplicativo deve ter um tutorial básico para novos usuarios | StoryTelling |
+| REQ21 | O aplicativo tem que ser acessível para pessoas idosas | StoryTelling |
+
