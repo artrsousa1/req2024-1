@@ -1,4 +1,4 @@
-# Documento de Requisitos - APPS
+# APPs
 
 # Histórico de Versões
  
@@ -6,15 +6,10 @@
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 26-07-2024 | Criação do documento e adicionando requisitos | Cecília Quaresma & Hugo Queiroz |
 | 1.0.1 | 29-07-2024 | Adicionando storytelling e altera introspecção | Cecília Quaresma & Hugo Queiroz |
+| 1.0.2 | 31-07-2024 | Padronizando arquivo | Cecília Quaresma & Hugo Queiroz |
 
-## Introspecção
+## [Introspecção](tecnicas.md## Introspecção)
 
-A técnica de elicitação de requisitos conhecida como introspecção é um método reflexivo e autônomo utilizado por
-analistas de sistemas para identificar e definir os requisitos de um projeto. Baseando-se em sua própria experiência,
-conhecimento prévio e intuição, o analista realiza uma auto-reflexão profunda para imaginar como o sistema deve funcionar,
-considerando diversos cenários de uso, possíveis problemas e soluções.
-
-## Resultados da técnica
 
 ### Funcionalidades Gerais
 
@@ -79,11 +74,7 @@ considerando diversos cenários de uso, possíveis problemas e soluções.
 29. Filtrar aplicativos
 
 
-## Storytelling
-
-Storytelling na elicitação de requisitos é uma técnica que utiliza narrativas para capturar e comunicar os requisitos de um sistema de forma mais clara e envolvente. Em vez de apenas listar especificações técnicas, o storytelling incorpora histórias e cenários que ilustram como o sistema será usado na prática. Isso ajuda a criar um entendimento mais profundo e compartilhado entre as partes interessadas, como desenvolvedores, clientes e usuários finais.
-
-## Resultados da técnica
+## [Storytelling](tecnicas.md## Storytelling)
 
 **Personagens**: Dona Maria é uma senhora aposentada de 75 anos, que deseja baixar o aplicativo do Sabin para conferir os resultados de seus exames. Ela apresenta dificuldades de locomoção, por isso seria mais fácil se pudesse olhar os exames pelo celulaar, ao invés de fazer outra visita ao laboratório.
 
@@ -99,7 +90,7 @@ Ações: Ela abre o celular e busca pela PlayStore. Ela observa o símbolo de pe
 
 **Possível solução**: O app deveria possuir um tutorial básico para usuários novos, ou usuários com menos experiência com tecnologia, destacando a barra de pesquisa e as abas de categorias recomendadas.
 
-![Exemplo1](storytelling1.png)
+![Exemplo1](../assets/imagens/storytelling_maria_apps.png)
 
 ## Requisitos elicitados
 
