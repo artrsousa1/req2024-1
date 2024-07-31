@@ -1,4 +1,8 @@
-# Histórico de Versões
+# Fluxo de usuário
+
+Esta seção é destinada para a elicitação dos requisitos relacionados à área de Apps da Play Store.
+
+## Histórico de Versões
 
 | Versão | Data       | Alterações Principais                             | Autor        |
 |--------|------------|---------------------------------------------------|--------------|
@@ -7,10 +11,6 @@
 |1.0.2  | 29-07-2024 | Adicionando técnica de Observação    | Carlos Alves, Larissa Vieira    |
 |1.0.3  | 29-07-2024 | Adicionando técnica de Storytelling    | Carlos Alves, Larissa Vieira    |
 |1.0.4  | 29-07-2024 | Concretizando Requisitos de Fluxo de usuário     | Carlos Alves, Larissa Vieira    |
-
-# Fluxo de Usuário
-Na reunião realizada com a equipe no início do projeto, foi definida a categoria de fluxo de usuário. É possível verificar essa definição da categoria na [Home](../home/home.md), onde foi estabelecida a operações de entrada e saída na Play Store, desde a criação de um usuário até o remocão e o que fica vinculado e é oferecido a um usuário.
-
 
 ## Introspecção
 
