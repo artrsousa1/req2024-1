@@ -1,12 +1,15 @@
+# Histórico de Versões
+
+| Versão | Data       | Alterações Principais                             | Autor        |
+|--------|------------|---------------------------------------------------|--------------|
+| 1.0.0  | 29-07-2024 | Lançamento inicial da documentação.               | Carlos Alves, Larissa Vieira    |
+|1.0.1  | 29-07-2024 | Adicionando técnica de Introspecção    | Carlos Alves, Larissa Vieira    |
+|1.0.2  | 29-07-2024 | Adicionando técnica de Observação    | Carlos Alves, Larissa Vieira    |
+|1.0.3  | 29-07-2024 | Adicionando técnica de Storytelling    | Carlos Alves, Larissa Vieira    |
+|1.0.4  | 29-07-2024 | Concretizando Requisitos de Fluxo de usuário     | Carlos Alves, Larissa Vieira    |
+
 # Fluxo de Usuário
 Na reunião realizada com a equipe no início do projeto, foi definida a categoria de fluxo de usuário. É possível verificar essa definição da categoria na [Home](../home/home.md), onde foi estabelecida a operações de entrada e saída na Play Store, desde a criação de um usuário até o remocão e o que fica vinculado e é oferecido a um usuário.
-
-## Rich Picture:
-Este é uma versão que tenta representar a Play Store na parte de fluxo de usuário
-
-![alt text](../assets/RP-Fluxousuário.jpg)
-
-*Autores: Carlos Alves & Larissa Vieira*
 
 
 ## Introspecção
@@ -153,7 +156,7 @@ Storytelling na elicitação de requisitos é uma técnica que utiliza narrativa
 
 Conta a narrativa de um menino que quer jogar e deseja facilidade na hora de logar na Play Store e comprar Minecraft.
 
-![alt text](../assets/StoryUser.png)
+![alt text](../assets/imagens/StoryUser.png)
 *Autores: Carlos Alves & Larissa Vieira*
 
 
@@ -193,17 +196,6 @@ Após a análise das técnicas e artefatos gerados neste secção, elicitamos os
 | REQ17  | O aplicativo deve permitir configurações de segurança associadas ao usuário.                  | Introspecção          |
 | REQ18  | O aplicativo deve permitir a mudança de dispositivos de forma fácil, oferecendo backup e reinstalação de aplicativos, filmes e livros de uma conta Gmail. | Storytelling         |
 
-
-
-# Histórico de Versões
-
-| Versão | Data       | Alterações Principais                             | Autor        |
-|--------|------------|---------------------------------------------------|--------------|
-| 1.0.0  | 29-07-2024 | Lançamento inicial da documentação.               | Carlos Alves, Larissa Vieira    |
-|1.0.1  | 29-07-2024 | Adicionando técnica de Introspecção    | Carlos Alves, Larissa Vieira    |
-|1.0.2  | 29-07-2024 | Adicionando técnica de Observação    | Carlos Alves, Larissa Vieira    |
-|1.0.3  | 29-07-2024 | Adicionando técnica de Storytelling    | Carlos Alves, Larissa Vieira    |
-|1.0.4  | 29-07-2024 | Concretizando Requisitos de Fluxo de usuário     | Carlos Alves, Larissa Vieira    |
 
 
 
