@@ -7,9 +7,10 @@ nav:
   - Home: home/home.md
   - Pré-Rastreabilidade: 
     - Pré-rastreabilidade: 'pre-ras/pre-ras.md'
-    - Jogos: 'pre-ras/jogos.md'
+    - Geral: 'pre-ras/geral.md'
     - Apps: 'pre-ras/apps.md'
     - Fluxo de usuário: 'pre-ras/fluxo_usuario.md'
+    - Jogos: 'pre-ras/jogos.md'
   - 'Elicitação':
     - Requisitos elicitados: 'elicitacao/elicitacao.md'
     - Técnicas: 'elicitacao/tecnicas.md'
