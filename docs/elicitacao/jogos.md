@@ -13,8 +13,6 @@ Esta seção é destinada para a elicitação dos requisitos relacionados à ár
 | 1.0.4  | 29-07-2024 | Adiciona tabela com requisitos elicitados                      | Arthur Sousa e Lucas Queiroz |
 | 1.0.5  | 31-07-2024 | Realiza divisão do arquivo em elicitação e pré-rastreabilidade | Arthur Sousa e Lucas Queiroz |
 
-
-
 ## Análise de protocolo
 (inserir link para explicação da técnica)
 
@@ -22,6 +20,7 @@ Esta seção é destinada para a elicitação dos requisitos relacionados à ár
 [Clique aqui para acessar um diretório no Google Drive com os arquivos de áudio.](https://drive.google.com/drive/folders/18ZcscWDNY1OUcLuZcanFcm-xrGkef79p?usp=sharing)
 
 ## Storytelling
+(inserir link para explicação da técnica)
 
 ### História 1
 
