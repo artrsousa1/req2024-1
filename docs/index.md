@@ -1,5 +1,5 @@
 # Google Play Store
-<p align="center" ><br><img src="assets/google_play.png" width = 40%></p>
+<p align="center" ><br><img src="assets/imagens/google_play.png" width = 40%></p>
 
 Este repositório foi criado para a documentção do projeto da matéria Requisitos de software, lecionada na Universidade de Brasília - Faculdade do Gama,no semestre 2024.1, pelo docente Maurício Serrano. 
 

@@ -44,7 +44,7 @@ theme:
   nav_style: dark
   language: pt
   repo: fontawesome/brands/github
-  logo: assets/google_play.png
+  logo: assets/imagens/google_play.png
   favicon: assets/google_play.ico
 
   palette:
