@@ -1,4 +1,12 @@
-# Nenhum conteúdo no momento
+# Requisitos elicitados
+
+Esta seção é destinada para a elicitação dos requisitos de todas as áreas definidas da Play Store.
+
+## Histórico de Versões
+
+| **Versão** | **Data**   | **Alterações Principais**                                                 | **Autor**                                      |
+|:----------:|:----------:|:-------------------------------------------------------------------------:|:----------------------------------------------:|
+| 1.0.0      | 31-07-2024 | Criação do documento e adição de todos os requisitos elicitados até então | Lucas Queiroz, Arthur Sousa e Cecília Quaresma |
 
 | Requisito | Definição                                                                                                                                                 | Técnica de elicitação                    | Prioridade |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ---------- |
