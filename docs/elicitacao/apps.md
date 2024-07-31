@@ -1,6 +1,6 @@
-# APPs
+# APPS
 
-# Histórico de Versões
+## Histórico de Versões
  
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 

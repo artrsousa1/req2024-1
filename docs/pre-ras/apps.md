@@ -1,4 +1,8 @@
-# Histórico de Versões
+# APPS
+
+Esta seção é destinada para a pré-rastreabilidade dos requisitos relacionados à área de Apps da Play Store.
+
+## Histórico de Versões
  
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
@@ -6,12 +10,11 @@
 
 
 ## Rich Picture:
-### Artefatos gerados
 
-### Fluxo App 1.0
+### Fluxo App Versão 1.0
 ![1.0](../assets/imagens/richpictureFluxoApp.png)
 
 
-### Fluxo App 1.1
+### Fluxo App Versão 1.1
 ![1.1](../assets/imagens/richpictureFluxoApp2.png)
 
