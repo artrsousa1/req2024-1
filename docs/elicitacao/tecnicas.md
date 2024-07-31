@@ -1,10 +1,9 @@
-# Técnica
+# Elicitação
+A elicitação de requisitos envolve diversas técnicas. Com o objetivo de coletar informações detalhadas sobre as funcionalidades desejadas, as restrições do sistema e os critérios de sucesso. 
 
-# Histórico de Versões
+E neste arquivo explicaremos de forma clara as técnicas e artefatos utilizadas para elicitação de requisitos da Play Store. 
 
-| **Versão** | **Data** | **Alterações Principais** | **Autor** |
-| :--: | :--: | :--: | :--: | 
-| 1.0.0 | 31-07-2024 | Criação do documento | Cecília Quaresma & Hugo Queiroz |
+Sendo cada pasta desta secção destinadas a uma das categorias definidas pelo grupo na secção [Home](../home/home.md), e os seus artefatos de elicitação gerados durante o projeto. E a pasta requisitos elicitados com a tabela atualizada com os requistos elicitados pela equipe.
 
 ## Introspecção
 
@@ -23,12 +22,12 @@ entre as partes interessadas, como desenvolvedores, clientes e usuários finais.
 ## Observação
 
 A técnica de observação na engenharia de requisitos envolve o ato de observar o comportamento dos usuários para entender
-melhor suas interações e necessidades. Esta técnica pode ser subdividida em dois tipos principais: observação ativa e
+melhor suas interações e necessidades. Esta técnica pode ser subdividida em dois tipos principais: observação participativa e
 observação passiva.
 
-**Observação Ativa:**
+**Observação Participativa:**
 
-Na observação ativa, o observador participa ativamente das atividades dos usuários. Isso pode envolver fazer perguntas, 
+Na observação participativa, o observador participa ativamente das atividades dos usuários. Isso pode envolver fazer perguntas, 
 solicitar que os usuários expliquem suas ações e até mesmo interagir com o sistema em conjunto com os usuários. O objetivo
 é obter uma compreensão mais profunda e detalhada das necessidades e comportamentos dos usuários. A observação ativa permite 
 ao observador captar nuances e contextos que podem não ser evidentes apenas com a observação visual.
@@ -53,3 +52,10 @@ O brainstorming envolve a geração de um grande número de ideias ou soluções
 período de tempo por um grupo de participantes. O objetivo é estimular a criatividade e a inovação, promovendo um ambiente onde os 
 participantes possam sugerir qualquer ideia sem medo de julgamento ou crítica. Essa técnica é particularmente útil na fase inicial
 do desenvolvimento de requisitos, quando é importante explorar uma ampla gama de possibilidades.
+
+
+## Histórico de Versões
+
+| **Versão** | **Data** | **Alterações Principais** | **Autor** |
+| :--: | :--: | :--: | :--: | 
+| 1.0.0 | 31-07-2024 | Criação do documento | Cecília Quaresma & Hugo Queiroz |
