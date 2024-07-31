@@ -5,8 +5,17 @@ repo_url: https://github.com/artrsousa1/req2024-1
 nav:
   - Início: index.md
   - Home: home/home.md
-  - Pré-Rastreabilidade: pre-ras/pre-ras.md
-  - Elicitação: elicitacao/elicitacao.md
+  - Pré-Rastreabilidade: 
+    - Pré-rastreabilidade: 'pre-ras/pre-ras.md'
+    - Jogos: 'pre-ras/jogos.md'
+    - Apps: 'pre-ras/apps.md'
+    - Fluxo de usuário: 'pre-ras/fluxo_usuario.md'
+  - 'Elicitação':
+    - Requisitos elicitados: 'elicitacao/elicitacao.md'
+    - Técnicas: 'elicitacao/tecnicas.md'
+    - Jogos: 'elicitacao/jogos.md'
+    - Apps: 'elicitacao/apps.md'
+    - Fluxo de usuário: 'elicitacao/fluxo_usuario.md'
   - Modelagem: modelagem/modelagem.md
   - Análise: analise/analise.md
   - Rastreabilidade: rastreabilidade/rastreabilidade.md

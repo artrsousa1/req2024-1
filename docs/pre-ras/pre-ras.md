@@ -1,3 +1,5 @@
+# Pré-rastreabilidade
+
 ## Rich Picture:
 Um Rich Picture é uma ferramenta visual usada para representar de maneira clara e compreensível a complexidade de uma situação ou sistema. Ele inclui desenhos, símbolos e texto para ilustrar componentes, interações e contextos de forma não linear. O Rich Picture facilita a visualização e a discussão de problemas e soluções, promovendo uma compreensão compartilhada entre diferentes partes interessadas. Além disso, não possui regras rígidas e pode ser feito de maneira livre.
 
