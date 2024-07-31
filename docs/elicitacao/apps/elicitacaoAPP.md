@@ -1,11 +1,11 @@
-# Nenhum conteudo no momento
-
 # Documento de Requisitos - APPS
 
-## Histórico de Versão 
-| Data | Autor | Descrição | Versão |
-| :--: | :--: | :-- | :--: |
-| 29/07/2024 | Hugo e Cecília | Criação do documento e adicionando requisitos | 0.1 |
+# Histórico de Versões
+ 
+| **Versão** | **Data** | **Alterações Principais** | **Autor** |
+| :--: | :--: | :--: | :--: | 
+| 1.0.0 | 26-07-2024 | Criação do documento e adicionando requisitos | Cecília Quaresma & Hugo Queiroz |
+| 1.0.1 | 29-07-2024 | Adicionando storytelling e altera introspecção | Cecília Quaresma & Hugo Queiroz |
 
 ## Introspecção
 
