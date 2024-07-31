@@ -1,6 +1,51 @@
 # Play Store
 A Play Store é o aplicativo oficial do Google para dispositivos Android, onde você pode encontrar e baixar milhões de aplicativos, jogos, músicas, filmes, livros e revistas. Com uma interface intuitiva, a Play Store facilita a busca e a instalação de tudo o que você precisa, garantindo segurança e qualidade nos downloads. 
 
+## Histórico de Versões
+
+| Versão | Data       | Alterações Principais                             | Autor        |
+|--------|------------|---------------------------------------------------|--------------|
+| 1.0.0  | 25-07-2024 | Lançamento inicial da documentação.               | Carlos Alves, Hugo Queiroz     |
+| 1.0.1  | 26-07-2024 | Adicionando vídeos e acrescentando informações adicionais.               | Carlos Alves|
+| 1.0.2  | 31-07-2014 | Adicionando visão do produto e projeto | Toda a equipe |
+
+## Visão do produto e projeto
+
+### Problema 
+
+Distribuição e compatibilidade de aplicativos, livros e filmes, para diversos dispositivos.
+
+
+### Declaração de Posição do Produto
+
+1. Qual é o produto ?
+    - Play Store
+2. O que torna este produto diferente dos seus concorrentes?
+    - Estar vinculado a contas do Email da Google e ser o que já vem instalado na maioria dos celulares android.
+3. Quem são os usuários-alvo e clientes do produto?
+    - Qualquer pessoa que tenha interesse em instalar app, filmes e livros ou distribuir os mesmos.
+4. Por que os clientes deveriam utilizar / comprar este produto?
+    - Pelo alto número de usuários e por ser a que já vem instalada nos celulares android.
+
+
+| Para | Desenvolvedores e consumidores de aplicativos e conteúdo digital |
+| :-- | :-- |
+| **Quem** | Usuários de Android |
+| **A Play Store** |  É um marketplace |
+| **Que** | Permite instalar, atualizar e remover aplicativos e jogos no celular
+| **Ao contrário** | Amazon Appstore, Samsung Galaxy Store e Huawei AppGallery |
+| **Nosso produto** | Apresenta uma maior segurança,  uma maior variedade e integração com a conta do Google |
+
+### Objetivos do produto
+
+A Google Play Store busca resolver várias problemáticas no ecossistema de aplicativos móveis, tanto para desenvolvedores quanto para 
+usuários. Para desenvolvedores, oferece uma plataforma global para distribuição, diversas opções de monetização, facilidades para atualizações e suporte, 
+além de verificações de segurança e conformidade. Para os usuários, proporciona acesso a aplicativos confiáveis e de alta qualidade, 
+uma interface amigável para busca e gestão de apps, uma vasta gama de conteúdos para diferentes necessidades e interesses, e políticas rigorosas 
+de privacidade e segurança, protegendo os dados e garantindo o controle sobre as permissões dos aplicativos. Assim, a Play Store atua 
+como um intermediário essencial, promovendo um ambiente seguro e eficiente para o desenvolvimento e uso de aplicativos móveis.
+
+
 ## Estruturação do projeto:
 Para estruturar a organização do projeto, decidimos adotar uma técnica apresentada na disciplina: a [5W2H](#5w2h). Essa abordagem nos ajudará a detalhar os aspectos do projeto e definir nosso plano de ação. Com base nessa técnica, optamos por dividir o projeto em equipes menores, cada uma responsável por uma das categorias que serão definidas na seção seguinte, [Definição do Projeto](#definição-do-projeto).
 
@@ -83,10 +128,3 @@ Priorizando para primeira entrega o escopo de App, jogos, Fluxo de usuário, pag
 
 [Vídeo da reunião - 25/07/2024 ](https://drive.google.com/file/d/1dOZtm7r8HbKJ7u3yDaViFvzDe5CbB4tG/view?usp=sharing) do minuto 13:57 até o fim.
 
-
-# Histórico de Versões
-
-| Versão | Data       | Alterações Principais                             | Autor        |
-|--------|------------|---------------------------------------------------|--------------|
-| 1.0.0  | 25-07-2024 | Lançamento inicial da documentação.               | Carlos Alves, Hugo Queiroz     |
-| 1.0.1  | 26-07-2024 |Adicionando vídeos e acrescentando informações adicionais.               | Carlos Alves|
