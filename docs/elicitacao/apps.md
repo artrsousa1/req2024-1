@@ -1,17 +1,10 @@
 # APPS
 
-Esta seção é destinada para a elicitação dos requisitos relacionados à área de Apps da Play Store.
+Esta seção é destinada para a elicitação dos requisitos relacionados à área de Apps da Play Store, esta categoria foi definida na secção [Home](../home/home.md).
 
-## Histórico de Versões
- 
-| **Versão** | **Data** | **Alterações Principais** | **Autor** |
-| :--: | :--: | :--: | :--: | 
-| 1.0.0 | 26-07-2024 | Criação do documento e adicionando requisitos | Cecília Quaresma & Hugo Queiroz |
-| 1.0.1 | 29-07-2024 | Adicionando storytelling e altera introspecção | Cecília Quaresma & Hugo Queiroz |
-| 1.0.2 | 31-07-2024 | Padronizando arquivo | Cecília Quaresma & Hugo Queiroz |
+## [Introspecção](tecnicas.md#introspeccao)
 
-## [Introspecção](tecnicas.md## Introspecção)
-
+O artefato está definido em [introspecção](tecnicas.md#introspeccao)
 
 ### Funcionalidades Gerais
 
@@ -76,7 +69,9 @@ Esta seção é destinada para a elicitação dos requisitos relacionados à ár
 29. Filtrar aplicativos
 
 
-## [Storytelling](tecnicas.md## Storytelling)
+## [Storytelling](tecnicas.md#storytelling)
+
+O artefato está definido em [storytelling](tecnicas.md#storytelling)
 
 **Personagens**: Dona Maria é uma senhora aposentada de 75 anos, que deseja baixar o aplicativo do Sabin para conferir os resultados de seus exames. Ela apresenta dificuldades de locomoção, por isso seria mais fácil se pudesse olhar os exames pelo celulaar, ao invés de fazer outra visita ao laboratório.
 
@@ -94,7 +89,10 @@ Ações: Ela abre o celular e busca pela PlayStore. Ela observa o símbolo de pe
 
 ![Exemplo1](../assets/imagens/storytelling_maria_apps.png)
 
-## Requisitos elicitados
+*Autores: Cecília Quaresma & Hugo Queiroz*
+
+
+## Requisitos elicitados para apps
 
 
 | Requisito | Descrição | Técnica |
@@ -121,3 +119,10 @@ Ações: Ela abre o celular e busca pela PlayStore. Ela observa o símbolo de pe
 | REQ20 | O aplicativo deve ter um tutorial básico para novos usuarios | StoryTelling |
 | REQ21 | O aplicativo tem que ser acessível para pessoas idosas | StoryTelling |
 
+## Histórico de Versões
+ 
+| **Versão** | **Data** | **Alterações Principais** | **Autor** |
+| :--: | :--: | :--: | :--: | 
+| 1.0.0 | 26-07-2024 | Criação do documento e adicionando requisitos | Cecília Quaresma & Hugo Queiroz |
+| 1.0.1 | 29-07-2024 | Adicionando storytelling e altera introspecção | Cecília Quaresma & Hugo Queiroz |
+| 1.0.2 | 31-07-2024 | Padronizando arquivo | Cecília Quaresma & Hugo Queiroz |
