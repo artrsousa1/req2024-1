@@ -1,9 +1,16 @@
 # APPS
 
-Esta seção é destinada para a elicitação dos requisitos relacionados à área de Apps da Play Store, esta categoria foi definida na secção [Home](../home/home.md).
+Esta seção é destinada para a elicitação dos requisitos relacionados à área de Apps da Play Store.
 
-## [Introspecção](tecnicas.md#introspeccao)
-A técnica está definida em [Introspecção](tecnicas.md#introspeccao)
+## Histórico de Versões
+ 
+| **Versão** | **Data** | **Alterações Principais** | **Autor** |
+| :--: | :--: | :--: | :--: | 
+| 1.0.0 | 26-07-2024 | Criação do documento e adicionando requisitos | Cecília Quaresma & Hugo Queiroz |
+| 1.0.1 | 29-07-2024 | Adicionando storytelling e altera introspecção | Cecília Quaresma & Hugo Queiroz |
+| 1.0.2 | 31-07-2024 | Padronizando arquivo | Cecília Quaresma & Hugo Queiroz |
+
+## [Introspecção](tecnicas.md## Introspecção)
 
 
 ### Funcionalidades Gerais
@@ -69,13 +76,7 @@ A técnica está definida em [Introspecção](tecnicas.md#introspeccao)
 29. Filtrar aplicativos
 
 
-## [Storytelling](tecnicas.md#storytelling)
-
-A técnica está definida em [storytelling](tecnicas.md#storytelling)
-
-*Autores: Cecília Quaresma & Hugo Queiroz*
-
-
+## [Storytelling](tecnicas.md## Storytelling)
 
 **Personagens**: Dona Maria é uma senhora aposentada de 75 anos, que deseja baixar o aplicativo do Sabin para conferir os resultados de seus exames. Ela apresenta dificuldades de locomoção, por isso seria mais fácil se pudesse olhar os exames pelo celulaar, ao invés de fazer outra visita ao laboratório.
 
@@ -93,10 +94,7 @@ Ações: Ela abre o celular e busca pela PlayStore. Ela observa o símbolo de pe
 
 ![Exemplo1](../assets/imagens/storytelling_maria_apps.png)
 
-*Autores: Cecília Quaresma & Hugo Queiroz*
-
-
-# Requisitos elicitados para apps
+## Requisitos elicitados
 
 
 | Requisito | Descrição | Técnica |
@@ -123,12 +121,3 @@ Ações: Ela abre o celular e busca pela PlayStore. Ela observa o símbolo de pe
 | REQ20 | O aplicativo deve ter um tutorial básico para novos usuarios | StoryTelling |
 | REQ21 | O aplicativo tem que ser acessível para pessoas idosas | StoryTelling |
 
-
-
-## Histórico de Versões
- 
-| **Versão** | **Data** | **Alterações Principais** | **Autor** |
-| :--: | :--: | :--: | :--: | 
-| 1.0.0 | 26-07-2024 | Criação do documento e adicionando requisitos | Cecília Quaresma & Hugo Queiroz |
-| 1.0.1 | 29-07-2024 | Adicionando storytelling e altera introspecção | Cecília Quaresma & Hugo Queiroz |
-| 1.0.2 | 31-07-2024 | Padronizando arquivo | Cecília Quaresma & Hugo Queiroz |

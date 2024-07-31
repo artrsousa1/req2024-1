@@ -14,9 +14,9 @@ Esta wiki esta organizada em pastas,
 - [Home](home/home.md): Fala sobre definição do projeto e sua estruturação;
 - [Pré-Rastreabilidade](pre-ras/pre-ras.md): Fala sobre a fase antes dos requisitos e seus rastros;
 - [Elicitação](elicitacao/elicitacao.md): Fala sobre a fase de levantamento de requisitos;
-- [Modelagem](modelagem/modelagem.md): Em breve;
-- [Análise](analise/analise.md): Em breve;
-- [Rastreabilidade](rastreabilidade/rastreabilidade.md): Em breve.
+- [Modelagem](modelagem/modelagem.md):
+- [Análise](analise/analise.md):
+- [Rastreabilidade](rastreabilidade/rastreabilidade.md):
 
 
 ## Equipe

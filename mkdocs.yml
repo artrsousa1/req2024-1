@@ -12,11 +12,11 @@ nav:
     - Fluxo de usuário: 'pre-ras/fluxo_usuario.md'
     - Jogos: 'pre-ras/jogos.md'
   - 'Elicitação':
-    - Elicitação: 'elicitacao/tecnicas.md'
     - Requisitos elicitados: 'elicitacao/elicitacao.md'
+    - Técnicas: 'elicitacao/tecnicas.md'
+    - Jogos: 'elicitacao/jogos.md'
     - Apps: 'elicitacao/apps.md'
     - Fluxo de usuário: 'elicitacao/fluxo_usuario.md'
-    - Jogos: 'elicitacao/jogos.md'
   - Modelagem: modelagem/modelagem.md
   - Análise: analise/analise.md
   - Rastreabilidade: rastreabilidade/rastreabilidade.md

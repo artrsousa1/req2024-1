@@ -1,9 +1,18 @@
 # Fluxo de usuário
 
-Esta seção é destinada para a elicitação dos requisitos relacionados à área de fluxo de usuários da Play Store, esta categoria foi definida na secção [Home](../home/home.md).
+Esta seção é destinada para a elicitação dos requisitos relacionados à área de Apps da Play Store.
 
-## [Introspecção](tecnicas.md#introspeccao)
-A técnica está definida em [Introspecção](tecnicas.md#introspeccao)
+## Histórico de Versões
+
+| Versão | Data       | Alterações Principais                             | Autor        |
+|--------|------------|---------------------------------------------------|--------------|
+| 1.0.0  | 29-07-2024 | Lançamento inicial da documentação.               | Carlos Alves, Larissa Vieira    |
+|1.0.1  | 29-07-2024 | Adicionando técnica de Introspecção    | Carlos Alves, Larissa Vieira    |
+|1.0.2  | 29-07-2024 | Adicionando técnica de Observação    | Carlos Alves, Larissa Vieira    |
+|1.0.3  | 29-07-2024 | Adicionando técnica de Storytelling    | Carlos Alves, Larissa Vieira    |
+|1.0.4  | 29-07-2024 | Concretizando Requisitos de Fluxo de usuário     | Carlos Alves, Larissa Vieira    |
+
+## Introspecção
 
 A técnica de elicitação de requisitos conhecida como introspecção é um método reflexivo e autônomo utilizado por
 analistas de sistemas para identificar e definir os requisitos de um projeto. Baseando-se em sua própria experiência,
@@ -73,12 +82,12 @@ Após a aplicação das técnicas de Introspecção, foi possível identificar a
 13. O aplicativo deve permitir configurações de segurança associadas ao usuário.
 
 
-## [Observação](tecnicas.md#observacao)
-A técnica está definida em [observação](tecnicas.md#observacao)
+## Observação
 
+Para a elicitação do fluxo de usuário, foi decidido utilizar a técnica de observação. Esta técnica consiste no ato de observar o comportamento dos usuários para entender melhor suas interações e necessidades.
 
-### [Participativa](tecnicas.md#observacao)
-A técnica está definida em [observação participativa](tecnicas.md#observacao)
+### Participativa
+O observador se envolve nas atividades dos usuários, podendo fazer perguntas e interagir. Isso pode ser útil para obter insights mais profundos, mas pode influenciar o comportamento dos usuários.
 
 #### Planejamento:
 Foi definido o objetivo de verificar as opções de entrada e sáida de um usuário na Play Store, e as opções fornecidas.
@@ -94,8 +103,8 @@ Para esta categoria, utilizamos o aplicativo da Play Store, que já vem instalad
 5. Foi Observado as opções de possivel acesso de um usuário após login.
 
 
-### [Passiva](tecnicas.md#observacao)
-A técnica está definida em [observação passiva](tecnicas.md#observacao)
+### Passiva
+O observador assiste às atividades dos usuários sem interferir ou interagir. Esse tipo de observação ajuda a capturar o comportamento natural dos usuários.
 
 #### Planejamento:
 Foi definido o objetivo de verificar as opções de entrada e sáida de um usuário na Play Store, e as opções fornecidas.
@@ -138,8 +147,8 @@ Após a aplicação das técnicas de observação passiva e participativa, foi p
 
 [Vídeo da aplicação da observação passiva  para fluxo de usuário - 29/07/2024 ](https://drive.google.com/file/d/1jvpGFrdahbgO5HJDbDx7uuUIqPxsxPoY/view?usp=sharing)
 
-## [Storytelling](tecnicas.md#storytelling)
-A técnica está definida em [storytelling](tecnicas.md#storytelling)
+
+## Storytelling
 
 Storytelling na elicitação de requisitos é uma técnica que utiliza narrativas para capturar e comunicar os requisitos de um sistema de forma mais clara e envolvente. Em vez de apenas listar especificações técnicas, o storytelling incorpora histórias e cenários que ilustram como o sistema será usado na prática. Isso ajuda a criar um entendimento mais profundo e compartilhado entre as partes interessadas, como desenvolvedores, clientes e usuários finais.
 
@@ -163,7 +172,7 @@ Após a aplicação das técnicas de Storytelling, foi possível identificar alg
 3. O aplicativo deve salvar as formas de pagamento cadastradas.
 
 
-# Requisitos elicitados para fluxo de usuário
+# Requisitos elicitados de Fluxo de usuário
 Após a análise das técnicas e artefatos gerados neste secção, elicitamos os seguintes requisitos.
 
 | Código | Descrição                                                                                      | Técnica de elicitação |
@@ -188,15 +197,9 @@ Após a análise das técnicas e artefatos gerados neste secção, elicitamos os
 | REQ18  | O aplicativo deve permitir a mudança de dispositivos de forma fácil, oferecendo backup e reinstalação de aplicativos, filmes e livros de uma conta Gmail. | Storytelling         |
 
 
-## Histórico de Versões
 
-| Versão | Data       | Alterações Principais                             | Autor        |
-|--------|------------|---------------------------------------------------|--------------|
-| 1.0.0  | 29-07-2024 | Lançamento inicial da documentação.               | Carlos Alves, Larissa Vieira    |
-|1.0.1  | 29-07-2024 | Adicionando técnica de Introspecção    | Carlos Alves, Larissa Vieira    |
-|1.0.2  | 29-07-2024 | Adicionando técnica de Observação    | Carlos Alves, Larissa Vieira    |
-|1.0.3  | 29-07-2024 | Adicionando técnica de Storytelling    | Carlos Alves, Larissa Vieira    |
-|1.0.4  | 29-07-2024 | Concretizando Requisitos de Fluxo de usuário     | Carlos Alves, Larissa Vieira    |
+
+
 
 
 
