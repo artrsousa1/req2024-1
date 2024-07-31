@@ -1,6 +1,8 @@
-# APPs
+# APPS
 
-# Histórico de Versões
+Esta seção é destinada para a elicitação dos requisitos relacionados à área de Apps da Play Store.
+
+## Histórico de Versões
  
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 

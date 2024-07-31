@@ -1,4 +1,8 @@
-# Histórico de Versões
+# Fluxo de usuário
+
+Esta seção é destinada para a pré-rastreabilidade dos requisitos relacionados à área de fluxo de usuários da Play Store.
+
+## Histórico de Versões
 
 | Versão | Data       | Alterações Principais                             | Autor        |
 |--------|------------|---------------------------------------------------|--------------|
@@ -14,6 +18,3 @@ O artefato está definido [rich pic](../pre-ras/pre-ras.md).
 ![alt text](../assets/imagens/RP-Fluxousuário.jpg)
 
 *Autores: Carlos Alves & Larissa Vieira*
-
-
-

@@ -1,12 +1,13 @@
-# Histórico de Versões
+# Cenários - APPS
+
+O método de cenários é uma técnica eficaz de elicitação e modelagem de requisitos que envolve a criação de narrativas detalhadas sobre como os usuários interagem com o sistema. Esses cenários descrevem situações reais e hipotéticas que capturam as necessidades, expectativas e comportamentos dos usuários.
+
+## Histórico de Versões
 
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 29-07-2024 | Lançamento inicial dos cenarios | Cecília Quaresma & Hugo Queiroz |
 
-# Cenários
-
-O método de cenários é uma técnica eficaz de elicitação e modelagem de requisitos que envolve a criação de narrativas detalhadas sobre como os usuários interagem com o sistema. Esses cenários descrevem situações reais e hipotéticas que capturam as necessidades, expectativas e comportamentos dos usuários.
 
 ## Resultado da técnica
 
