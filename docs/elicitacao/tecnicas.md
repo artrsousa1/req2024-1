@@ -1,10 +1,10 @@
-# Técnica
+# Elicitação
+A elicitação de requisitos envolve diversas técnicas. Com o objetivo de coletar informações detalhadas sobre as funcionalidades desejadas, as restrições do sistema e os critérios de sucesso. 
 
-# Histórico de Versões
+E neste arquivo explicamos de forma clara as técnicas e artefatos utilizadas para elicitação dos requisitos deste projeto. 
 
-| **Versão** | **Data** | **Alterações Principais** | **Autor** |
-| :--: | :--: | :--: | :--: | 
-| 1.0.0 | 31-07-2024 | Criação do documento | Cecília Quaresma & Hugo Queiroz |
+Sendo cada pasta desta secção destinadas a uma das categorias definidas pelo grupo na secção [Home](../home/home.md), e os seus artefatos de elicitação. E a pasta Requisitos elicitados onde tem uma tabela atualizada com os requisitos elicitados pela equipe.
+
 
 ## Introspecção
 
@@ -53,3 +53,9 @@ O brainstorming envolve a geração de um grande número de ideias ou soluções
 período de tempo por um grupo de participantes. O objetivo é estimular a criatividade e a inovação, promovendo um ambiente onde os 
 participantes possam sugerir qualquer ideia sem medo de julgamento ou crítica. Essa técnica é particularmente útil na fase inicial
 do desenvolvimento de requisitos, quando é importante explorar uma ampla gama de possibilidades.
+
+## Histórico de Versões
+
+| **Versão** | **Data** | **Alterações Principais** | **Autor** |
+| :--: | :--: | :--: | :--: | 
+| 1.0.0 | 31-07-2024 | Criação do documento | Cecília Quaresma & Hugo Queiroz |
