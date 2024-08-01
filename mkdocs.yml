@@ -5,6 +5,7 @@ repo_url: https://github.com/artrsousa1/req2024-1
 nav:
   - Início: index.md
   - Home: home/home.md
+  - Apresentações: apresentacoes/apresentacoes.md
   - Pré-Rastreabilidade: 
     - Pré-rastreabilidade: 'pre-ras/pre-ras.md'
     - Geral: 'pre-ras/geral.md'
