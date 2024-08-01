@@ -12,6 +12,7 @@ Esta wiki esta organizada em pastas,
 
 - [Início](index.md): Fala sobre este repositório;
 - [Home](home/home.md): Fala sobre definição do projeto e sua estruturação;
+- [Apresentações](apresentacoes/apresentacoes.md): Entregas requeridas pela meteria;
 - [Pré-Rastreabilidade](pre-ras/pre-ras.md): Fala sobre a fase antes dos requisitos e seus rastros;
 - [Elicitação](elicitacao/elicitacao.md): Fala sobre a fase de levantamento de requisitos;
 - [Modelagem](modelagem/modelagem.md): Em breve;
