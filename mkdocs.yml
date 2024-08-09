@@ -4,8 +4,13 @@ repo_url: https://github.com/artrsousa1/req2024-1
 
 nav:
   - Início: index.md
-  - Home: home/home.md
+  - Projeto: home/home.md
   - Apresentações: apresentacoes/apresentacoes.md
+  - 'Reuniões':
+    - Reuniões: reunioes/reunioes.md
+    - Reunião01: reunioes/reuniao01.md
+    - Reunião02: reunioes/reuniao02.md
+    - Reunião05: reunioes/reuniao05.md
   - Pré-Rastreabilidade: 
     - Pré-rastreabilidade: 'pre-ras/pre-ras.md'
     - Geral: 'pre-ras/geral.md'
@@ -15,6 +20,7 @@ nav:
   - 'Elicitação':
     - Elicitação: 'elicitacao/tecnicas.md'
     - Requisitos elicitados: 'elicitacao/elicitacao.md'
+    - Perfil: 'elicitacao/perfil.md'
     - Apps: 'elicitacao/apps.md'
     - Fluxo de usuário: 'elicitacao/fluxo_usuario.md'
     - Jogos: 'elicitacao/jogos.md'

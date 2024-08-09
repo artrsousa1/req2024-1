@@ -3,7 +3,7 @@ A elicitação de requisitos envolve diversas técnicas. Com o objetivo de colet
 
 E neste arquivo explicamos de forma clara as técnicas e artefatos utilizadas para elicitação dos requisitos deste projeto. 
 
-Sendo cada pasta desta secção destinadas a uma das categorias definidas pelo grupo na secção [Home](../home/home.md), e os seus artefatos de elicitação. E a pasta Requisitos elicitados onde tem uma tabela atualizada com os requisitos elicitados pela equipe.
+Sendo cada pasta desta seção destinada a uma das categorias definidas pelo grupo na seção[Home](../home/home.md), e aos seus artefatos de elicitação. Além disso, há a pasta 'Requisitos Elicitados', que contém uma tabela atualizada com os requisitos elicitados pela equipe. Também há a pasta 'Perfis', onde foram criados os perfis dos usuários da Play Store, que serão utilizados na elicitação de todas as categorias.
 
 
 ## Introspecção
@@ -59,3 +59,4 @@ do desenvolvimento de requisitos, quando é importante explorar uma ampla gama d
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 31-07-2024 | Criação do documento | Cecília Quaresma & Hugo Queiroz |
+| 1.0.1 | 09-08-2024 | Adicionando técnicas e Cabeçalhos | Carlos Alves |

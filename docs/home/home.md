@@ -40,7 +40,7 @@ como um intermediário essencial, promovendo um ambiente seguro e eficiente para
 
 
 ## Estruturação do projeto:
-Para estruturar a organização do projeto, decidimos adotar uma técnica apresentada na disciplina: a [5W2H](#5w2h). Essa abordagem nos ajudará a detalhar os aspectos do projeto e definir nosso plano de ação. Com base nessa técnica, optamos por dividir o projeto em equipes menores, cada uma responsável por uma das categorias que serão definidas na seção seguinte, [Definição do Projeto](#definição-do-projeto).
+Para estruturar a organização do projeto, decidimos adotar a técnica apresentada na disciplina: a [5W2H](#5w2h). Essa abordagem nos ajudará a detalhar os aspectos do projeto e definir nosso plano de ação. Com base nessa técnica, optamos por dividir o projeto em equipes menores, cada uma responsável por uma das categorias definidas na seção seguinte, [Definição do Projeto](#definição-do-projeto). Após a conclusão das tarefas realizadas por essas equipes menores, nos reuniremos como equipe completa para debater e analisar o trabalho realizado.
 
 ### 5W2H:
 O 5W2H é um método simples e de fácil aplicação para elucidar a visão dos stakeholders sobre o produto, respondendo sete questões fundamentais, que dão o nome ao método.
@@ -115,9 +115,18 @@ Could Have (Poderia Ter): Requisitos desejáveis que são bons de ter, mas que p
 Would Have (Seria bom ter): Requisitos que são menos importantes e que podem ser deixados de lado se o tempo ou os recursos não permitirem.
 
 ![alt text](../assets/imagens/moscow.jpeg)
-    *Autores: Toda equipe*
 
-Priorizando para primeira entrega o escopo do Must Have que se resume em App, jogos, Fluxo de usuário.
+*Autores: Toda equipe*
+
+E devido ao escopo da Play Store ser grande para apenas um semestre, optamos por:
+
+Priorizar, para a primeira entrega, o escopo do 'Must Have', que se resume em app, jogos e fluxo de usuário. Como mencionado anteriormente, separamos a equipe em duplas, onde cada uma ficou responsável por uma das categorias. A divisão ficou assim:
+
+- APP - Cecília Quaresma e Hugo Queiroz
+
+- Jogos - Arthur Ribeiro e Lucas Queiroz
+
+- Fluxo de Usuário - Carlos Alves e Larissa Vieira
 
 [Vídeo da reunião - 25/07/2024 ](https://drive.google.com/file/d/1dOZtm7r8HbKJ7u3yDaViFvzDe5CbB4tG/view?usp=sharing) do minuto 13:57 até o fim.
 
@@ -127,5 +136,5 @@ Priorizando para primeira entrega o escopo do Must Have que se resume em App, jo
 |--------|------------|---------------------------------------------------|--------------|
 | 1.0.0  | 25-07-2024 | Lançamento inicial da documentação.               | Carlos Alves, Hugo Queiroz     |
 | 1.0.1  | 26-07-2024 | Adicionando vídeos e acrescentando informações adicionais.               | Carlos Alves|
-| 1.0.2  | 31-07-2014 | Adicionando visão do produto e projeto | Toda a equipe |
-
+| 1.0.2  | 31-07-2014 | Adicionando visão do produto e projeto | Lucas Queiroz, Arthur Sousa, Cecília Quaresma, Hugo Queiroz, Carlos Alves e Larissa Vieira |
+| 1.0.3  | 09-08-2014 | Melhorando descrição do projeto | Hugo Queiroz, Carlos Alves |
