@@ -1,6 +1,6 @@
 # Requisitos elicitados
 
-Esta seção é destinada para a elicitação dos requisitos de todas as áreas definidas da Play Store.
+Esta seção é destinada para a elicitação dos requisitos de todas as áreas definidas da Play Store, e a sua devida priorização para as etapas posteriores neste projeto.
 
 
 | Requisito | Definição                                                                                                                                                 | Técnica de elicitação                    | Prioridade |
