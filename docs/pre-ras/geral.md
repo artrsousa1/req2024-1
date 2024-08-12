@@ -23,9 +23,17 @@ Este é uma versão que tenta representar a Play Store por um ponto de vista de 
 ![alt text](../assets/imagens/Mapa-mental.jpeg)
 *Autor: Larissa Vieira*
 
+## Versão 1.1
+Após a análise para a próxima fase, identificou-se a necessidade de acrescentar mais descrições sobre o fluxo de usuário.
+
+![alt text](../assets/imagens/mapamental02.png)
+
+*Autor: Larissa Vieira*
+
+
 ## Histórico de Versões
 
 | Versão | Data       | Alterações Principais                             | Autor        |
 |--------|------------|---------------------------------------------------|--------------|
 | 1.0.0  | 31-07-2024 | Lançamento inicial da documentação.               |Carlos Alves,Hugo Queiroz ,Larissa Vieira e Arthur Ribeiro     |
-
+| 1.0.1 | 12-08-2024 | Adicionando Mapa Mental versão 02              |Carlos Alves,Larissa Vieira     |
