@@ -1,9 +1,9 @@
-# Reunião 02
-Reunião para elicitação de requisitos da categoria à fluxo de usuários de Apps da Play Store, esta categoria foi definida na secção [Home](../home/home.md).
+# Reunião 06
+Reunião para elicitação de requisitos  e revisão de requsitos da categoria à fluxo de usuários de Apps da Play Store, esta categoria foi definida na secção [Home](../home/home.md).
 
-Data:  29/07/2024 
+Data:  12/08/2024 
 
-Local: Teams
+Local: Teams e Discord
 
 
 ## Membros Presentes:
@@ -21,7 +21,7 @@ Local: Teams
 ## [Itrace](reunioes.md#itrace):
 Pode se observar a técnica em [Itrace](reunioes.md#itrace)
 
-![alt text](../assets/imagens/iTrace%20-%20reunião%2029_07.jpeg)
+![alt text](../assets/imagens/iTrace%20-%20reunião%2012_08.jpeg)
 
 *Autores: Carlos Alves & Larissa Vieira*
 
@@ -29,9 +29,7 @@ Pode se observar a técnica em [Itrace](reunioes.md#itrace)
 ## link da reunião:
 A reunião não foi completamente gravada, mas há parte dos artefatos produzidos.
 
-[Vídeo da aplicação da observação participativa para fluxo de usuário - 29/07/2024 ](https://drive.google.com/file/d/14zwl-JOY5CvXEAeKr3mO2CzGhWw1dtTR/view?usp=sharing)
-
-[Vídeo da aplicação da observação passiva  para fluxo de usuário - 29/07/2024 ](https://drive.google.com/file/d/1jvpGFrdahbgO5HJDbDx7uuUIqPxsxPoY/view?usp=sharing)
+[Vídeo da aplicação da Análise de protocolo - 12/08/2024 ](https://drive.google.com/file/d/1dujdWX5reqy406u1oGvMoWOQ-NWWkRLl/view?usp=sharing)
 
 
 

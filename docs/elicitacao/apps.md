@@ -91,33 +91,50 @@ Ações: Ela abre o celular e busca pela PlayStore. Ela observa o símbolo de pe
 
 *Autores: Cecília Quaresma & Hugo Queiroz*
 
+## [Análise de protocolo](tecnicas.md#analise-de-protocolo)
+
+O artefato está definido em [análise de protocolo](tecnicas.md#analise-de-protocolo)
+
+### Aplicação
+Escolhemos uma ação que ainda não havia sido analisada na categoria de Apps e realizamos uma análise de protocolo. Enquanto um integrante utilizava o aplicativo, outro anotava e analisava os passos.
+
+### Resultados
+Observamos que ainda não tínhamos analisado a parte de gerenciamento de Apps por dispositivo, uma funcionalidade disponível na Play Store. Aplicamos a técnica e verificamos que era possível instalar um aplicativo em um dispositivo por meio de outro dispositivo usando a plataforma web.
+
+[Vídeo da aplicação da Análise de protocolo - 12/08/2024 ](https://drive.google.com/file/d/1dujdWX5reqy406u1oGvMoWOQ-NWWkRLl/view?usp=sharing)
+
 
 ## Requisitos elicitados para apps
 
 
 | Requisito | Descrição | Técnica |
 | :--: | :-- | :--: |
-| REQ01 | O aplicativo deve ser capaz de mostrar os apps mais bem avaliados | Introspecção |
-| REQ02 | O aplicativo deve ser capaz de mostrar os apps mais vendidos | Introspecção |
-| REQ03 | O aplicativo deve ser capaz de separar os apps em categorias | Introspecção |
-| REQ04 | O aplicativo deve ser capaz de mostrar apps em alta | Introspecção |
-| REQ05 | O aplicativo deve ter uma área kids | Introspecção |
-| REQ06 | O aplicativo deve mostrar informações relevantes dos apps disponiveis| Introspecção |
-| REQ07 | O aplicativo deve recomendar apps de acordo com o perfil do usuário | Introspecção |
-| REQ08 | O aplicativo deve permitir Instalar apps | Introspecção |
-| REQ09 | O aplicativo deve permitir desinstalar apps | Introspecção |
-| REQ10 | O aplicativo deve permitir atualizar apps já instalados | Introspecção |
-| REQ11 | O aplicativo deve permitir a pesquisa de apps | Introspecção |
-| REQ12 | O aplicativo deve mostrars notificações de atualização e recomendação de apps parecidos | Introspecção |
-| REQ13 | O aplicativo deve salvar pesquisas recentes | Introspecção |
-| REQ14 | O aplicativo deve manter um histórico de apps já instalados | Introspecção |
-| REQ15 | O aplicativo deve permitir a criação de uma lista de desejos | Introspecção |
-| REQ16 | O aplicativo deve mostrar eventos de um app | Introspecção |
-| REQ17 | O aplicativo deve permitir compartilhar app | Introspecção |
-| REQ18 | O aplicativo deve permitir a avaliação de um app | Introspecção |
-| REQ19 | O aplicativo deve permitir marcar um app como inapropriado | Introspecção |
-| REQ20 | O aplicativo deve ter um tutorial básico para novos usuarios | StoryTelling |
-| REQ21 | O aplicativo tem que ser acessível para pessoas idosas | StoryTelling |
+| REQ01 | O Sistema deve ser capaz de mostrar os apps mais bem avaliados | Introspecção |
+| REQ02 | O Sistema deve ser capaz de mostrar os apps mais vendidos | Introspecção |
+| REQ03 | O Sistema deve ser capaz de separar os apps em categorias | Introspecção |
+| REQ04 | O Sistema deve ser capaz de mostrar apps em alta | Introspecção |
+| REQ05 | O Sistema deve ter uma área kids | Introspecção |
+| REQ06 | O Sistema deve mostrar informações relevantes dos apps disponiveis| Introspecção |
+| REQ07 | O Sistema deve recomendar apps de acordo com o perfil do usuário | Introspecção |
+| REQ08 | O Sistema deve permitir Instalar apps | Introspecção |
+| REQ09 | O Sistema deve permitir desinstalar apps | Introspecção |
+| REQ10 | O Sistema deve permitir atualizar apps já instalados | Introspecção |
+| REQ11 | O Sistema deve permitir a pesquisa de apps | Introspecção |
+| REQ12 | O Sistema deve mostrars notificações de atualização e recomendação de apps parecidos | Introspecção |
+| REQ13 | O Sistema deve salvar pesquisas recentes | Introspecção |
+| REQ14 | O Sistema deve manter um histórico de apps já instalados | Introspecção |
+| REQ15 | O Sistema deve permitir a criação de uma lista de desejos | Introspecção |
+| REQ16 | O Sistema deve mostrar eventos de um app | Introspecção |
+| REQ17 | O Sistema deve permitir compartilhar app | Introspecção |
+| REQ18 | O Sistema deve permitir a avaliação de um app | Introspecção |
+| REQ19 | O Sistema deve permitir marcar um app como inapropriado | Introspecção |
+| REQ20 | O Sistema deve ter um tutorial básico para novos usuarios | StoryTelling |
+| REQ21 | O Sistema tem que ser acessível para pessoas idosas | StoryTelling |
+| REQ22 | O Sistema deve ser capaz de mostrar os apps disponíveis para um dispositivo | Análise de protocolo |
+| REQ23 | O Sistema deve ser capaz de instalar apps em outros dispositivos |
+| REQ24 | O Sistema deve categorizar os aplicativos por idade na área kids | Introspecção |
+
+
 
 ## Histórico de Versões
  
@@ -126,3 +143,4 @@ Ações: Ela abre o celular e busca pela PlayStore. Ela observa o símbolo de pe
 | 1.0.0 | 26-07-2024 | Criação do documento e adicionando requisitos | Cecília Quaresma & Hugo Queiroz |
 | 1.0.1 | 29-07-2024 | Adicionando storytelling e altera introspecção | Cecília Quaresma & Hugo Queiroz |
 | 1.0.2 | 31-07-2024 | Padronizando arquivo | Cecília Quaresma & Hugo Queiroz |
+| 1.0.3 | 12-08-2024 | Adicionando Análise de protocolo | Carlos Alves & Larissa Vieira |
