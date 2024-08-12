@@ -128,6 +128,14 @@ Priorizar, para a primeira entrega, o escopo do 'Must Have', que se resume em ap
 
 - Fluxo de Usuário - Carlos Alves e Larissa Vieira
 
+Para segunda entrega, resolvemos mudar as categorias por dupla visando olhar detalhes não vistos pela outra dupla e após isso a devida modelagem. Ficando:
+
+- APP - Carlos Alves e Larissa Vieira
+
+- Jogos - Cecília Quaresma e Hugo Queiroz
+
+- Fluxo de Usuário - Arthur Ribeiro e Lucas Queiroz
+
 [Vídeo da reunião - 25/07/2024 ](https://drive.google.com/file/d/1dOZtm7r8HbKJ7u3yDaViFvzDe5CbB4tG/view?usp=sharing) do minuto 13:57 até o fim.
 
 ## Histórico de Versões
@@ -138,3 +146,5 @@ Priorizar, para a primeira entrega, o escopo do 'Must Have', que se resume em ap
 | 1.0.1  | 26-07-2024 | Adicionando vídeos e acrescentando informações adicionais.               | Carlos Alves|
 | 1.0.2  | 31-07-2014 | Adicionando visão do produto e projeto | Lucas Queiroz, Arthur Sousa, Cecília Quaresma, Hugo Queiroz, Carlos Alves e Larissa Vieira |
 | 1.0.3  | 09-08-2014 | Melhorando descrição do projeto | Hugo Queiroz, Carlos Alves |
+| 1.0.4  | 12-08-2014 | Melhorando descrição do projeto | Carlos Alves |
+

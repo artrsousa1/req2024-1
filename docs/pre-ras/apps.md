@@ -18,6 +18,13 @@ O artefato está definido em [rich picture](../pre-ras/pre-ras.md).
 
 *Autor: Cecília Queresma*
 
+### Versão 1.2
+
+![alt text](../assets/imagens/rich-pictureApp1.2.jpeg)
+
+*Autor: Carlos Alves & Larissa Vieira*
+
+
 ## Histórico de Versões
  
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
