@@ -28,6 +28,7 @@ nav:
     - Jogos: 'elicitacao/jogos.md'
   - Modelagem:
     - Modelagem: 'modelagem/modelagem.md'
+    - Caso de uso: 'modelagem/caso-uso.md'
     - Cenários: 'modelagem/cenarios.md'
     - Léxico: 'modelagem/lexico.md'
   - Análise: analise/analise.md
