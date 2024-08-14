@@ -1,4 +1,4 @@
-# Cenários - APPS
+# Cenários
 
 O método de cenários é uma técnica eficaz de elicitação e modelagem de requisitos que envolve a criação de narrativas detalhadas sobre como os usuários interagem com o sistema. Esses cenários descrevem situações reais e hipotéticas que capturam as necessidades, expectativas e comportamentos dos usuários.
 
@@ -14,7 +14,7 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | **Atores** |
 | Usuário |
 | **Recursos** |
-| Dispositivo compatível (celular, tablet ou computador) com acesso à Play Store ou loja equivalente |
+| Dispositivo compatível (celular, tablet ou computador) com acesso à Play Store |
 | **Episódios** |
 | 1. O usuário abre a Play Store<br>2. O usuário clica na barra de pesquisa<br>3. O usuário escolhe entre busca por voz ou texto<br>4. O usuário digita/fala o nome do app desejado<br>5. O usuário clica no app encontrado<br>6. O usuário confere as informações principais<br>7. O usuário clica no botão de instalar<br>8. O usuário abre o novo app |
 | **Restrições** | 
@@ -34,7 +34,7 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | **Atores** |
 | Usuário |
 | **Recursos** |
-| Dispositivo compatível (celular, tablet ou computador) com acesso à Play Store ou loja equivalente |
+| Dispositivo compatível (celular, tablet ou computador) com acesso à Play Store |
 | **Episódios** |
 | 1. O usuário abre a Play Store<br>2. O usuário rola pela página principal<br>3. O usuário encontra a categoria desejada - Educação<br>4. O usuário procura os apps mais bem avaliados<br>5. O usuário analisa a descrição do app<br>6. O usuário instala o app |
 | **Restrições** | 
@@ -54,7 +54,7 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | **Atores** |
 | Usuário |
 | **Recursos** |
-| Dispositivo compatível (celular, tablet ou computador) com acesso à Play Store ou loja equivalente |
+| Dispositivo compatível (celular, tablet ou computador) com acesso à Play Store |
 | **Episódios** |
 | 1. O usuário abre a Play Store<br>2. O usuário clica na aba "Em Alta"<br>3. O usuário clica nas primeiras opções de apps<br>4. O usuário lê a descrição<br>5. O usuário decide baixar um app para testar |
 | **Restrições** | 
@@ -62,7 +62,7 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | **Exceções** |
 | Falha na rede ao instalar |
 
-
+---
 
 ## Cenário 004 - Instalando um jogo/app pago
 
@@ -82,6 +82,7 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | **Exceções** |
 | Saldo insuficiente na forma de pagamento<br>Memória insuficiente<br>Bateria do dispositivo acaba antes da instalação |
 
+---
 
 ## Cenário 005 - Atualizando um jogo/app
 
@@ -101,6 +102,8 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | **Exceções** |
 | Memória insuficiente<br>Bateria do dispositivo acaba antes da instalação<br>Não ter atualização |
 
+---
+
 ## Cenário 006 - Desinstalar um jogo/app
 
 | **Objetivo** |
@@ -119,6 +122,7 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | **Exceções** |
 | Bateria do dispositivo acaba antes da remoção |
 
+---
 
 ## Histórico de Versões
 
