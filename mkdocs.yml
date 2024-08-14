@@ -26,7 +26,10 @@ nav:
     - Apps: 'elicitacao/apps.md'
     - Fluxo de usuário: 'elicitacao/fluxo_usuario.md'
     - Jogos: 'elicitacao/jogos.md'
-  - Modelagem: modelagem/modelagem.md
+  - Modelagem:
+    - Modelagem: 'modelagem/modelagem.md'
+    - Cenários: 'modelagem/cenarios.md'
+    - Léxico: 'modelagem/lexico.md'
   - Análise: analise/analise.md
   - Rastreabilidade: rastreabilidade/rastreabilidade.md
 
