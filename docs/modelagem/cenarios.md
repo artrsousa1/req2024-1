@@ -123,6 +123,25 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | Bateria do dispositivo acaba antes da remoção |
 
 ---
+## Cenário 007 - Pedir Reembolso de um App/Jogo
+
+| **Objetivo** |
+| :--- |
+| Solicitar o reembolso do Minecraft |
+| **Contexto** |
+| **Local:** tela de "Histórico de Compras" na Play Store<br>**Pré-condição:** o app/jogo deve ter sido comprado recentemente e estar dentro do período permitido para solicitação de reembolso |
+| **Atores** |
+| Usuário |
+| **Recursos** |
+| Dispositivo compatível (celular, tablet ou computador) com acesso à Play Store e conexão à internet |
+| **Episódios** |
+| 1. O usuário abre o app da Play Store no dispositivo.<br>2. O usuário acessa o menu e clica em "Pagamentos e assinaturas".<br>3. O usuário seleciona "Histórico de compras".<br>4. O usuário localiza o Minecraft na lista de compras.<br>5. O usuário clica no app/jogo e escolhe a opção "Veja".<br>6. O usuário seleciona o motivo do reembolso e confirma a solicitação.<br>7. A Play Store processa o pedido e notifica o usuário sobre o status do reembolso. |
+| **Restrições** | 
+| A solicitação deve ser feita dentro do prazo permitido para reembolso (geralmente 48 horas após a compra) |
+| **Exceções** |
+| 1. O prazo para solicitar reembolso já expirou.<br>2. A Play Store rejeita o pedido devido a violações das políticas de reembolso. |
+
+---
 
 ## Histórico de Versões
 
@@ -130,4 +149,5 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 29-07-2024 | Lançamento inicial dos cenarios | Cecília Quaresma e Hugo Queiroz |
 | 1.1.0 | 12-08-2024 | Criação dos cenários de 4 a 6 | Cecília Quaresma e Hugo Queiroz |
+| 1.1.1 | 14-08-2024 | Criação do cenário 7 | Cecília Quaresma e Hugo Queiroz |
 
