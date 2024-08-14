@@ -131,7 +131,7 @@ Observamos que ainda não tínhamos analisado a parte de gerenciamento de Apps p
 | REQ20 | O Sistema deve ter um tutorial básico para novos usuarios | StoryTelling |
 | REQ21 | O Sistema tem que ser acessível para pessoas idosas | StoryTelling |
 | REQ22 | O Sistema deve ser capaz de mostrar os apps disponíveis para um dispositivo | Análise de protocolo |
-| REQ23 | O Sistema deve ser capaz de instalar apps em outros dispositivos |
+| REQ23 | O Sistema deve ser capaz de instalar apps em outros dispositivos |Análise de protocolo |
 | REQ24 | O Sistema deve categorizar os aplicativos por idade na área kids | Introspecção |
 
 

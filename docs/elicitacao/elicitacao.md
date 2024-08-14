@@ -63,7 +63,9 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | REQ57     | O sistema deve mostrar a quantidade de downloads que um app ou jogo tem                                                                                   | [Introspecção](apps.md#introspeccao), [Análise de protocolo](jogos.md#analise_de_protocolo)                                                          | Would      |
 | REQ58     | O aplicativo deve permitir configurações personalizadas para cada conta.                                                                                  | [Observação](fluxo_usuario.md#observacao), [Introspecção](fluxo_usuario.md#introspeccao)                                                             | Would      |
 | REQ59     | O aplicativo deve gerenciar os benefícios e ferramentas disponíveis para a Play Store vinculadas ao Gmail.                                                | [Observação](fluxo_usuario.md#observacao), [Introspecção](fluxo_usuario.md#introspeccao)                                                             | Would      |
-
+| REQ60 | O Sistema deve ser capaz de mostrar os apps disponíveis para um dispositivo | [Análise de protocolo](apps.md#analise-de-protocolo)| Would      |
+| REQ61 | O Sistema deve ser capaz de instalar apps em outros dispositivos |[Análise de protocolo](apps.md#analise-de-protocolo) | Would      |
+| REQ62 | O Sistema deve categorizar os aplicativos por idade na área kids | [Introspecção](apps.md#introspeccao) | Would |
 
 ## Histórico de Versões
 
