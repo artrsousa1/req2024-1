@@ -27,6 +27,7 @@ nav:
   - Modelagem:
     - Modelagem: 'modelagem/modelagem.md'
     - Cenários: 'modelagem/cenarios.md'
+    - Léxico: 'modelagem/lexico.md'
   - Análise: analise/analise.md
   - Rastreabilidade: rastreabilidade/rastreabilidade.md
 
