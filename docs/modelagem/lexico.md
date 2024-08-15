@@ -120,7 +120,6 @@
 | **Noção** |
 |  Ao clicar na barra de pesquisa, o usuário pode escolher entre buscar por voz ou por texto. Na busca por texto, o teclado é acionado e o usuário digita o nome do app que procura|
 | **Impactos** |
-
 |   * O usuário pode buscar por texto um app |
 
 
@@ -190,8 +189,6 @@
 |  Remover um app já instalado no dispositivo |
 | **Impactos** |
 |   * O usuário pode clicar no botão de desinstalar para excluir um app |
-
-
 |   * O app vai para uma versão mais nova<br>   * Novas funcionalidades<br> * Correções de bugs |
 
 
