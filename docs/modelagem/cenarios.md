@@ -4,7 +4,7 @@ O método de cenários é uma técnica eficaz de elicitação e modelagem de req
 
 ## Resultado da técnica
 
-Para esta técnica dividimos os requistos priorizados como must em [requisitos elicitados](../elicitacao/elicitacao.md), e cada equipe definida em [projeto](../home/home.md#moscow) ficou resposável por modelar alguns cenários
+Para esta técnica dividimos os requistos priorizados como must em [requisitos elicitados](../elicitacao/elicitacao.md), e cada equipe definida em [projeto](../home/home.md#moscow) ficou resposável por modelar alguns cenários baseados nos requistos divididos.
 
 ## Cenário 001 - Buscando app
 

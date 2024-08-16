@@ -21,6 +21,11 @@ Local: Teams
 ## [Itrace](reunioes.md#itrace):
 Pode se observar a técnica em [Itrace](reunioes.md#itrace)
 
+![alt text](../assets/imagens/iTrace%20-%20reunião%2025_07.jpeg)
+
+*Autores: Carlos Alves, Cecília Quaresma & Hugo Queiroz*
+
+
 
 ## link da reunião:
 A reunião foi dividida em duas, mas ambas as gravações foram feitas no mesmo dia e horário.
@@ -35,3 +40,4 @@ A reunião foi dividida em duas, mas ambas as gravações foram feitas no mesmo 
 | Versão | Data       | Alterações Principais                             | Autor        |
 |--------|------------|---------------------------------------------------|--------------|
 | 1.0.0  | 09-08-2024 | Criação do arquivo | Carlos Eduardo e Hugo Queiroz |
+| 1.0.1  | 16-08-2024 | Criação do arquivo | Carlos Eduardo, Cecília Quaresma & Hugo Queiroz |

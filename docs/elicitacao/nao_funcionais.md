@@ -1,76 +1,85 @@
 # Requisitos não funcionais
 
+## [Brainstorm](tecnicas.md#brainstorming)
 
-## Brainstorm
+Utilizamos a técnica descrita em [brainstorm](tecnicas.md#brainstorming), baseados nas categorias do FURPS e na ISO/IEC 25010. As categorias do FURPS são Funcionalidade, Usabilidade, Confiabilidade, Desempenho e Suportabilidade, e da ISO são Adequação Funcional, Eficiência de Performance, Compatibilidade, Usabilidade, Confiabilidade, Segurança, Manutenibilidade e Portabilidade. Porém, não fizemos os funcionais, pois já foram elicitados em [elictação](../elicitacao/elicitacao.md), e Manutenibilidade porque não temos acesso ao código do app.
 
-Veja o resultado do branstorm: [link](../assets/imagens/brainstorm_nao_func.pdf)
+![alt text](../assets/imagens/brainstormRNF.jpg)
 
 *Autores: Carlos Alves & Hugo Queiroz*
 
+Caso esteja ruim de ver, veja o resultado do brainstorm: [link](../assets/imagens/brainstorm_nao_func.pdf)
 
-## Usabilidade
-| Requisito      | Descrição                                                                                                              | Técnica de elicitação |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------ |
-|                | O app deve fornecer feedbacks para o usuário como mensagens de erro.                                                      | Branstorm          |
-|                | O app deve ter a hierarquia lógica das ideias.                                                                            | Branstorm          |
-|                | O app deve mostrar a localização do usuário dentro do app.                                                                | Branstorm          |
-|                | O app deve ser acessível para pessoas com deficiências visuais.                                                           | Branstorm          |
-|                | O app deve mostrar botões para o usuário confirmar suas ações, evitando erros.                                            | Branstorm          |
-|                | O app deve permitir a mudança de idioma.                                                                                  | Branstorm          |
-|                | O app deve ser acessível para pessoas idosas.                                                                             | Branstorm          |
-|                | O app deve ser consistente e padronizado.                                                                                 | Branstorm          |
-|                | O app deve ter um menu de ajuda.                                                                                          | Branstorm          |
-|                | O app deve permitir descrição por áudio e atalhos de teclado.                                                             | Branstorm          |
-|                | O app deve ter cores contrastantes.                                                                                       | Branstorm          |
-|                | O app deve permitir configurações de acessibilidade como cor e fonte.                                                     | Branstorm          |
-|                | O app deve informar o status do sistema.                                                                                  | Branstorm          |
+Após a técnica tiramos os requisitos parecidos e classificamos alguns que se qualificavam como funcionias.
 
+### Usabilidade
 
-## Confiabilidade
-
-| Requisito      | Descrição                                                                                                             | Técnica de elicitação |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------ |
-|                | O app deve permitir a recuperação de falhas.                                                                              | Branstorm          |
-|                | O sistema deve rodar no browser.                                                                                          | Branstorm          |
-|                | Sincronizar dados de forma confiável entre diferentes dispositivos.                                                       | Branstorm          |
-|                | Garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. | Branstorm          |
-|                | O sistema deve prevenir erros.                                                                                            | Branstorm          |
-|                | O sistema deve ficar no ar 24/7.                                                                                          | Branstorm          |
-|                | Realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | Branstorm          |
+| Código | Descrição | Técnica de elicitação |
+| ------ | --------- | --------------------- |
+| RNF01  | O Sistema deve ter a hierarquia lógica das ideias. | Brainstorm |
+| RNF02  | O Sistema deve ser acessível para pessoas com deficiências visuais. | Brainstorm |
+| RNF03  | O Sistema deve ser acessível para pessoas idosas. | Brainstorm |
+| RNF04  | O Sistema deve ser consistente e padronizado. | Brainstorm |
+| RNF05  | O Sistema deve permitir descrição por áudio e atalhos de teclado. | Brainstorm |
+| RNF06  | O Sistema deve ter cores contrastantes. | Brainstorm |
+| RNF07  | O Sistema deve permitir configurações de acessibilidade como cor e fonte. | Brainstorm |
+| RNF08  | O sistema deve se adaptar a todo tipo de tela. | Brainstorm |
 
 
-## Desempenho
+### Confiabilidade
 
+| Código | Descrição | Técnica de elicitação |
+| ------ | --------- | --------------------- |
+| RNF09  | O app deve permitir a recuperação de falhas. | Brainstorm |
+| RNF10  | Garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. | Brainstorm |
+| RNF11  | O sistema deve prevenir erros. | Brainstorm |
+| RNF12  | O sistema deve ficar no ar 24/7. | Brainstorm |
+| RNF13  | Realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | Brainstorm |
 
-| Requisito      | Descrição                                                                                                               | Técnica de elicitação |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------ |
-|                | O sistema deve ser eficaz em qualquer tipo de rede.                                                                       | Branstorm          |
-|                | O sistema deve se adaptar a todo tipo de tela.                                                                            | Branstorm          |
-|                | Lidar com picos de tráfego e alta demanda.                                                                                | Branstorm          |
-|                | O sistema deve carregar o conteúdo das páginas de forma rápida.                                                           | Branstorm          |
-|                | O sistema deve retornar o objeto de pesquisa rapidamente.                                                                 | Branstorm          |
-|                | Garantir que as transações de compra e download de aplicativos sejam processadas rapidamente.                             | Branstorm          |
-|                | Otimizar o tempo de download e instalação de aplicativos.                                                                 | Branstorm          |
+### Desempenho
+
+| Código | Descrição | Técnica de elicitação |
+| ------ | --------- | --------------------- |
+| RNF14  | O sistema deve ser eficaz em qualquer tipo de rede. | Brainstorm |
+| RNF15  | Lidar com picos de tráfego e alta demanda. | Brainstorm |
+| RNF16  | O sistema deve retornar o objeto de pesquisa rapidamente. | Brainstorm |
+| RNF17  | Garantir que as transações de compra e download de aplicativos sejam processadas rapidamente. | Brainstorm |
+| RNF18  | Otimizar o tempo de download e instalação de aplicativos. | Brainstorm |
 
 ## Portabilidade
 
+| Código | Descrição | Técnica de elicitação |
+| ------ | --------- | --------------------- |
+| RNF19  | O aplicativo deve funcionar em qualquer dispositivo Android. |
+| RNF20  | O sistema deve funcionar bem em qualquer navegador. |
+| RNF21  | Assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais. |
 
-| Requisito      | Descrição                                                                                                              | Técnica de elicitação |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------ |
-|                | O aplicativo deve funcionar em qualquer dispositivo Android.                                                              | Branstorm          |
-|                | O sistema deve funcionar bem em qualquer navegador.                                                                       | Branstorm          |
-|                | Assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais.            | Branstorm          |
+### Segurança
 
-## Segurança
+| Código | Descrição | Técnica de elicitação |
+| ------ | --------- | --------------------- |
+| RNF22  | Implementar medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças. | Brainstorm |
+| RNF23  | Criptografar dados sensíveis do usuário. | Brainstorm |
+| RNF24  | Garantir que as políticas de privacidade da Play Store e dos apps sejam garantidas. | Brainstorm |
+| RNF25  | O usuário deve saber sobre os dados compartilhados com um app. | Brainstorm |
+| RNF26 | O sistema deve seguir a LGPD. | Brainstorm |
 
+### Requisitos Funcionais
 
+| Código | Descrição | Técnica de elicitação |
+| ------ | --------- | --------------------- |
+| REQ01  | O app deve fornecer feedbacks para o usuário, como mensagens de erro. | Brainstorm |
+| REQ02  | O app deve mostrar a localização do usuário dentro do app. | Brainstorm |
+| REQ03  | O app deve mostrar botões para o usuário confirmar suas ações, evitando erros. | Brainstorm |
+| REQ04  | O app deve permitir a mudança de idioma. | Brainstorm |
+| REQ05  | O app deve ter um menu de ajuda. | Brainstorm |
+| REQ07  | O sistema deve sincronizar dados de forma confiável entre diferentes dispositivos. | Brainstorm |
+| REQ09  | O sistema deve comportamentos maliciosos de apps. | Brainstorm |
+| REQ10  | O sistema não deve permitir que cadastrem apps maliciosos. | Brainstorm |
 
-| Requisito      | Descrição                                                                                                               | Técnica de elicitação |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------ |
-|                | Implementar medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças.        | Branstorm          |
-|                | Criptografar dados sensíveis do usuário.                                                                                  | Branstorm          |
-|                | Detectar comportamentos maliciosos de apps.                                                                               | Branstorm          |
-|                | Não deve permitir que cadastrem apps maliciosos.                                                                          | Branstorm          |
-|                | Garantir que as políticas de privacidade da Play Store e dos apps sejam garantidas.                                        | Branstorm          |
-|                | O usuário deve saber sobre os dados compartilhados com um app.                                                            | Branstorm          |
-|                | O sistema deve seguir a LGPD.                                                                                             | Branstorm          |
+## Histórico de Versões
+
+| **Versão** | **Data** | **Alterações Principais** | **Autor** |
+| :--: | :--: | :--: | :--: | 
+| 1.0.0 | 15-08-2024 | Lançamento inicial e aplicação do brainstorm | Carlos Alves e Hugo Queiroz |
+| 1.0.1 | 16-08-2024 | Revisão dos requisitos e numeração | Carlos Alves, Cecília Quaresma e Hugo Queiroz |

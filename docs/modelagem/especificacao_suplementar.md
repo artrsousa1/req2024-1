@@ -5,7 +5,7 @@ A Especificação Suplementar é um documento que complementa a especificação 
 
 ## Aplicação
 
-Para esta técnica dividos nas categorias, utilizamos como base a FURPS e a ISO/IEC 25010, e colocamos os requistos não funcionais destas área elicitados com [brainstorm](../elicitacao/nao_funcionais.md): 
+Para esta técnica, dividimos nas categorias baseadas na FURPS e na ISO/IEC 25010, e incluímos os requisitos não funcionais dessas áreas, elicitados através de [brainstorm](../elicitacao/nao_funcionais.md): 
 
 - Usabilidade
 - Confiabilidade
@@ -99,11 +99,11 @@ Proteção de um sistema ou software contra ameaças, garantindo integridade, co
 Concepção visual e estrutural de um sistema ou software, que impacta a aparência, a funcionalidade e a experiência do usuário.
 
 
-# Identidade Visual da Google Play Store
+### Identidade Visual da Google Play Store
 
 A identidade visual da Google Play Store é essencial para manter a consistência da marca e garantir uma experiência de usuário coesa. Abaixo estão os elementos chave da identidade visual da Play Store.
 
-## Logotipo
+#### Logotipo
 
 O logotipo da Google Play Store é um ícone que combina uma forma triangular e colorida com o nome "Play Store". O ícone é composto por um triângulo de cores variadas que representa a diversidade de conteúdos disponíveis na plataforma.
 
@@ -112,7 +112,7 @@ O logotipo da Google Play Store é um ícone que combina uma forma triangular e 
     <img src="https://cdn.mos.cms.futurecdn.net/Q2oLsPvoGLpzWuDqZgzANH-650-80.jpg.webp"  width="200px"/>
 </div>
 
-## Cores
+#### Cores
 
 A paleta de cores da Google Play Store é vibrante e moderna, refletindo a diversidade e a energia da plataforma. As principais cores incluem:
 
@@ -125,13 +125,13 @@ A paleta de cores da Google Play Store é vibrante e moderna, refletindo a diver
 </div>
 
 
-## Tipografia
+#### Tipografia
 
 A tipografia utilizada pela Google Play Store é simples e legível, refletindo a clareza e a acessibilidade da plataforma. A fonte primária é:
 
 - **Fonte Principal**: Roboto
 
-## Ícones e Botões
+#### Ícones e Botões
 
 Os ícones e botões na Google Play Store são projetados para serem intuitivos e fáceis de usar. Eles geralmente apresentam um design limpo e cores contrastantes para garantir visibilidade e facilidade de navegação.
 
@@ -141,7 +141,7 @@ Os ícones e botões na Google Play Store são projetados para serem intuitivos 
 
 ![Ícone da Play Store](../assets/imagens/icones2.jpeg) 
 
-## Uso da Identidade Visual
+#### Uso da Identidade Visual
 
 - **Uso do Logotipo**: O logotipo deve ser exibido em tamanho adequado e em contraste com o fundo para garantir a legibilidade.
 - **Paleta de Cores**: Use as cores da paleta de forma consistente para criar uma experiência visual coesa.
@@ -153,3 +153,4 @@ Os ícones e botões na Google Play Store são projetados para serem intuitivos 
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 15-08-2024 | Lançamento inicial da especificação | Arthur Ribeiro, Carlos Alves e Hugo Queiroz,  |
+| 1.0.1 | 16-08-2024 | Arrumando o especificação | Carlos Alves, Cecília Quaresma e Hugo Queiroz,  |
