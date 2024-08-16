@@ -12,6 +12,7 @@ nav:
     - Reunião02: reunioes/reuniao02.md
     - Reunião05: reunioes/reuniao05.md
     - Reunião06: reunioes/reuniao06.md
+    - Reunião07: reunioes/reuniao07.md
 
   - Pré-Rastreabilidade: 
     - Pré-rastreabilidade: 'pre-ras/pre-ras.md'
@@ -25,12 +26,14 @@ nav:
     - Perfil: 'elicitacao/perfil.md'
     - Apps: 'elicitacao/apps.md'
     - Fluxo de usuário: 'elicitacao/fluxo_usuario.md'
+    - Não funcionais: 'elicitacao/nao_funcionais.md'
     - Jogos: 'elicitacao/jogos.md'
   - Modelagem:
     - Modelagem: 'modelagem/modelagem.md'
     - Caso de uso: 'modelagem/caso-uso.md'
     - Cenários: 'modelagem/cenarios.md'
     - Léxico: 'modelagem/lexico.md'
+    - Especificação suplementar: 'modelagem/especificacao_suplementar.md'
   - Análise: analise/analise.md
   - Rastreabilidade: rastreabilidade/rastreabilidade.md
 
