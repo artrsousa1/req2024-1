@@ -1,15 +1,35 @@
 # Caso de uso
 
+Um caso de uso consiste em uma descrição detalhada relativa à maneira como os usuários interagem com o sistema para alcançar um determinado objetivo. Ao mapear as intruções entre os atores e o sistema, o artefato faz uma descrição clara das etapas necessárias que precisam ser seguidas para alcançar o objetivo.
 
 ## Diagrama de caso de uso
 
-## versão 01
+Um diagrama de caso de uso é uma representação visual que descreve como um sistema interage com usuários ou outros sistemas (atores) para realizar tarefas específicas (casos de uso). Ele mostra as funcionalidades do sistema e as interações entre os atores e essas funcionalidades, ajudando a identificar e entender os requisitos do sistema de maneira clara e concisa.
+
+
+### Tabela 1: Componentes do Diagrama de Casos de Uso
+
+| Nome              | Descrição                                                                                                           | Ícone                                                            |
+|-------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| **Agente**        | Representa os diferentes tipos de usuários externos que interagem com o sistema                                     | ![agente](../assets/imagens/agente.png)                           |
+| **Elipse (Caso de Uso)** | Utilizada para representar os casos de uso no diagrama. Um caso de uso descreve uma funcionalidade ou ação específica que o sistema pode executar em resposta às interações dos agentes. A elipse contém o nome do caso de uso | ![elipse](../assets/imagens/elipse.png)                         |
+| **Retângulo (Sistema)**  | Representa o sistema ou o bloco em análise. Envolve os casos de uso e agentes relacionados                        | ![retangulo](../assets/imagens/retangulo.png)                     |
+| **Setas (Relações)**      | Usadas para representar as relações ou interações entre agentes e casos de uso                                    | ![setas](../assets/imagens/seta.png)                            |
+
+
+
+## Versão 01
+Este é uma primeira versão de uma visão mais geral da play store e dentro dela outros dois sistemas que achamos relevantes ter, baseados nos [requisitos elicitados](../elicitacao/elicitacao.md)
 
 ![alt text](../assets/imagens/Caso%20de%20uso%20-%20Play%20Store%20-%20Page%201%20Caso%20de%20Uso.png)
 
 *Autores: Carlos Alves, Cecília Quaresma, Hugo Queiroz & Larissa Vieira*
 
 ## Especificação de caso de uso
+
+A especificação de caso de uso é um documento que detalha como um caso de uso deve funcionar, descrevendo interações entre o ator e o sistema. Ela inclui informações como o nome do caso de uso, a descrição do que ele faz, condições prévias e posteriores, fluxos principais e alternativos, e requisitos especiais. Essa documentação ajuda a entender e a implementar corretamente os requisitos do sistema.
+
+Nesta etapa pegamos as elipse do diagrama de caso de uso e as especificamos para melhor entedimento da play store.
 
 ### Visualizar app/jogo
 
@@ -155,3 +175,4 @@
 | 1.0.0 | 14-08-2024 | Criação do documento | Carlos Alves, Cecília Quaresma, Hugo Queiroz e Larissa Vieira|
 | 1.0.1 | 14-08-2024 | Adicionando diagrama | Carlos Alves, Cecília Quaresma, Hugo Queiroz e Larissa Vieira|
 | 1.0.2 | 15-08-2024 | Adicionando especificação de caso de uso | Carlos Alves e Hugo Queiroz|
+| 1.0.3 | 15-08-2024 | Arrumando  documento de caso de uso | Carlos Alves, Hugo Queiroz e Arthur Ribeiro|
