@@ -67,6 +67,8 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | <a name="REQ61"></a> REQ61     | O Sistema deve ser capaz de instalar apps em outros dispositivos |[Análise de protocolo](apps.md#analise-de-protocolo) | Would      |
 | <a name="REQ62"></a> REQ62     | O Sistema deve categorizar os aplicativos por idade na área kids | [Introspecção](apps.md#introspeccao) | Would |
 
+
+
 ## Histórico de Versões
 
 | **Versão** | **Data**   | **Alterações Principais**                                                 | **Autor**                                      |
