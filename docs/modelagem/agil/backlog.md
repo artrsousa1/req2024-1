@@ -20,11 +20,10 @@
 | <a name="US012"></a> US012 | [REQ12](../../elicitacao/elicitacao.md#REQ12) | Usuário | Comprar um app ou jogo | Eu tenha acesso a itens pagos | Must |
 | <a name="US013"></a> US013 | [REQ13](../../elicitacao/elicitacao.md#REQ13) | Usuário | Pedir reembolso por um app ou jogo | Eu resgate o dinheiro de um app ou jogo que eu não gostei | Must |
 | <a name="US014"></a> US014 | [REQ14](../../elicitacao/elicitacao.md#REQ14) | Usuário | Entrar com a minha conta Google | Eu use a minha conta em um celular novo | Must |
-| <a name="US015"></a> US015 | [REQ15](../../elicitacao/elicitacao.md#REQ15) | Usuário | Autenticar uma senha ao fazer login com uma conta | Eu possa verificar se quem está fazendo o login é o dono da conta | Must |
-| <a name="US016"></a> US016 | [REQ16](../../elicitacao/elicitacao.md#REQ16) | Usuário | Poder remover uma conta logada no dispositivo | Eu possa retirar contas que não utilizo mais | Must |
-| <a name="US017"></a> US017 | [REQ17](../../elicitacao/elicitacao.md#REQ17) | Usuário | Trocar a conta principal do meu dispositivo | Poder gerenciar minhas contas pessoas e de trabalho | Must |
-| <a name="US018"></a> US018 | [REQ18](../../elicitacao/elicitacao.md#REQ18) | Usuário | Poder manter salva minhas formas de pagamento | Economize tempo em futuras compras | Must |
-| <a name="US019"></a> US019 | [REQ10](../../elicitacao/elicitacao.md#REQ10) | PO | Saber o que um app ou jogo faz com os dados extraidos dos usuários | Não correr riscos de dados pessoais serem disponibilizados para terceiros sem meu consentimento | Must |
+| <a name="US016"></a> US015 | [REQ16](../../elicitacao/elicitacao.md#REQ16) | Usuário | Poder remover uma conta logada no dispositivo | Eu possa retirar contas que não utilizo mais | Must |
+| <a name="US017"></a> US016 | [REQ17](../../elicitacao/elicitacao.md#REQ17) | Usuário | Trocar a conta principal do meu dispositivo | Poder gerenciar minhas contas pessoas e de trabalho | Must |
+| <a name="US018"></a> US017 | [REQ18](../../elicitacao/elicitacao.md#REQ18) | Usuário | Poder manter salva minhas formas de pagamento | Economize tempo em futuras compras | Must |
+| <a name="US019"></a> US018 | [REQ10](../../elicitacao/elicitacao.md#REQ10) | Usuário | Saber o que um app ou jogo faz com os dados extraidos dos usuários | Não correr riscos de dados pessoais serem disponibilizados para terceiros sem meu consentimento | Must |
 
 
 ## Histórico de Versões

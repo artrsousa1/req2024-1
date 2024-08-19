@@ -31,12 +31,16 @@ nav:
     - Fluxo de usuário: 'elicitacao/fluxo_usuario.md'
     - Não funcionais: 'elicitacao/nao_funcionais.md'
     - Jogos: 'elicitacao/jogos.md'
-  - Modelagem:
+  - 'Modelagem':
     - Modelagem: 'modelagem/modelagem.md'
     - Caso de uso: 'modelagem/caso-uso.md'
     - Cenários: 'modelagem/cenarios.md'
     - Léxico: 'modelagem/lexico.md'
     - Especificação suplementar: 'modelagem/especificacao_suplementar.md'
+    - 'Ágil': 
+      - Backlog: 'modelagem/agil/backlog.md'
+      - História de usuário: 'modelagem/agil/criterio.md'
+
   - Análise: analise/analise.md
   - Rastreabilidade: rastreabilidade/rastreabilidade.md
 
