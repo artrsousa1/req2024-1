@@ -414,6 +414,5 @@ Para esta técnica dividimos os requistos priorizados como must em [requisitos e
 | 1.1.1 | 14-08-2024 | Criação do cenário 7 | Cecília Quaresma e Hugo Queiroz |
 | 1.1.2 | 14-08-2024 | Junção dos cenários | Cecília Quaresma, Hugo Queiroz, Carlos Alves e Larissa Vieira |
 | 1.1.3 | 15-08-2024 | Atualizando rastreabilidade | Hugo Queiroz e Carlos Alves |
-| 1.1.4 | 15-08-2024 | Criação dos cenários de 14 a 28 | Arthur Ribeiro  |
+| 1.1.4 | 15-08-2024 | Criação dos cenários de 14 a 28 | Arthur Ribeiro, Hugo Queiroz e Carlos Alves  |
 | 1.1.5 | 15-08-2024 | Atualização da rastreabilidade | Arthur Ribeiro, Hugo Queiroz e Carlos Alves |
-

@@ -4,7 +4,7 @@
 
 Utilizamos a técnica descrita em [brainstorm](tecnicas.md#brainstorming), baseados nas categorias do FURPS e na ISO/IEC 25010. As categorias do FURPS são Funcionalidade, Usabilidade, Confiabilidade, Desempenho e Suportabilidade, e da ISO são Adequação Funcional, Eficiência de Performance, Compatibilidade, Usabilidade, Confiabilidade, Segurança, Manutenibilidade e Portabilidade. Porém, não fizemos os funcionais, pois já foram elicitados em [elictação](../elicitacao/elicitacao.md), e Manutenibilidade porque não temos acesso ao código do app.
 
-![alt text](../assets/imagens/brainstormRNF.jpg)
+![alt text](../assets/imagens/brainstorm<a name="RNF"></a> RNF.jpg)
 
 *Autores: Carlos Alves & Hugo Queiroz*
 
@@ -16,53 +16,52 @@ Após a técnica tiramos os requisitos parecidos e classificamos alguns que se q
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
-| RNF01  | O Sistema deve ter a hierarquia lógica das ideias. | Brainstorm |
-| RNF02  | O Sistema deve ser acessível para pessoas com deficiências visuais. | Brainstorm |
-| RNF03  | O Sistema deve ser acessível para pessoas idosas. | Brainstorm |
-| RNF04  | O Sistema deve ser consistente e padronizado. | Brainstorm |
-| RNF05  | O Sistema deve permitir descrição por áudio e atalhos de teclado. | Brainstorm |
-| RNF06  | O Sistema deve ter cores contrastantes. | Brainstorm |
-| RNF07  | O Sistema deve permitir configurações de acessibilidade como cor e fonte. | Brainstorm |
-| RNF08  | O sistema deve se adaptar a todo tipo de tela. | Brainstorm |
-
+| <a name="RNF01"></a> RNF01  | O Sistema deve ter a hierarquia lógica das ideias. | Brainstorm |
+| <a name="RNF02"></a> RNF02  | O Sistema deve ser acessível para pessoas com deficiências visuais. | Brainstorm |
+| <a name="RNF03"></a> RNF03  | O Sistema deve ser acessível para pessoas idosas. | Brainstorm |
+| <a name="RNF04"></a> RNF04  | O Sistema deve ser consistente e padronizado. | Brainstorm |
+| <a name="RNF05"></a> RNF05  | O Sistema deve permitir descrição por áudio e atalhos de teclado. | Brainstorm |
+| <a name="RNF06"></a> RNF06  | O Sistema deve ter cores contrastantes. | Brainstorm |
+| <a name="RNF07"></a> RNF07  | O Sistema deve permitir configurações de acessibilidade como cor e fonte. | Brainstorm |
+| <a name="RNF08"></a> RNF08  | O sistema deve se adaptar a todo tipo de tela. | Brainstorm 
 
 ### Confiabilidade
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
-| RNF09  | O app deve permitir a recuperação de falhas. | Brainstorm |
-| RNF10  | Garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. | Brainstorm |
-| RNF11  | O sistema deve prevenir erros. | Brainstorm |
-| RNF12  | O sistema deve ficar no ar 24/7. | Brainstorm |
-| RNF13  | Realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | Brainstorm |
+| <a name="RNF09"></a> RNF09  | O app deve permitir a recuperação de falhas. | Brainstorm |
+| <a name="RNF10"></a> RNF10  | Garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. | Brainstorm |
+| <a name="RNF11"></a> RNF11  | O sistema deve prevenir erros. | Brainstorm |
+| <a name="RNF12"></a> RNF12  | O sistema deve ficar no ar 24/7. | Brainstorm |
+| <a name="RNF13"></a> RNF13  | Realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | Brainstorm |
 
 ### Desempenho
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
-| RNF14  | O sistema deve ser eficaz em qualquer tipo de rede. | Brainstorm |
-| RNF15  | Lidar com picos de tráfego e alta demanda. | Brainstorm |
-| RNF16  | O sistema deve retornar o objeto de pesquisa rapidamente. | Brainstorm |
-| RNF17  | Garantir que as transações de compra e download de aplicativos sejam processadas rapidamente. | Brainstorm |
-| RNF18  | Otimizar o tempo de download e instalação de aplicativos. | Brainstorm |
+| <a name="RNF14"></a> RNF14  | O sistema deve ser eficaz em qualquer tipo de rede. | Brainstorm |
+| <a name="RNF15"></a> RNF15  | Lidar com picos de tráfego e alta demanda. | Brainstorm |
+| <a name="RNF16"></a> RNF16  | O sistema deve retornar o objeto de pesquisa rapidamente. | Brainstorm |
+| <a name="RNF17"></a> RNF17  | Garantir que as transações de compra e download de aplicativos sejam processadas rapidamente. | Brainstorm |
+| <a name="RNF18"></a> RNF18  | Otimizar o tempo de download e instalação de aplicativos. | Brainstorm |
 
 ## Portabilidade
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
-| RNF19  | O aplicativo deve funcionar em qualquer dispositivo Android. |
-| RNF20  | O sistema deve funcionar bem em qualquer navegador. |
-| RNF21  | Assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais. |
+| <a name="RNF19"></a> RNF19  | O aplicativo deve funcionar em qualquer dispositivo Android. | Brainstorm |
+| <a name="RNF20"></a> RNF20  | O sistema deve funcionar bem em qualquer navegador. | Brainstorm |
+| <a name="RNF21"></a> RNF21  | Assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais. | Brainstorm |
 
 ### Segurança
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
-| RNF22  | Implementar medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças. | Brainstorm |
-| RNF23  | Criptografar dados sensíveis do usuário. | Brainstorm |
-| RNF24  | Garantir que as políticas de privacidade da Play Store e dos apps sejam garantidas. | Brainstorm |
-| RNF25  | O usuário deve saber sobre os dados compartilhados com um app. | Brainstorm |
-| RNF26 | O sistema deve seguir a LGPD. | Brainstorm |
+| <a name="RNF22"></a> RNF22  | Implementar medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças. | Brainstorm |
+| <a name="RNF23"></a> RNF23  | Criptografar dados sensíveis do usuário. | Brainstorm |
+| <a name="RNF24"></a> RNF24  | Garantir que as políticas de privacidade da Play Store e dos apps sejam garantidas. | Brainstorm |
+| <a name="RNF25"></a> RNF25  | O usuário deve saber sobre os dados compartilhados com um app. | Brainstorm |
+| <a name="RNF26"></a> RNF26  | O sistema deve seguir a LGPD. | Brainstorm |
 
 ### Requisitos Funcionais
 

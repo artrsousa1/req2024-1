@@ -20,19 +20,19 @@ Facilidade com que os usuários conseguem utilizar um sistema ou software para a
 
 | Requisito      | Descrição                                                                                                                 |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-|                | O app deve fornecer feedbacks para o usuário como mensagens de erro.                                                      |
-|                | O app deve ter a hierarquia lógica das ideias.                                                                            |
-|                | O app deve mostrar a localização do usuário dentro do app.                                                                |
-|                | O app deve ser acessível para pessoas com deficiências visuais.                                                           | 
-|                | O app deve mostrar botões para o usuário confirmar suas ações, evitando erros.                                            |
-|                | O app deve permitir a mudança de idioma.                                                                                  |
-|                | O app deve ser acessível para pessoas idosas.                                                                             |
-|                | O app deve ser consistente e padronizado.                                                                                 |
-|                | O app deve ter um menu de ajuda.                                                                                          | 
-|                | O app deve permitir descrição por áudio e atalhos de teclado.                                                             | 
-|                | O app deve ter cores contrastantes.                                                                                       | 
-|                | O app deve permitir configurações de acessibilidade como cor e fonte.                                                     | 
-|                | O app deve informar o status do sistema.                                                                                  | 
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve fornecer feedbacks para o usuário como mensagens de erro.                                                      |
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve ter a hierarquia lógica das ideias.                                                                            |
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve mostrar a localização do usuário dentro do app.                                                                |
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve ser acessível para pessoas com deficiências visuais.                                                           | 
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve mostrar botões para o usuário confirmar suas ações, evitando erros.                                            |
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve permitir a mudança de idioma.                                                                                  |
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve ser acessível para pessoas idosas.                                                                             |
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve ser consistente e padronizado.                                                                                 |
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve ter um menu de ajuda.                                                                                          | 
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve permitir descrição por áudio e atalhos de teclado.                                                             | 
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve ter cores contrastantes.                                                                                       | 
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve permitir configurações de acessibilidade como cor e fonte.                                                     | 
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve informar o status do sistema.                                                                                  | 
 
 
 ## Confiabilidade
@@ -41,13 +41,13 @@ Capacidade de um sistema ou software de funcionar de maneira consistente e corre
 
 | Requisito      | Descrição                                                                                                                 |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-|                | O app deve permitir a recuperação de falhas.                                                                              |
-|                | O sistema deve rodar no browser.                                                                                          |
-|                | Sincronizar dados de forma confiável entre diferentes dispositivos.                                                       |
-|                | Garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. |
-|                | O sistema deve prevenir erros.                                                                                            |
-|                | O sistema deve ficar no ar 24/7.                                                                                          |
-|                | Realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. |
+| [RNF](../elicitacao/nao_funcional#RNF) | O app deve permitir a recuperação de falhas.                                                                              |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve rodar no browser.                                                                                          |
+| [RNF](../elicitacao/nao_funcional#RNF) | Sincronizar dados de forma confiável entre diferentes dispositivos.                                                       |
+| [RNF](../elicitacao/nao_funcional#RNF) | Garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve prevenir erros.                                                                                            |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve ficar no ar 24/7.                                                                                          |
+| [RNF](../elicitacao/nao_funcional#RNF) | Realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. |
 
 
 ## Desempenho
@@ -57,13 +57,13 @@ Medida da eficiência com que um sistema ou software realiza suas tarefas, inclu
 
 | Requisito      | Descrição                                                                                                               |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-|                | O sistema deve ser eficaz em qualquer tipo de rede.                                                                       |
-|                | O sistema deve se adaptar a todo tipo de tela.                                                                            |
-|                | Lidar com picos de tráfego e alta demanda.                                                                                |
-|                | O sistema deve carregar o conteúdo das páginas de forma rápida.                                                           |
-|                | O sistema deve retornar o objeto de pesquisa rapidamente.                                                                 |
-|                | Garantir que as transações de compra e download de aplicativos sejam processadas rapidamente.                             |
-|                | Otimizar o tempo de download e instalação de aplicativos.                                                                 |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve ser eficaz em qualquer tipo de rede.                                                                       |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve se adaptar a todo tipo de tela.                                                                            |
+| [RNF](../elicitacao/nao_funcional#RNF) | Lidar com picos de tráfego e alta demanda.                                                                                |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve carregar o conteúdo das páginas de forma rápida.                                                           |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve retornar o objeto de pesquisa rapidamente.                                                                 |
+| [RNF](../elicitacao/nao_funcional#RNF) | Garantir que as transações de compra e download de aplicativos sejam processadas rapidamente.                             |
+| [RNF](../elicitacao/nao_funcional#RNF) | Otimizar o tempo de download e instalação de aplicativos.                                                                 |
 
 
 ## Portabilidade
@@ -73,9 +73,9 @@ Capacidade de um sistema ou software de ser utilizado em diferentes ambientes ou
 
 | Requisito      | Descrição                                                                                                              | 
 | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-|                | O aplicativo deve funcionar em qualquer dispositivo Android.                                                              |
-|                | O sistema deve funcionar bem em qualquer navegador.                                                                       |
-|                | Assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais.            |
+| [RNF](../elicitacao/nao_funcional#RNF) | O aplicativo deve funcionar em qualquer dispositivo Android.                                                              |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve funcionar bem em qualquer navegador.                                                                       |
+| [RNF](../elicitacao/nao_funcional#RNF) | Assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais.            |
 
 
 ## Segurança
@@ -85,13 +85,13 @@ Proteção de um sistema ou software contra ameaças, garantindo integridade, co
 
 | Requisito      | Descrição                                                                                                               |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-|                | Implementar medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças.        |
-|                | Criptografar dados sensíveis do usuário.                                                                                  |
-|                | Detectar comportamentos maliciosos de apps.                                                                               |
-|                | Não deve permitir que cadastrem apps maliciosos.                                                                          |
-|                | Garantir que as políticas de privacidade da Play Store e dos apps sejam garantidas.                                       |
-|                | O usuário deve saber sobre os dados compartilhados com um app.                                                            |
-|                | O sistema deve seguir a LGPD.                                                                                             |
+| [RNF](../elicitacao/nao_funcional#RNF) | Implementar medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças.        |
+| [RNF](../elicitacao/nao_funcional#RNF) | Criptografar dados sensíveis do usuário.                                                                                  |
+| [RNF](../elicitacao/nao_funcional#RNF) | Detectar comportamentos maliciosos de apps.                                                                               |
+| [RNF](../elicitacao/nao_funcional#RNF) | Não deve permitir que cadastrem apps maliciosos.                                                                          |
+| [RNF](../elicitacao/nao_funcional#RNF) | Garantir que as políticas de privacidade da Play Store e dos apps sejam garantidas.                                       |
+| [RNF](../elicitacao/nao_funcional#RNF) | O usuário deve saber sobre os dados compartilhados com um app.                                                            |
+| [RNF](../elicitacao/nao_funcional#RNF) | O sistema deve seguir a LGPD.                                                                                             |
 
 
 ## Design
