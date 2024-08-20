@@ -29,7 +29,7 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | <a name="REQ23"></a> REQ23     | O sistema deve persistir o histórico de apps ou jogos já instalados por aquele e-mail                                                                     | [Introspecção](apps.md#introspeccao), [Análise de protocolo](jogos.md#analise_de_protocolo)                                                          | Should     |
 | <a name="REQ24"></a> REQ24     | O usuário deve poder sinalizar um app ou jogo como inapropriado                                                                                           | [Introspecção](apps.md#introspeccao)                                                                                                                 | Should     |
 | <a name="REQ25"></a> REQ25     | O sistema deve ter um tutorial básico para novos usuários                                                                                                 | [Storytelling](apps.md#storytelling)                                                                                                                 | Should     |
-| <a name="REQ26"></a> REQ26     | O sistema deve ser acessível para pessoas idosas                                                                                                          | [Storytelling App](apps.md#storytelling), [Storytelling fluxo de usuário](fluxo_usuario.md#storytelling)                                             | Should     |
+| <a name="REQ26"></a> REQ26  **   | O sistema deve ser acessível para pessoas idosas                                                                                                          | [Storytelling App](apps.md#storytelling), [Storytelling fluxo de usuário](fluxo_usuario.md#storytelling)                                             | Should     |
 | <a name="REQ27"></a> REQ27     | O usuário deve poder executar um app ou jogo a partir da Play Store                                                                                       | [Análise de protocolo](jogos.md#analise_de_protocolo)                                                                                                | Should     |
 | <a name="REQ28"></a> REQ28     | O sistema deve mostrar quais são as compras possíveis dentro de um app ou jogo, caso existam                                                              | [Storytellling](jogos.md#storytelling)                                                                                                               | Should     |
 | <a name="REQ29"></a> REQ29     | O aplicativo deve permitir o gerenciamento de aplicativos, livros e filmes vinculados ao Gmail.                                                           | [Observação](fluxo_usuario.md#observacao), [Introspecção](fluxo_usuario.md#introspeccao)                                                             | Should     |
@@ -38,7 +38,7 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | <a name="REQ32"></a> REQ32     | O aplicativo deve permitir que o usuário contate o suporte.                                                                                               | [Observação](fluxo_usuario.md#observacao), [Introspecção](fluxo_usuario.md#introspeccao)                                                             | Should     |
 | <a name="REQ33"></a> REQ33     | O aplicativo deve permitir configurações de acessibilidade associadas ao usuário.                                                                         | [Introspecção](fluxo_usuario.md#introspeccao)                                                                                                        | Should     |
 | <a name="REQ34"></a> REQ34     | O aplicativo deve permitir configurações de segurança associadas ao usuário.                                                                              | [Introspecção](fluxo_usuario.md#introspeccao)                                                                                                        | Should     |
-| <a name="REQ35"></a> REQ35     | O aplicativo deve permitir a mudança de dispositivos de forma fácil, oferecendo backup e reinstalação de aplicativos, filmes e livros de uma conta Gmail. | [Storytelling](fluxo_usuario.md#storytelling)                                                                                                        | Should     |
+| <a name="REQ35"></a> REQ35   ** pelo 7  | O aplicativo deve permitir a mudança de dispositivos de forma fácil, oferecendo backup e reinstalação de aplicativos, filmes e livros de uma conta Gmail. | [Storytelling](fluxo_usuario.md#storytelling)                                                                                                        | Should     |
 | <a name="REQ36"></a> REQ36     | O usuário deve poder avaliar um app ou jogo                                                                                                               | [Introspecção](apps.md#introspeccao), [Análise de protocolo](jogos.md#analise_de_protocolo)                                                          | Could      |
 | <a name="REQ37"></a> REQ37     | O sistema deve apresentar a classificação indicativa de apps e jogos                                                                                      | [Storytelling](jogos.md#storytelling)                                                                                                                | Could      |
 | <a name="REQ38"></a> REQ38     | O sistema deve apresentar os apps ou jogos mais bem avaliados pela comunidade                                                                             | [Introspecção](apps.md#introspeccao)                                                                                                                 | Could      |
@@ -66,6 +66,21 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | <a name="REQ60"></a> REQ60     | O Sistema deve ser capaz de mostrar os apps disponíveis para um dispositivo | [Análise de protocolo](apps.md#analise-de-protocolo)| Would      |
 | <a name="REQ61"></a> REQ61     | O Sistema deve ser capaz de instalar apps em outros dispositivos |[Análise de protocolo](apps.md#analise-de-protocolo) | Would      |
 | <a name="REQ62"></a> REQ62     | O Sistema deve categorizar os aplicativos por idade na área kids | [Introspecção](apps.md#introspeccao) | Would |
+
+### Requisitos Funcionais
+
+| Código | Descrição | Técnica de elicitação | |
+| ------ | --------- | --------------------- | - | 
+| <a name="REQ63"></a> REQ63 REQ63  | O sistema deve fornecer feedbacks para o usuário, como mensagens de erro. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| REQ64  | O sistema deve mostrar a localização do usuário dentro do app. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| REQ65  | O sistema deve mostrar botões para o usuário confirmar suas ações, evitando erros. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| REQ66  | O sistema deve permitir a mudança de idioma. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| REQ67  | O sistema deve ter um menu de ajuda. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+*| REQ68  | O sistema deve sincronizar dados de forma confiável entre diferentes dispositivos. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| REQ69  | O sistema deve comportamentos maliciosos de apps. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| REQ70  | O sistema não deve permitir que cadastrem apps maliciosos (Play protect). | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| REQ71  | O sistema deve fornecer uma opção de backup. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| REQ72  | O sistema deve permitir a busca de apps/jogos por voz. | [Brainstorm](nao_funcionais.md#brainstorm) | |
 
 
 

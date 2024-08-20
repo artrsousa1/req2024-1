@@ -12,7 +12,8 @@ Caso esteja ruim de ver, veja o resultado do brainstorm: [link](../assets/imagen
 
 Após a técnica tiramos os requisitos parecidos e classificamos alguns que se qualificavam como funcionias.
 
-### Usabilidade
+
+### [Usabilidade](../modelagem/nfrFramework.md#Usabilidade)
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
@@ -26,71 +27,50 @@ Após a técnica tiramos os requisitos parecidos e classificamos alguns que se q
 | <a name="RNF08"></a> RNF08  | O sistema deve se adaptar a todo tipo de tela. | Brainstorm |
 
 
-<!--iFrame de Usabilidade-->
-
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKnuPv_U=/?moveToViewport=-1380,-539,4654,2341&embedId=227573380221" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-
-<!--iFrame de Desempenho-->
-
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKnulZUk=/?moveToViewport=-2700,-847,4654,2341&embedId=795896470252" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-
-<!--iFrame de Confiabilidade-->
-
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKnv71KM=/?moveToViewport=-3911,-572,4654,2341&embedId=579818778436" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-
-<!--iFrame de Segurança-->
-
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKoNUl54=/?moveToViewport=-5053,-958,4654,2341&embedId=282149109656" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-
-<!--iFrame de Portabilidade-->
-
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKnuJcj4=/?moveToViewport=-3084,-573,2178,1095&embedId=248809276064" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-
-
-### Confiabilidade
+### [Confiabilidade](../modelagem/nfrFramework.md#Confiabilidade)
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
 | <a name="RNF09"></a> RNF09  | O sistema deve permitir a recuperação de falhas. | Brainstorm |
 | <a name="RNF10"></a> RNF10  | O sistema deve garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. | Brainstorm |
 | <a name="RNF11"></a> RNF11  | O sistema deve prevenir erros. | Brainstorm |
-| <a name="RNF11"></a> RNF11  | O sistema deve realizar a prevenção de falhas. | Brainstorm |
-| <a name="RNF12"></a> RNF12  | O sistema deve ficar no ar 24/7. | Brainstorm |
-| <a name="RNF13"></a> RNF13  | O sistema deve realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | Brainstorm |
+| <a name="RNF12"></a> RNF12  | O sistema deve realizar a prevenção de falhas. | Brainstorm |
+| <a name="RNF13"></a> RNF13  | O sistema deve ficar no ar 24/7. | Brainstorm |
+| <a name="RNF14"></a> RNF14  | O sistema deve realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | Brainstorm |
 
-### Desempenho
-
-| Código | Descrição | Técnica de elicitação |
-| ------ | --------- | --------------------- |
-| <a name="RNF14"></a> RNF14  | O sistema deve ser eficaz em qualquer tipo de rede. | Brainstorm |
-| <a name="RNF15"></a> RNF15  | O sistema deve lidar com picos de tráfego e alta demanda. | Brainstorm |
-| <a name="RNF16"></a> RNF16  | O sistema deve retornar o objeto de pesquisa rapidamente. | Brainstorm |
-| <a name="RNF17"></a> RNF17  | O sistema deve garantir que as transações de compra e download de aplicativos sejam processadas rapidamente. | Brainstorm |
-| <a name="RNF18"></a> RNF18  | O sistema deve otimizar o tempo de download e instalação de aplicativos. | Brainstorm |
-| <a name="RNF18"></a> RNF18  | O sistema deve otimizar o uso dos recursos (rede, bateria,memória...) do dispositivo. | Brainstorm |
-
-## Portabilidade
+### [Desempenho](../modelagem/nfrFramework.md#Desempenho)
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
-| <a name="RNF19"></a> RNF19  | O aplicativo deve funcionar em qualquer dispositivo Android. | Brainstorm |
-| <a name="RNF20"></a> RNF20  | O sistema deve funcionar bem em qualquer navegador. | Brainstorm |
-| <a name="RNF21"></a> RNF21  | O sistema deve  assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais. | Brainstorm |
+| <a name="RNF15"></a> RNF15  | O sistema deve ser eficaz em qualquer tipo de rede. | Brainstorm |
+| <a name="RNF16"></a> RNF16  | O sistema deve lidar com picos de tráfego e alta demanda. | Brainstorm |
+| <a name="RNF17"></a> RNF17  | O sistema deve retornar o objeto de pesquisa rapidamente. | Brainstorm |
+| <a name="RNF18"></a> RNF18  | O sistema deve garantir que as transações de compra e download de aplicativos sejam processadas rapidamente. | Brainstorm |
+| <a name="RNF19"></a> RNF19  | O sistema deve otimizar o tempo de download e instalação de aplicativos. | Brainstorm |
+| <a name="RNF20"></a> RNF20  | O sistema deve otimizar o uso dos recursos (rede, bateria e memória) do dispositivo. | Brainstorm |
 
-### Segurança
+### [Portabilidade](../modelagem/nfrFramework.md#Portabilidade)
 
 | Código | Descrição | Técnica de elicitação |
 | ------ | --------- | --------------------- |
-| <a name="RNF22"></a> RNF22  | Implementar medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças. | Brainstorm |
-| <a name="RNF23"></a> RNF23  | Criptografar dados sensíveis do usuário. | Brainstorm |
-| <a name="RNF24"></a> RNF24  | Garantir que as políticas de privacidade da Play Store e dos apps sejam garantidas. | Brainstorm |
-| <a name="RNF25"></a> RNF25  | O usuário deve saber sobre os dados compartilhados com um app. | Brainstorm |
-| <a name="RNF26"></a> RNF26  | O sistema deve seguir a LGPD. | Brainstorm |
+| <a name="RNF21"></a> RNF21  | O sistema deve funcionar em qualquer dispositivo Android. | Brainstorm |
+| <a name="RNF22"></a> RNF22  | O sistema deve funcionar bem em qualquer navegador. | Brainstorm |
+| <a name="RNF23"></a> RNF23  | O sistema deve  assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais. | Brainstorm |
+
+### [Segurança](../modelagem/nfrFramework.md#Segurança)
+
+| Código | Descrição | Técnica de elicitação |
+| ------ | --------- | --------------------- |
+| <a name="RNF24"></a> RNF24  | O sistema deve ter medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças. | Brainstorm |
+| <a name="RNF25"></a> RNF25  | O sistema deve garantir que os dados sensíveis do usuário sejam criptografados. | Brainstorm |
+| <a name="RNF26"></a> RNF26  | O sistema deve garantir que as políticas de privacidade da Play Store e dos apps sejam disponibilizadas. | Brainstorm |
+| <a name="RNF27"></a> RNF27  | O sistma deve informar os dados compartilhados com um app. | Brainstorm |
+| <a name="RNF28"></a> RNF28  | O sistema deve seguir a LGPD. | Brainstorm |
 
 ### Requisitos Funcionais
 
-| Código | Descrição | Técnica de elicitação |
-| ------ | --------- | --------------------- |
+| Código | Descrição | Técnica de elicitação | |
+| ------ | --------- | --------------------- | - | 
 | REQ01  | O sistema deve fornecer feedbacks para o usuário, como mensagens de erro. | Brainstorm |
 | REQ02  | O sistema deve mostrar a localização do usuário dentro do app. | Brainstorm |
 | REQ03  | O sistema deve mostrar botões para o usuário confirmar suas ações, evitando erros. | Brainstorm |
@@ -98,7 +78,9 @@ Após a técnica tiramos os requisitos parecidos e classificamos alguns que se q
 | REQ05  | O sistema deve ter um menu de ajuda. | Brainstorm |
 | REQ07  | O sistema deve sincronizar dados de forma confiável entre diferentes dispositivos. | Brainstorm |
 | REQ09  | O sistema deve comportamentos maliciosos de apps. | Brainstorm |
-| REQ10  | O sistema não deve permitir que cadastrem apps maliciosos. | Brainstorm |
+| REQ10  | O sistema não deve permitir que cadastrem apps maliciosos (Play protect). | Brainstorm |
+| REQ11  | O sistema deve fornecer uma opção de backup. | Brainstorm |
+| REQ12  | O sistema deve permitir a busca de apps/jogos por voz. | Brainstorm |
 
 ## Histórico de Versões
 
@@ -106,3 +88,4 @@ Após a técnica tiramos os requisitos parecidos e classificamos alguns que se q
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 15-08-2024 | Lançamento inicial e aplicação do brainstorm | Carlos Alves e Hugo Queiroz |
 | 1.0.1 | 16-08-2024 | Revisão dos requisitos e numeração | Carlos Alves, Cecília Quaresma e Hugo Queiroz |
+| 1.0.2 | 20-08-2024 | Revisão dos requisitos e modelagem | Arthur Sousa, Carlos Alves, Cecília Quaresma, Larissa Vieira, Lucas Queiroz e Hugo Queiroz |
