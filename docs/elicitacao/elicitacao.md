@@ -1,6 +1,8 @@
 # Requisitos elicitados
 
-Esta seção é destinada para a elicitação dos requisitos de todas as áreas definidas da Play Store, e a sua devida priorização para as etapas posteriores neste projeto.
+Esta seção é destinada para a elicitação dos requisitos de todas as áreas definidas da Play Store, e a sua devida priorização para as etapas posteriores neste projeto, além disto esta secção esta dividida em requisitos funcionais e não funcionais.
+
+## Requistos Funcionais
 
 | Requisito | Definição                                                                                                                                                 | Técnica de elicitação                                                                                                                                | Prioridade |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
@@ -29,7 +31,7 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | <a name="REQ23"></a> REQ23     | O sistema deve persistir o histórico de apps ou jogos já instalados por aquele e-mail                                                                     | [Introspecção](apps.md#introspeccao), [Análise de protocolo](jogos.md#analise_de_protocolo)                                                          | Should     |
 | <a name="REQ24"></a> REQ24     | O usuário deve poder sinalizar um app ou jogo como inapropriado                                                                                           | [Introspecção](apps.md#introspeccao)                                                                                                                 | Should     |
 | <a name="REQ25"></a> REQ25     | O sistema deve ter um tutorial básico para novos usuários                                                                                                 | [Storytelling](apps.md#storytelling)                                                                                                                 | Should     |
-| <a name="REQ26"></a> REQ26     | O sistema deve ser acessível para pessoas idosas                                                                                                          | [Storytelling App](apps.md#storytelling), [Storytelling fluxo de usuário](fluxo_usuario.md#storytelling)                                             | Should     |
+| <a name="REQ26"></a> REQ26  | O sistema não deve permitir que cadastrem apps maliciosos (Play protect). | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
 | <a name="REQ27"></a> REQ27     | O usuário deve poder executar um app ou jogo a partir da Play Store                                                                                       | [Análise de protocolo](jogos.md#analise_de_protocolo)                                                                                                | Should     |
 | <a name="REQ28"></a> REQ28     | O sistema deve mostrar quais são as compras possíveis dentro de um app ou jogo, caso existam                                                              | [Storytellling](jogos.md#storytelling)                                                                                                               | Should     |
 | <a name="REQ29"></a> REQ29     | O aplicativo deve permitir o gerenciamento de aplicativos, livros e filmes vinculados ao Gmail.                                                           | [Observação](fluxo_usuario.md#observacao), [Introspecção](fluxo_usuario.md#introspeccao)                                                             | Should     |
@@ -38,7 +40,7 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | <a name="REQ32"></a> REQ32     | O aplicativo deve permitir que o usuário contate o suporte.                                                                                               | [Observação](fluxo_usuario.md#observacao), [Introspecção](fluxo_usuario.md#introspeccao)                                                             | Should     |
 | <a name="REQ33"></a> REQ33     | O aplicativo deve permitir configurações de acessibilidade associadas ao usuário.                                                                         | [Introspecção](fluxo_usuario.md#introspeccao)                                                                                                        | Should     |
 | <a name="REQ34"></a> REQ34     | O aplicativo deve permitir configurações de segurança associadas ao usuário.                                                                              | [Introspecção](fluxo_usuario.md#introspeccao)                                                                                                        | Should     |
-| <a name="REQ35"></a> REQ35     | O aplicativo deve permitir a mudança de dispositivos de forma fácil, oferecendo backup e reinstalação de aplicativos, filmes e livros de uma conta Gmail. | [Storytelling](fluxo_usuario.md#storytelling)                                                                                                        | Should     |
+| <a name="REQ35"></a> REQ35  | O sistema deve sincronizar dados de forma confiável entre diferentes dispositivos. | [Storytelling](fluxo_usuario.md#storytelling) e [Brainstorm](nao_funcionais.md#brainstorm)                                                                                                        | Should     |
 | <a name="REQ36"></a> REQ36     | O usuário deve poder avaliar um app ou jogo                                                                                                               | [Introspecção](apps.md#introspeccao), [Análise de protocolo](jogos.md#analise_de_protocolo)                                                          | Could      |
 | <a name="REQ37"></a> REQ37     | O sistema deve apresentar a classificação indicativa de apps e jogos                                                                                      | [Storytelling](jogos.md#storytelling)                                                                                                                | Could      |
 | <a name="REQ38"></a> REQ38     | O sistema deve apresentar os apps ou jogos mais bem avaliados pela comunidade                                                                             | [Introspecção](apps.md#introspeccao)                                                                                                                 | Could      |
@@ -66,6 +68,48 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | <a name="REQ60"></a> REQ60     | O Sistema deve ser capaz de mostrar os apps disponíveis para um dispositivo | [Análise de protocolo](apps.md#analise-de-protocolo)| Would      |
 | <a name="REQ61"></a> REQ61     | O Sistema deve ser capaz de instalar apps em outros dispositivos |[Análise de protocolo](apps.md#analise-de-protocolo) | Would      |
 | <a name="REQ62"></a> REQ62     | O Sistema deve categorizar os aplicativos por idade na área kids | [Introspecção](apps.md#introspeccao) | Would |
+| <a name="REQ63"></a> REQ63  | O sistema deve fornecer feedbacks para o usuário, como mensagens de erro. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="REQ64"></a> REQ64  | O sistema deve mostrar a localização do usuário dentro do app. | [Brainstorm](nao_funcionais.md#brainstorm) | Would |
+| <a name="REQ65"></a> REQ65  | O sistema deve mostrar botões para o usuário confirmar suas ações, evitando erros. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="REQ66"></a> REQ66  | O sistema deve permitir a mudança de idioma. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="REQ67"></a> REQ67  | O sistema deve ter um menu de ajuda. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="REQ68"></a> REQ68 | O sistema deve permitir a busca de apps/jogos por voz. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+
+
+## Requisitos não funcionais 
+
+| Código | Descrição | Técnica de elicitação | Prioridade |
+| ------ | --------- | --------------------- | --- |
+| <a name="RNF01"></a> RNF01  | O Sistema deve ter uma hierarquia lógica de estruturação. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="RNF02"></a> RNF02  | O Sistema deve ser acessível para pessoas com deficiências. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="RNF03"></a> RNF03  | O Sistema deve ser acessível para pessoas idosas. | [Brainstorm](nao_funcionais.md#brainstorm), [Storytelling App](apps.md#storytelling), [Storytelling fluxo de usuário](fluxo_usuario.md#storytelling) | Could |
+| <a name="RNF04"></a> RNF04  | O Sistema deve ser consistente e padronizado, de acordo com as heurísticas de Nielsen. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="RNF05"></a> RNF05  | O Sistema deve permitir descrição por áudio e atalhos de teclado. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="RNF06"></a> RNF06  | O Sistema deve ter cores contrastantes. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="RNF07"></a> RNF07  | O sistema deve permitir configurações de acessibilidade como cor e fonte. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="RNF08"></a> RNF08  | O sistema deve se adaptar a vários tipos de telas. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="RNF09"></a> RNF09  | O sistema deve permitir a recuperação de falhas. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF10"></a> RNF10  | O sistema deve garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF11"></a> RNF11  | O sistema deve prevenir erros. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF12"></a> RNF12  | O sistema deve ter tolerência para com falhas. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF13"></a> RNF13  | O sistema deve ficar no ar 24/7. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF14"></a> RNF14  | O sistema deve realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF15"></a> RNF15  | O sistema deve ser eficaz em diversos tipos de rede. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="RNF16"></a> RNF16  | O sistema deve lidar com picos de tráfego e alta demanda sem perder a disponibilidade. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="RNF17"></a> RNF17  | O sistema deve retornar o objeto de pesquisa rapidamente. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="RNF18"></a> RNF18  | O sistema deve garantir que as transações de compra e download de aplicativos sejam processadas rapidamente. |[Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="RNF19"></a> RNF19  | O sistema deve otimizar o tempo de download e instalação de aplicativos. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="RNF20"></a> RNF20  | O sistema deve otimizar o uso dos recursos (rede, bateria e memória) do dispositivo. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="RNF21"></a> RNF21  | O sistema deve funcionar em qualquer dispositivo Android. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="RNF22"></a> RNF22  | O sistema deve funcionar bem em diversos navegadores. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="RNF23"></a> RNF23  | O sistema deve  assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
+| <a name="RNF24"></a> RNF24  | O sistema deve ter medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF25"></a> RNF25  | O sistema deve garantir que os dados sensíveis do usuário sejam criptografados. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF26"></a> RNF26  | O sistema deve garantir que as políticas de privacidade da Play Store e dos apps sejam disponibilizadas. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF27"></a> RNF27  | O sistema deve informar os dados compartilhados com um app. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF28"></a> RNF28  | O sistema deve seguir a LGPD. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+
+
 
 
 
@@ -77,3 +121,6 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | 1.0.1      | 31-07-2024 | Priorização dos requisitos | Lucas Queiroz, Arthur Sousa, Cecília Quaresma, Hugo Queiroz, Carlos Alves e Larissa Vieira |
 | 1.0.2      | 09-08-2024 | Adicionando links para as técnicas usadas | Hugo Queiroz e Carlos Alves |
 | 1.0.3      | 15-08-2024 | Adicionando links para referenciar os requisitos | Hugo Queiroz e Carlos Alves |
+| 1.0.4      | 20-08-2024 | Adicionando novos requisitos não funcionais | Lucas Queiroz, Arthur Sousa, Cecília Quaresma, Hugo Queiroz, Carlos Alves e Larissa Vieira |
+| 1.0.5      | 20-08-2024 | Adicionando requisitos não funcionais e sua priorização | Lucas Queiroz, Arthur Sousa, Hugo Queiroz, Carlos Alves e Larissa Vieira |
+
