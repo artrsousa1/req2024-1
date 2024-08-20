@@ -67,20 +67,22 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | <a name="REQ61"></a> REQ61     | O Sistema deve ser capaz de instalar apps em outros dispositivos |[Análise de protocolo](apps.md#analise-de-protocolo) | Would      |
 | <a name="REQ62"></a> REQ62     | O Sistema deve categorizar os aplicativos por idade na área kids | [Introspecção](apps.md#introspeccao) | Would |
 
+
+
 ### Requisitos Funcionais
 
 | Código | Descrição | Técnica de elicitação | |
 | ------ | --------- | --------------------- | - | 
-| <a name="REQ63"></a> REQ63 REQ63  | O sistema deve fornecer feedbacks para o usuário, como mensagens de erro. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| REQ64  | O sistema deve mostrar a localização do usuário dentro do app. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| REQ65  | O sistema deve mostrar botões para o usuário confirmar suas ações, evitando erros. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| REQ66  | O sistema deve permitir a mudança de idioma. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| REQ67  | O sistema deve ter um menu de ajuda. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-*| REQ68  | O sistema deve sincronizar dados de forma confiável entre diferentes dispositivos. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| REQ69  | O sistema deve comportamentos maliciosos de apps. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| REQ70  | O sistema não deve permitir que cadastrem apps maliciosos (Play protect). | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| REQ71  | O sistema deve fornecer uma opção de backup. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| REQ72  | O sistema deve permitir a busca de apps/jogos por voz. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ63"></a> REQ63  | O sistema deve fornecer feedbacks para o usuário, como mensagens de erro. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ64"></a> REQ64  | O sistema deve mostrar a localização do usuário dentro do app. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ65"></a> REQ65  | O sistema deve mostrar botões para o usuário confirmar suas ações, evitando erros. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ66"></a> REQ66  | O sistema deve permitir a mudança de idioma. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ67"></a> REQ67  | O sistema deve ter um menu de ajuda. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ68"></a> REQ68 ** | O sistema deve sincronizar dados de forma confiável entre diferentes dispositivos. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ69"></a> REQ69  | O sistema deve comportamentos maliciosos de apps. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ70"></a> REQ70  | O sistema não deve permitir que cadastrem apps maliciosos (Play protect). | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ71"></a> REQ71  | O sistema deve fornecer uma opção de backup. | [Brainstorm](nao_funcionais.md#brainstorm) | |
+| <a name="REQ72"></a> REQ72  | O sistema deve permitir a busca de apps/jogos por voz. | [Brainstorm](nao_funcionais.md#brainstorm) | |
 
 
 

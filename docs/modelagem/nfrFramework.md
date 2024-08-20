@@ -3,7 +3,7 @@
 
 A técnica NFR Framework (Non-Functional Requirements Framework) é uma abordagem estruturada para a elicitação, modelagem, análise e documentação de requisitos não-funcionais (NFRs) em um projeto de software. Requisitos não-funcionais são aqueles que definem os atributos de qualidade do sistema, como desempenho, segurança, usabilidade, confiabilidade, entre outros. Esses requisitos complementam os requisitos funcionais, que especificam o que o sistema deve fazer.
 
-Utilizamos os requisitos não funcionais elicitados através de brainstorm para inspirar a criação dos NFR Frameworks a seguir. A elicitação está disponível em: [não funcionais](../elicitacao/nao_funcionais.md)
+Utilizamos os requisitos não funcionais elicitados através de brainstorm para inspirar a criação dos NFR Frameworks como modelagem a seguir. A elicitação está disponível em: [não funcionais](../elicitacao/nao_funcionais.md)
 
 
 ## Resultado da técnica

@@ -19,7 +19,7 @@ Após a técnica tiramos os requisitos parecidos e classificamos alguns que se q
 | ------ | --------- | --------------------- |
 | <a name="RNF01"></a> RNF01  | O Sistema deve ter a hierarquia lógica das ideias. | Brainstorm |
 | <a name="RNF02"></a> RNF02  | O Sistema deve ser acessível para pessoas com deficiências. | Brainstorm |
-| <a name="RNF03"></a> RNF03  | O Sistema deve ser acessível para pessoas idosas. | Brainstorm |
+| <a name="RNF03"></a> RNF03  | O Sistema deve ser acessível para pessoas idosas. | Brainstorm, [Storytelling App](apps.md#storytelling), [Storytelling fluxo de usuário](fluxo_usuario.md#storytelling) |
 | <a name="RNF04"></a> RNF04  | O Sistema deve ser consistente e padronizado. | Brainstorm |
 | <a name="RNF05"></a> RNF05  | O Sistema deve permitir descrição por áudio e atalhos de teclado. | Brainstorm |
 | <a name="RNF06"></a> RNF06  | O Sistema deve ter cores contrastantes. | Brainstorm |
