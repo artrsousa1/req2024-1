@@ -13,3 +13,4 @@ Sendo cada pasta desta seção destinada a uma das técnicas de modelagem, e aos
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 1-08-2024 | Lançamento inicial | Carlos Alves|
 | 1.0.1 | 16-08-2024 | E descrevendo modelagem e diretório | Carlos Alves, Cecília Quaresma e Hugo Queiroz |
+| 1.0.2 | 21-08-2024 | Ajustando documento sobre a descriçao | Carlos Alves |

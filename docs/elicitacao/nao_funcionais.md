@@ -93,3 +93,4 @@ Após a técnica tiramos os requisitos parecidos e classificamos alguns que se q
 | 1.0.0 | 15-08-2024 | Lançamento inicial e aplicação do brainstorm | Carlos Alves e Hugo Queiroz |
 | 1.0.1 | 16-08-2024 | Revisão dos requisitos e numeração | Carlos Alves, Cecília Quaresma e Hugo Queiroz |
 | 1.0.2 | 20-08-2024 | Revisão dos requisitos e modelagem | Arthur Sousa, Carlos Alves, Cecília Quaresma, Larissa Vieira, Lucas Queiroz e Hugo Queiroz |
+| 1.0.3 | 21-08-2024 | Ajuste do documento | Carlos Alves |
