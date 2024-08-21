@@ -16,7 +16,7 @@ Esta wiki esta organizada em pastas,
 - [Reuniões](home/home.md): Contém os links das reuniões feitas os membros presentes e o que foi feito;
 - [Pré-Rastreabilidade](pre-ras/pre-ras.md): Fala sobre a fase antes dos requisitos e seus rastros;
 - [Elicitação](elicitacao/elicitacao.md): Fala sobre a fase de levantamento de requisitos;
-- [Modelagem](modelagem/modelagem.md): Em breve;
+- [Modelagem](modelagem/modelagem.md): Fala sobre a fase de modelagem dos requisitos elicitados;
 - [Análise](analise/analise.md): Em breve;
 - [Rastreabilidade](rastreabilidade/rastreabilidade.md): Em breve.
 
