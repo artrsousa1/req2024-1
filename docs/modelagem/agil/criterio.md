@@ -204,16 +204,6 @@ Critérios de aceitação:
     <li><input type="checkbox" disabled/> O usuário deve poder adicionar uma conta MercadoPago</li>
 </ul>
 
-## US018 - Informações sobre dados extraídos
-
-Como [usuário](), eu desejo saber o que um app ou jogo faz com os dados extraidos dos usuários, para que para não correr riscos de dados pessoais não sejam disponibilizados para terceiros sem meu consentimento.
-
-Critérios de aceitação:
-
-<ul>
-    <li><input type="checkbox" disabled/> O sistema deve ter uma área destinada a informar os dados disponibilizados ao app</li>
-    <li><input type="checkbox" disabled/> O usuário deve poder clicar na categoria para ver os detalhes dos dados disponibilizados </li>
-</ul>
 
 ## Histórico de Versões
 

@@ -16,26 +16,47 @@ Para esta parte, definimos uma lista de funcionalidades baseadas nos [requisitos
 | <a name="US004"></a> US004 | [REQ04](../../elicitacao/elicitacao.md#REQ04) | Usuário | Desinstalar um app ou jogo | Libere armazenamento e remova um app indesejado | Must |
 | <a name="US005"></a> US005 | [REQ05](../../elicitacao/elicitacao.md#REQ05) | Usuário | Conhecer a política de privacidade do app | eu com reenda como meus dados serão usados e o que o app deve acessar no meu dispositivo| Must |
 | <a name="US006"></a> US006 | [REQ06](../../elicitacao/elicitacao.md#REQ06) | Usuário | Ver em quais sistemas operacionais um app ou jogo roda | Eu saiba se meu dispositivo é compatível | Must |
-| <a name="US007"></a> US007 | [REQ07](../../elicitacao/elicitacao.md#REQ07) | Usuário | Viualizar a data de lançamento de um app ou jogo |Eu baixa o app original e não cópias  | Must |
-| <a name="US008"></a> US008 | [REQ08](../../elicitacao/elicitacao.md#REQ08) | Usuário | Saber quais Saber quais são os dados que um app ou jogo extrai dos usuários |Possa proteger meus dados| Must |
+| <a name="US007"></a> US007 | [REQ07](../../elicitacao/elicitacao.md#REQ07) | Usuário | Visualizar a data de lançamento de um app ou jogo |Eu baixa o app original e não cópias  | Must |
+| <a name="US008"></a> US008 | [REQ08](../../elicitacao/elicitacao.md#REQ08) | Usuário | Saber quais são os dados que um app ou jogo extrai dos usuários |Possa proteger meus dados| Must |
 | <a name="US009"></a> US009 | [REQ09](../../elicitacao/elicitacao.md#REQ09) | Usuário | Saber quais são as permissões que um app ou jogo tem na minha máquina | Eu esteja de acordo com o que o app é permitido fazer no meu dispositivo | Must |
 | <a name="US010"></a> US010 | [REQ10](../../elicitacao/elicitacao.md#REQ10) | Usuário | Saber o que um app ou jogo faz com os meus dados | Eu possa decidir instalar ou não um app ou jogo | Must |
 | <a name="US011"></a> US011 | [REQ11](../../elicitacao/elicitacao.md#REQ11) | Usuário | Poder pedir a deleção dos dados coletados por um jogo ou app | Ter controle sobre minhas informações e dados | Must |
 | <a name="US012"></a> US012 | [REQ12](../../elicitacao/elicitacao.md#REQ12) | Usuário | Comprar um app ou jogo | Eu tenha acesso a itens pagos | Must |
 | <a name="US013"></a> US013 | [REQ13](../../elicitacao/elicitacao.md#REQ13) | Usuário | Pedir reembolso por um app ou jogo | Eu resgate o dinheiro de um app ou jogo que eu não gostei | Must |
 | <a name="US014"></a> US014 | [REQ14](../../elicitacao/elicitacao.md#REQ14) | Usuário | Entrar com a minha conta Google | Eu use a minha conta em um celular novo | Must |
-| <a name="US016"></a> US015 | [REQ16](../../elicitacao/elicitacao.md#REQ16) | Usuário | Poder remover uma conta logada no dispositivo | Eu possa retirar contas que não utilizo mais | Must |
-| <a name="US017"></a> US016 | [REQ17](../../elicitacao/elicitacao.md#REQ17) | Usuário | Trocar a conta principal do meu dispositivo | Poder gerenciar minhas contas pessoas e de trabalho | Must |
-| <a name="US018"></a> US017 | [REQ18](../../elicitacao/elicitacao.md#REQ18) | Usuário | Poder manter salva minhas formas de pagamento | Economize tempo em futuras compras | Must |
-| <a name="US019"></a> US018 | [REQ10](../../elicitacao/elicitacao.md#REQ10) | Usuário | Saber o que um app ou jogo faz com os dados extraidos dos usuários | Não correr riscos de dados pessoais serem disponibilizados para terceiros sem meu consentimento | Must |
+| <a name="US015"></a> US015 | [REQ16](../../elicitacao/elicitacao.md#REQ16) | Usuário | Poder remover uma conta logada no dispositivo | Eu possa retirar contas que não utilizo mais | Must |
+| <a name="US016"></a> US016 | [REQ17](../../elicitacao/elicitacao.md#REQ17) | Usuário | Trocar a conta principal do meu dispositivo | Poder gerenciar minhas contas pessoas e de trabalho | Must |
+| <a name="US017"></a> US017 | [REQ18](../../elicitacao/elicitacao.md#REQ18) | Usuário | Poder manter salva minhas formas de pagamento | Economize tempo em futuras compras | Must |
+
 
 ## [Sprint Backlog](agil.md#sprint-backlog)
 
+Para esta parte utilizamos o método [Planning Poker](agil.md#planning-poker) com pontuação Fibonacci para priorizar as [histórias de usuário](criterio.md) que modelamos. Decidimos que nossa Sprint teria duas semanas e nossa equipe poderia entregar até 13 pontos. Também decidimos o backlog de cada Sprint us ndo como critérios acapacidade da equipe e prioridade para entrega dos itens. Segue abaixo o Sprint Backlog das 6 sprints que julgamos necessárias:
 
+| História  |                   Nome                                                |  Sprint  | Pontos |
+| --------- | --------------------------------------------------------------------- | -------- | ------ |
+| [US001](criterio.md#us001---buscar-app-ou-jogo) | Buscar app ou jogo              |    01    |   3    |
+| [US002](criterio.md#us002---instalar-app-ou-jogo) | Instalar app ou jogo          |    01    |   5    |
+| [US014](criterio.md#us014---entrar-com-minha-conta-google) | Entrar com minha conta Google |    01    |   3    |
+| [US003](criterio.md#us003---atualizar-app-ou-jogo)         | Atualizar app ou jogo                                                 |    02    |   3    |
+| [US004](criterio.md#us004---desistalar-app-ou-jogo)        | Desinstalar app ou jogo                                               |    02    |   3    |
+| [US012](criterio.md#us012---comprar-app-ou-jogo)           | Comprar app ou jogo                                                   |    03    |   8    |
+| [US013](criterio.md#us013---pedir-reembolso)               | Pedir reembolso                                                       |    03    |   5    |
+| [US006](criterio.md#us006---sistema-operacional-compatível)            | Sistema operacional compatível                                        |    04    |   1    |
+| [US007](criterio.md#us007---visualizar-data-de-lançamento) | Visualizar data de lançamento                                         |    04    |   1    |      
+| [US016](criterio.md#us016---trocar-a-conta-principal)      | Trocar a conta principal                                              |    04    |   2    |
+| [US017](criterio.md#us017---manter-forma-de-pagamentos-salva) | Manter forma de pagamentos salva                                      |    04    |   5    |
+| [US005](criterio.md#us005---política-de-privacidade)       | Política de privacidade                                               |    05    |   2    |
+| [US008](criterio.md#us008---dados-extraídos-dos-usuários) | Saber quais são os dados que um app ou jogo extrai dos usuários       |    05    |   5    |
+| [US009](criterio.md#us009---permissões-de-app-ou-jogo)    | Saber quais são as permissões que um app ou jogo tem na minha máquina |    05    |   3    |
+| [US011](criterio.md#us011---pedir-deleção-dos-dados)         | Pedir deleção dos dados coletados                                     |    06    |   2    |
+| [US010](criterio.md#us010---objetivo-dos-dados-extraídos) | Saber o que o jogo faz com os dados coletados                         |    06    |   3    |
+| [US015](criterio.md#us015---remover-uma-conta-logada)     | Poder remover uma conta logada no dispositivo                         |    06    |   3    |
 
 ## Histórico de Versões
 
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 19-08-2024 | Lançamento inicial do Backlog | Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz e Larissa Vieira |
-| 1.0.1 | 20-08-2024 | melhorando documento textual backlog | Carlos Alves |
+| 1.0.1 | 20-08-2024 | Melhorando documento textual backlog | Carlos Alves |
+| 1.0.2 | 21-08-2024 | Implementação do sprint backlog | Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Lucas Queiroz e Larissa Vieira |

@@ -36,9 +36,9 @@ O Product Backlog é uma lista ordenada de tudo o que pode ser necessário no pr
 
 O Sprint Backlog é um subconjunto do Product Backlog. Ele contém os itens selecionados para serem trabalhados durante uma sprint específica e as tarefas necessárias para concluir esses itens.
 
-### MVP
+### Planning Poker
 
-MVP, ou Minimum Viable Product (Produto Mínimo Viável), é um conceito central no desenvolvimento de produtos, especialmente em metodologias ágeis e no Lean Startup. Ele se refere à versão mais simples e funcional de um produto que pode ser lançada para o mercado, com o objetivo de validar uma ideia, coletar feedback dos usuários, e testar suposições com o mínimo de investimento de tempo e recursos.
+Planning Poker é uma técnica de estimativa ágil onde os membros da equipe de desenvolvimento usam cartas para atribuir pontos de esforço a tarefas ou histórias. Cada participante escolhe uma carta, que representa sua estimativa, e todas são reveladas simultaneamente. Se houver divergências, os membros discutem as razões por trás de suas estimativas até que se chegue a um consenso. Isso promove discussões produtivas e uma estimativa mais precisa do trabalho necessário.
 
 ## Histórico de Versões
 

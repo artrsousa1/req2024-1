@@ -44,8 +44,6 @@ Explicando a tabela:
 
 ---
 
-
-
 ### Visualizar app/jogo
 
 |  |  |
