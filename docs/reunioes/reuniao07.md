@@ -26,6 +26,10 @@ Pode se observar a técnica em [Itrace](reunioes.md#itrace)
 *Autores: Larissa Vieira*
 
 
+## link da reunião:
+
+Reunião não foi gravada.
+
 ## Histórico de Versões
 
 | Versão | Data       | Alterações Principais                             | Autor        |

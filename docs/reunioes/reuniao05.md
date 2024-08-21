@@ -21,12 +21,18 @@ Local: Discord
 ## [Itrace](reunioes.md#itrace):
 Pode se observar a técnica em [Itrace](reunioes.md#itrace)
 
+![alt text](../assets/imagens/iTrace%20-%20reunião%2031_07.png)
+
+*Autores: Carlos Alves & Larissa Vieira*
+
 
 ## link da reunião:
-A reunião não foi gravada.
+
+Esta disponível a entrega em [entrega01](../apresentacoes/apresentacoes.md)
 
 ## Histórico de Versões
 
 | Versão | Data       | Alterações Principais                             | Autor        |
 |--------|------------|---------------------------------------------------|--------------|
 | 1.0.0  | 09-08-2024 | Criação do arquivo | Carlos Eduardo e Hugo Queiroz |
+| 1.0.1  | 09-08-2024 | Adicionando itrace | Carlos Eduardo e Larissa Vieira |

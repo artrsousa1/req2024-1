@@ -10,7 +10,6 @@ GORE (ou "Goal-Oriented Requirements Engineering") é um modelo de engenharia de
 
 ## Técnicas
 
-
 ### NFR Framework
 
 A técnica NFR Framework (Non-Functional Requirements Framework) é uma abordagem estruturada para a elicitação, modelagem, análise e documentação de requisitos não-funcionais (NFRs) em um projeto de software. Requisitos não-funcionais são aqueles que definem os atributos de qualidade do sistema, como desempenho, segurança, usabilidade, confiabilidade, entre outros. Esses requisitos complementam os requisitos funcionais, que especificam o que o sistema deve fazer.

@@ -25,6 +25,10 @@ Pode se observar a técnica em [Itrace](reunioes.md#itrace)
 
 *Autores: Carlos Alves, Cecília Quaresma & Hugo Queiroz*
 
+## link da reunião:
+
+Reunião não foi gravada.
+
 
 ## Histórico de Versões
 

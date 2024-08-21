@@ -80,34 +80,34 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 
 | Código | Descrição | Técnica de elicitação | Prioridade |
 | ------ | --------- | --------------------- | --- |
-| <a name="RNF01"></a> RNF01  | O Sistema deve ter uma hierarquia lógica de estruturação. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
-| <a name="RNF02"></a> RNF02  | O Sistema deve ser acessível para pessoas com deficiências. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
+| <a name="RNF01"></a> RNF01  | O Sistema deve ter uma hierarquia lógica de estruturação. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Should |
+| <a name="RNF02"></a> RNF02  | O Sistema deve ser acessível para pessoas com deficiências. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Could |
 | <a name="RNF03"></a> RNF03  | O Sistema deve ser acessível para pessoas idosas. | [Brainstorm](nao_funcionais.md#brainstorm), [Storytelling App](apps.md#storytelling), [Storytelling fluxo de usuário](fluxo_usuario.md#storytelling) | Could |
-| <a name="RNF04"></a> RNF04  | O Sistema deve ser consistente e padronizado, de acordo com as heurísticas de Nielsen. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
-| <a name="RNF05"></a> RNF05  | O Sistema deve permitir descrição por áudio e atalhos de teclado. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
-| <a name="RNF06"></a> RNF06  | O Sistema deve ter cores contrastantes. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
-| <a name="RNF07"></a> RNF07  | O sistema deve permitir configurações de acessibilidade como cor e fonte. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
-| <a name="RNF08"></a> RNF08  | O sistema deve se adaptar a vários tipos de telas. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
-| <a name="RNF09"></a> RNF09  | O sistema deve permitir a recuperação de falhas. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF10"></a> RNF10  | O sistema deve garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF11"></a> RNF11  | O sistema deve prevenir erros. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF12"></a> RNF12  | O sistema deve ter tolerência para com falhas. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF13"></a> RNF13  | O sistema deve ficar no ar 24/7. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF14"></a> RNF14  | O sistema deve realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF15"></a> RNF15  | O sistema deve ser eficaz em diversos tipos de rede. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
-| <a name="RNF16"></a> RNF16  | O sistema deve lidar com picos de tráfego e alta demanda sem perder a disponibilidade. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
-| <a name="RNF17"></a> RNF17  | O sistema deve retornar o objeto de pesquisa rapidamente. | [Brainstorm](nao_funcionais.md#brainstorm) | |
-| <a name="RNF18"></a> RNF18  | O sistema deve garantir que as transações de compra e download de aplicativos sejam processadas rapidamente. |[Brainstorm](nao_funcionais.md#brainstorm) | Could |
-| <a name="RNF19"></a> RNF19  | O sistema deve otimizar o tempo de download e instalação de aplicativos. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
-| <a name="RNF20"></a> RNF20  | O sistema deve otimizar o uso dos recursos (rede, bateria e memória) do dispositivo. | [Brainstorm](nao_funcionais.md#brainstorm) | Could |
-| <a name="RNF21"></a> RNF21  | O sistema deve funcionar em qualquer dispositivo Android. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
-| <a name="RNF22"></a> RNF22  | O sistema deve funcionar bem em diversos navegadores. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
-| <a name="RNF23"></a> RNF23  | O sistema deve  assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais. | [Brainstorm](nao_funcionais.md#brainstorm) | Should |
-| <a name="RNF24"></a> RNF24  | O sistema deve ter medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF25"></a> RNF25  | O sistema deve garantir que os dados sensíveis do usuário sejam criptografados. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF26"></a> RNF26  | O sistema deve garantir que as políticas de privacidade da Play Store e dos apps sejam disponibilizadas. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF27"></a> RNF27  | O sistema deve informar os dados compartilhados com um app. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
-| <a name="RNF28"></a> RNF28  | O sistema deve seguir a LGPD. | [Brainstorm](nao_funcionais.md#brainstorm) | Must |
+| <a name="RNF04"></a> RNF04  | O Sistema deve ser consistente e padronizado, de acordo com as heurísticas de Nielsen. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Could |
+| <a name="RNF05"></a> RNF05  | O Sistema deve permitir descrição por áudio e atalhos de teclado. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Could |
+| <a name="RNF06"></a> RNF06  | O Sistema deve ter cores contrastantes. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Should |
+| <a name="RNF07"></a> RNF07  | O sistema deve permitir configurações de acessibilidade como cor e fonte. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Could |
+| <a name="RNF08"></a> RNF08  | O sistema deve se adaptar a vários tipos de telas. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Should |
+| <a name="RNF09"></a> RNF09  | O sistema deve permitir a recuperação de falhas. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF10"></a> RNF10  | O sistema deve garantir que os dados dos aplicativos e dos usuários sejam validados e armazenados com precisão para evitar corrupção ou perda de dados. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF11"></a> RNF11  | O sistema deve prevenir erros. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF12"></a> RNF12  | O sistema deve ter tolerência para com falhas. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF13"></a> RNF13  | O sistema deve ficar no ar 24/7. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF14"></a> RNF14  | O sistema deve realizar atualizações regulares e manutenção para corrigir bugs, melhorar a performance e manter a confiabilidade geral da plataforma. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF15"></a> RNF15  | O sistema deve ser eficaz em diversos tipos de rede. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Should |
+| <a name="RNF16"></a> RNF16  | O sistema deve lidar com picos de tráfego e alta demanda sem perder a disponibilidade. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Should |
+| <a name="RNF17"></a> RNF17  | O sistema deve retornar o objeto de pesquisa rapidamente. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | |
+| <a name="RNF18"></a> RNF18  | O sistema deve garantir que as transações de compra e download de aplicativos sejam processadas rapidamente. |[Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Could |
+| <a name="RNF19"></a> RNF19  | O sistema deve otimizar o tempo de download e instalação de aplicativos. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Could |
+| <a name="RNF20"></a> RNF20  | O sistema deve otimizar o uso dos recursos (rede, bateria e memória) do dispositivo. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Could |
+| <a name="RNF21"></a> RNF21  | O sistema deve funcionar em qualquer dispositivo Android. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Should |
+| <a name="RNF22"></a> RNF22  | O sistema deve funcionar bem em diversos navegadores. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Should |
+| <a name="RNF23"></a> RNF23  | O sistema deve  assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Should |
+| <a name="RNF24"></a> RNF24  | O sistema deve ter medidas de segurança para proteger a plataforma contra ataques cibernéticos, malware e outras ameaças. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF25"></a> RNF25  | O sistema deve garantir que os dados sensíveis do usuário sejam criptografados. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF26"></a> RNF26  | O sistema deve garantir que as políticas de privacidade da Play Store e dos apps sejam disponibilizadas. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF27"></a> RNF27  | O sistema deve informar os dados compartilhados com um app. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
+| <a name="RNF28"></a> RNF28  | O sistema deve seguir a LGPD. | [Brainstorm](nao_funcionais.md#brainstorm), [NFR](../modelagem/GORE/nfrFramework.md) | Must |
 
 
 
@@ -123,4 +123,5 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | 1.0.3      | 15-08-2024 | Adicionando links para referenciar os requisitos | Hugo Queiroz e Carlos Alves |
 | 1.0.4      | 20-08-2024 | Adicionando novos requisitos não funcionais | Lucas Queiroz, Arthur Sousa, Cecília Quaresma, Hugo Queiroz, Carlos Alves e Larissa Vieira |
 | 1.0.5      | 20-08-2024 | Adicionando requisitos não funcionais e sua priorização | Lucas Queiroz, Arthur Sousa, Hugo Queiroz, Carlos Alves e Larissa Vieira |
+| 1.0.6     | 21-08-2024 | Adicionando ratreabilidade| Lucas Queiroz, Arthur Sousa, Carlos Alves e Larissa Vieira |
 

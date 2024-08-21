@@ -9,7 +9,7 @@ Histórias de usuários descritas abaixo:
 
 ## US001 - Buscar app ou jogo
 
-Como [usuário](), eu desejo poder buscar por um app ou jogo, para que eu consiga instalar, atualizar ou desintalar o app que eu desejo.
+Como [usuário](../../elicitacao/personas.md), eu desejo poder buscar por um app ou jogo, para que eu consiga instalar, atualizar ou desintalar o app que eu desejo.
 
 Critérios de aceitação 
     <ul>
@@ -20,7 +20,7 @@ Critérios de aceitação
 
 ## US002 - Instalar app ou jogo
 
-Como [usuário](), eu desejo instalar um app ou jogo, para que faça uso do app no meu dispositivo.
+Como [usuário](../../elicitacao/personas.md), eu desejo instalar um app ou jogo, para que faça uso do app no meu dispositivo.
 
 Critérios de aceitação 
     <ul>
@@ -33,7 +33,7 @@ Critérios de aceitação
 
 ## US003 - Atualizar app ou jogo
 
-Como [usuário](), eu desejo atualizar um app ou jogo pra a versão mais atual, para que ter todas as correções de bugs e acesso a novas funcionalidades.
+Como [usuário](../../elicitacao/personas.md), eu desejo atualizar um app ou jogo pra a versão mais atual, para que ter todas as correções de bugs e acesso a novas funcionalidades.
 
 Critérios de aceitação 
     <ul>
@@ -47,7 +47,7 @@ Critérios de aceitação
 
 ## US004 - Desistalar app ou jogo
 
-Como [usuário](), eu desejo desinstalar um app ou jogo, para que libere armazenamento e remova um app indesejado.
+Como [usuário](../../elicitacao/personas.md), eu desejo desinstalar um app ou jogo, para que libere armazenamento e remova um app indesejado.
 
 Critérios de aceitação 
     <ul>
@@ -58,7 +58,7 @@ Critérios de aceitação
 
 ## US005 - Política de privacidade
 
-Como [usuário](), eu desejo conhecer a política de privacidade do app, para que eu com reenda como meus dados serão usados e o que o app deve acessar no meu dispositivo.
+Como [usuário](../../elicitacao/personas.md), eu desejo conhecer a política de privacidade do app, para que eu com reenda como meus dados serão usados e o que o app deve acessar no meu dispositivo.
 
 Critérios de aceitação 
     <ul>
@@ -69,7 +69,7 @@ Critérios de aceitação
 
 ## US006 - Sistema operacional compatível
 
-Como [usuário](), eu desejo ver em quais sistemas operacionais um app ou jogo roda, para que eu saiba se meu dispositivo é compatível.
+Como [usuário](../../elicitacao/personas.md), eu desejo ver em quais sistemas operacionais um app ou jogo roda, para que eu saiba se meu dispositivo é compatível.
 
 Critérios de aceitação 
     <ul>
@@ -79,7 +79,7 @@ Critérios de aceitação
 
 ## US007 - Visualizar data de lançamento
 
-Como [usuário](), eu desejo visualizar a data de lançamento de um app ou jogo, para que eu baixa o app original e não cópias.
+Como [usuário](../../elicitacao/personas.md), eu desejo visualizar a data de lançamento de um app ou jogo, para que eu baixa o app original e não cópias.
 
 Critérios de aceitação 
     <ul>
@@ -88,7 +88,7 @@ Critérios de aceitação
 
 ## US008 - Dados extraídos dos usuários
 
-Como [usuário](), eu desejo saber quais são os dados pessoais que um app ou jogo extrai, para que eu possa ver o que o jogo ou app faz com eles.
+Como [usuário](../../elicitacao/personas.md), eu desejo saber quais são os dados pessoais que um app ou jogo extrai, para que eu possa ver o que o jogo ou app faz com eles.
 
 Critérios de aceitação 
     <ul>
@@ -100,7 +100,7 @@ Critérios de aceitação
 
 ## US009 - Permissões de app ou jogo
 
-Como [usuário](), eu desejo saber quais são as permissões que um app ou jogo tem na minha máquina, para que eu esteja de acordo com o que o app é permitido fazer no meu dispositivo.
+Como [usuário](../../elicitacao/personas.md), eu desejo saber quais são as permissões que um app ou jogo tem na minha máquina, para que eu esteja de acordo com o que o app é permitido fazer no meu dispositivo.
 
 Critérios de aceitação 
     <ul>
@@ -112,7 +112,7 @@ Critérios de aceitação
 
 ## US010 - Objetivo dos dados extraídos
 
-Como [usuário](), eu desejo saber o que um app ou jogo faz com os meus dados, para que eu possa decidir instalar ou não um app ou jogo.
+Como [usuário](../../elicitacao/personas.md), eu desejo saber o que um app ou jogo faz com os meus dados, para que eu possa decidir instalar ou não um app ou jogo.
  
 Critérios de aceitação
     <ul>
@@ -121,7 +121,7 @@ Critérios de aceitação
 
 ## US011 - Pedir deleção dos dados
 
-Como [usuário](), eu desejo poder pedir a deleção dos dados coletados por um jogo ou app, para que eu tenha controle sobre minhas informações e dados.
+Como [usuário](../../elicitacao/personas.md), eu desejo poder pedir a deleção dos dados coletados por um jogo ou app, para que eu tenha controle sobre minhas informações e dados.
 
 Critérios de aceitação
     <ul>
@@ -131,7 +131,7 @@ Critérios de aceitação
 
 ## US012 - Comprar app ou jogo
 
-Como [usuário](), eu desejo poder comprar um app, para que eu tenha acesso a itens pagos.
+Como [usuário](../../elicitacao/personas.md), eu desejo poder comprar um app, para que eu tenha acesso a itens pagos.
 
 Critérios de aceitação
     <ul>
@@ -143,7 +143,7 @@ Critérios de aceitação
 
 ## US013 - Pedir reembolso
 
-Como [usuário](), eu desejo solicitar reembolso de apps ou jogos, para que eu possa voltar atrás em compras que me arrependi.
+Como [usuário](../../elicitacao/personas.md), eu desejo solicitar reembolso de apps ou jogos, para que eu possa voltar atrás em compras que me arrependi.
 
 Critérios de aceitação:
 
@@ -156,7 +156,7 @@ Critérios de aceitação:
 
 ## US014 - Entrar com minha conta Google
 
-Como [usuário](), eu desejo poder entrar com minha conta Google, para que usar a minha conta em um dispositivo novo.
+Como [usuário](../../elicitacao/personas.md), eu desejo poder entrar com minha conta Google, para que usar a minha conta em um dispositivo novo.
 
 Critérios de aceitação:
 
@@ -167,7 +167,7 @@ Critérios de aceitação:
 
 ## US015 - Remover uma conta logada
 
-Como [usuário](), eu desejo poder remover uma conta logada no dispositivo, para que eu remova contas que não utilizo mais.
+Como [usuário](../../elicitacao/personas.md), eu desejo poder remover uma conta logada no dispositivo, para que eu remova contas que não utilizo mais.
 
 Critérios de aceitação:
 
@@ -179,7 +179,7 @@ Critérios de aceitação:
 
 ## US016 - Trocar a conta principal
 
-Como [usuário](), eu desejo trocar a conta principal do meu dispositivo, para gerenciar minhas contas pessoas e de trabalho.
+Como [usuário](../../elicitacao/personas.md), eu desejo trocar a conta principal do meu dispositivo, para gerenciar minhas contas pessoas e de trabalho.
 
 Critérios de aceitação:
 
@@ -192,7 +192,7 @@ Critérios de aceitação:
 
 ## US017 - Manter forma de pagamentos salva
 
-Como [usuário](), eu desejo manter salvas as minhas formas de pagamento, para que eu possa escolher uma forma comum de pagamento com facilidade, no futuro.
+Como [usuário](../../elicitacao/personas.md), eu desejo manter salvas as minhas formas de pagamento, para que eu possa escolher uma forma comum de pagamento com facilidade, no futuro.
 
 Critérios de aceitação:
 
@@ -204,20 +204,10 @@ Critérios de aceitação:
     <li><input type="checkbox" disabled/> O usuário deve poder adicionar uma conta MercadoPago</li>
 </ul>
 
-## US018 - Informações sobre dados extraídos
-
-Como [usuário](), eu desejo saber o que um app ou jogo faz com os dados extraidos dos usuários, para que para não correr riscos de dados pessoais não sejam disponibilizados para terceiros sem meu consentimento.
-
-Critérios de aceitação:
-
-<ul>
-    <li><input type="checkbox" disabled/> O sistema deve ter uma área destinada a informar os dados disponibilizados ao app</li>
-    <li><input type="checkbox" disabled/> O usuário deve poder clicar na categoria para ver os detalhes dos dados disponibilizados </li>
-</ul>
 
 ## Histórico de Versões
 
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | ---- | ---- | ---- | --- | 
 | 1.0.0 | 19-08-2024 | Criação dos critérios de aceitação das US's | Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |
-| 1.0.1 | 20-08-2024 | melhorando documento textual US | Carlos Alves |
+| 1.0.1 | 20-08-2024 | Melhorando documento textual US | Carlos Alves |

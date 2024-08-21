@@ -3,7 +3,7 @@ A elicitação de requisitos envolve diversas técnicas. Com o objetivo de colet
 
 E neste arquivo explicamos de forma clara as técnicas e artefatos utilizadas para elicitação dos requisitos deste projeto. 
 
-Sendo cada pasta desta seção destinada a uma das categorias definidas pelo grupo na seção[Home](../home/home.md), e aos seus artefatos de elicitação. Além disso, há a pasta 'Requisitos Elicitados', que contém uma tabela atualizada com os requisitos elicitados pela equipe. Também há a pasta 'Perfis', onde foram criados os perfis dos usuários da Play Store, que serão utilizados na elicitação de todas as categorias. E também tem uma pasta 'Não funcionais' destinados a elicitação de requisitos não funcionais.
+Sendo cada pasta desta seção destinada a uma das categorias definidas pelo grupo na seção[Home](../home/home.md), e aos seus artefatos de elicitação. Além disso, há a pasta 'Requisitos Elicitados', que contém uma tabela atualizada com os requisitos elicitados pela equipe. Também há a pasta 'Perfis' e a pasta 'Personas, onde foram criados os perfis e personas dos usuários da Play Store, que serão utilizados na elicitação de todas as categorias. E também tem uma pasta 'Não funcionais' destinados a elicitação de requisitos não funcionais.
 
 
 ## Introspecção
@@ -54,9 +54,15 @@ período de tempo por um grupo de participantes. O objetivo é estimular a criat
 participantes possam sugerir qualquer ideia sem medo de julgamento ou crítica. Essa técnica é particularmente útil na fase inicial
 do desenvolvimento de requisitos, quando é importante explorar uma ampla gama de possibilidades.
 
+## Personas
+
+Personas são perfis fictícios criados para representar diferentes tipos de usuários que podem interagir com um produto ou serviço. Elas são baseadas em pesquisas e dados reais e ajudam a equipe a entender melhor as necessidades, comportamentos, objetivos e desafios dos usuários. Ao criar personas, as equipes de design e desenvolvimento podem tomar decisões mais informadas e centradas no usuário, garantindo que o produto final atenda às expectativas e necessidades do público-alvo.
+
+
 ## Histórico de Versões
 
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 31-07-2024 | Criação do documento | Cecília Quaresma & Hugo Queiroz |
 | 1.0.1 | 09-08-2024 | Adicionando técnicas e Cabeçalhos | Carlos Alves |
+| 1.0.1 | 09-08-2024 | Adicionando técnica personas | Carlos Alves |
