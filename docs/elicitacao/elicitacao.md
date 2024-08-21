@@ -1,6 +1,6 @@
 # Requisitos elicitados
 
-Esta seção é destinada para a elicitação dos requisitos de todas as áreas definidas da Play Store, e a sua devida priorização para as etapas posteriores neste projeto, além disto esta secção esta dividida em requisitos funcionais e não funcionais.
+Esta seção é destinada para a elicitação dos requisitos de todas as áreas definidas da Play Store, e a sua devida priorização para as etapas posteriores neste projeto, além disto esta secção esta dividida em requisitos funcionais (o que um sistema deve fazer) e não funcionais (como o sistema deve operar).
 
 ## Requistos Funcionais
 

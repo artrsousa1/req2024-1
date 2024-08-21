@@ -1,16 +1,22 @@
 # Requisitos não funcionais
 
+Requisitos não funcionais referem-se a como o sistema deve operar. Eles definem as qualidades e restrições que o sistema deve atender.
+
+Devido a abrager todo o sistema nesta aba não utilizaremos as categorias que vem sendo utilizado em todo resto do projeto definidas na [Home](../home/home.md).
+
 ## [Brainstorm](tecnicas.md#brainstorming)
 
 Utilizamos a técnica descrita em [brainstorm](tecnicas.md#brainstorming), baseados nas categorias do FURPS e na ISO/IEC 25010. As categorias do FURPS são Funcionalidade, Usabilidade, Confiabilidade, Desempenho e Suportabilidade, e da ISO são Adequação Funcional, Eficiência de Performance, Compatibilidade, Usabilidade, Confiabilidade, Segurança, Manutenibilidade e Portabilidade. Porém, não fizemos os funcionais, pois já foram elicitados em [elictação](../elicitacao/elicitacao.md), e Manutenibilidade porque não temos acesso ao código do app.
 
-![alt text](../assets/imagens/brainstorm<a name="RNF"></a> RNF.jpg)
+![alt text](../assets/imagens/brainstormRNF.jpg)
 
 *Autores: Carlos Alves & Hugo Queiroz*
 
 Caso esteja ruim de ver, veja o resultado do brainstorm: [link](../assets/imagens/brainstorm_nao_func.pdf)
 
 Após a técnica tiramos os requisitos parecidos e classificamos alguns que se qualificavam como funcionais.
+
+## [NFR]
 
 
 ### [Usabilidade](../modelagem/nfrFramework.md#Usabilidade)
@@ -89,3 +95,4 @@ Após a técnica tiramos os requisitos parecidos e classificamos alguns que se q
 | 1.0.0 | 15-08-2024 | Lançamento inicial e aplicação do brainstorm | Carlos Alves e Hugo Queiroz |
 | 1.0.1 | 16-08-2024 | Revisão dos requisitos e numeração | Carlos Alves, Cecília Quaresma e Hugo Queiroz |
 | 1.0.2 | 20-08-2024 | Revisão dos requisitos e modelagem | Arthur Sousa, Carlos Alves, Cecília Quaresma, Larissa Vieira, Lucas Queiroz e Hugo Queiroz |
+| 1.0.3 | 21-08-2024 | Ajuste do documento | Carlos Alves |

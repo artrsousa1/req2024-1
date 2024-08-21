@@ -37,9 +37,13 @@ nav:
     - Cenários: 'modelagem/cenarios.md'
     - Léxico: 'modelagem/lexico.md'
     - Especificação suplementar: 'modelagem/especificacao_suplementar.md'
-    - 'Ágil': 
+    - 'Ágil':
+      - Metodologia Ágil: 'modelagem/agil/agil.md'
       - Backlog: 'modelagem/agil/backlog.md'
       - História de usuário: 'modelagem/agil/criterio.md'
+    - 'GORE': 
+      - GORE: 'modelagem/GORE/gore.md'
+      - NFR: 'modelagem/GORE/nfrFramework.md'
 
   - Análise: analise/analise.md
   - Rastreabilidade: rastreabilidade/rastreabilidade.md

@@ -1,8 +1,12 @@
-# História de usuário
+# [Backlog](agil.md#backlog)
 
+A explicação da técnica esta definida em [Backlog](agil.md#backlog).
 
+## [Product Backlog](agil.md#product-backlog)
 
-# Product Backlog
+A explicação da técnica esta definida em [product backlog](agil.md#product-backlog).
+
+Para esta parte, definimos uma lista de funcionalidades baseadas nos [requisitos elicitados](../../elicitacao/elicitacao.md) e priorizadas de acordo com sua importância. As funcionalidades foram descritas em histórias de usuário, detalhadas na seção [Histórias de Usuário](criterio.md).
 
 | História | Requisito | Como | Desejo | Para que | Prioridade |
 | --- | --- | --- | --- | --- | --- |
@@ -25,9 +29,13 @@
 | <a name="US018"></a> US017 | [REQ18](../../elicitacao/elicitacao.md#REQ18) | Usuário | Poder manter salva minhas formas de pagamento | Economize tempo em futuras compras | Must |
 | <a name="US019"></a> US018 | [REQ10](../../elicitacao/elicitacao.md#REQ10) | Usuário | Saber o que um app ou jogo faz com os dados extraidos dos usuários | Não correr riscos de dados pessoais serem disponibilizados para terceiros sem meu consentimento | Must |
 
+## [Sprint Backlog](agil.md#sprint-backlog)
+
+
 
 ## Histórico de Versões
 
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 19-08-2024 | Lançamento inicial do Backlog | Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz e Larissa Vieira |
+| 1.0.1 | 20-08-2024 | melhorando documento textual backlog | Carlos Alves |

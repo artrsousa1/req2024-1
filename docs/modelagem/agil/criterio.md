@@ -1,4 +1,11 @@
-# Critérios de aceitação 
+# [História de usuário](agil.md#história-de-usuário)
+
+A explicação da técnica esta definida em [histórias de usuários](agil.md#história-de-usuário).
+
+Para esta parte, pegamos a lista de funcionalidades [backlog](backlog.md). E as funcionalidades foram descritas em histórias de usuário no formato [ Como (Ator), Desejo (ação) , para que (benefício) ], e adicionamos seus devidos critérios de aceitação que são condições específicas que precisam ser atendidas para que a história de usuário seja considerada completa. 
+
+Histórias de usuários descritas abaixo:
+
 
 ## US001 - Buscar app ou jogo
 
@@ -213,3 +220,4 @@ Critérios de aceitação:
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | ---- | ---- | ---- | --- | 
 | 1.0.0 | 19-08-2024 | Criação dos critérios de aceitação das US's | Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |
+| 1.0.1 | 20-08-2024 | melhorando documento textual US | Carlos Alves |
