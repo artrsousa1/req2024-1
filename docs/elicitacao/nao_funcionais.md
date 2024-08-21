@@ -16,6 +16,8 @@ Caso esteja ruim de ver, veja o resultado do brainstorm: [link](../assets/imagen
 
 Após a técnica tiramos os requisitos parecidos e classificamos alguns que se qualificavam como funcionais.
 
+## [NFR]
+
 
 ### [Usabilidade](../modelagem/nfrFramework.md#Usabilidade)
 
