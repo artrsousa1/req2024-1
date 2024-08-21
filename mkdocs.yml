@@ -10,11 +10,16 @@ nav:
     - Reuniões: reunioes/reunioes.md
     - Reunião01: reunioes/reuniao01.md
     - Reunião02: reunioes/reuniao02.md
+    - Reunião03: reunioes/reuniao03.md
+    - Reunião04: reunioes/reuniao04.md
     - Reunião05: reunioes/reuniao05.md
     - Reunião06: reunioes/reuniao06.md
     - Reunião07: reunioes/reuniao07.md
     - Reunião08: reunioes/reuniao08.md
     - Reunião09: reunioes/reuniao09.md
+    - Reunião10: reunioes/reuniao10.md
+    - Reunião11: reunioes/reuniao11.md
+    - Reunião12: reunioes/reuniao12.md
 
 
   - Pré-Rastreabilidade: 
@@ -27,10 +32,11 @@ nav:
     - Elicitação: 'elicitacao/tecnicas.md'
     - Requisitos elicitados: 'elicitacao/elicitacao.md'
     - Perfil: 'elicitacao/perfil.md'
+    - Personas: 'elicitacao/personas.md'
     - Apps: 'elicitacao/apps.md'
     - Fluxo de usuário: 'elicitacao/fluxo_usuario.md'
-    - Não funcionais: 'elicitacao/nao_funcionais.md'
     - Jogos: 'elicitacao/jogos.md'
+    - Não funcionais: 'elicitacao/nao_funcionais.md'
   - 'Modelagem':
     - Modelagem: 'modelagem/modelagem.md'
     - Caso de uso: 'modelagem/caso-uso.md'

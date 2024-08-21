@@ -113,6 +113,20 @@ Explicando a tabela:
 
 ---
 
+
+### Configurar conta
+
+|  |  |
+|--------------------|-----------------------------------------------|
+| **Descrição**      | O usuário deseja configurar sua conta |
+| **Ator(es)**       | Usuário e a Play Store                                     |
+| **Pré-Requisitos** | Possuir a Play Store, ter uma conta logada e ter conexão com a internet |
+| **Fluxo Principal** | 1. Usuário abre a Play Store. <br> 2. O usuário clica na sua foto de perfil. <br> 3. O usuário seleciona "Conta do Google". <br> 4. O usuário seleciona a aba que deseja para configurar. <br> 5. O usuário preenche o formulário da mudança que é do seu objetivo. |
+| **Fluxo Alternativo** | <a name="fa05"></a>**FA05: O usuário já está na página do app/jogo** <br> 1. O usuário clica na seta à esquerda para voltar à página inicial. <br> 2. O usuário segue o fluxo principal. |
+| **Fluxo de Exceção** | <a name="fe11"></a>**FE11: O usuário perde a conexão com a Internet** <br> 1. Após abrir a Play Store, o usuário perde a conexão com a internet. <br> 2. O usuário clica em "Conta do Google". <br> 3. O usuário consegue ver seus dados, mas é impedido de atualizá-los.|
+
+---
+
 ## Histórico de Versões
  
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
@@ -121,3 +135,4 @@ Explicando a tabela:
 | 1.0.1 | 14-08-2024 | Adicionando diagrama | Carlos Alves, Cecília Quaresma, Hugo Queiroz e Larissa Vieira|
 | 1.0.2 | 15-08-2024 | Adicionando especificação de caso de uso | Carlos Alves e Hugo Queiroz|
 | 1.0.3 | 15-08-2024 | Arrumando  documento de caso de uso | Carlos Alves, Hugo Queiroz e Arthur Ribeiro|
+| 1.0.4 | 21-08-2024 | Adição de especificação de caso de uso | Lucas Queiroz |
