@@ -1,10 +1,14 @@
 # Requisitos não funcionais
 
+Requisitos não funcionais referem-se a como o sistema deve operar. Eles definem as qualidades e restrições que o sistema deve atender.
+
+Devido a abrager todo o sistema nesta aba não utilizaremos as categorias que vem sendo utilizado em todo resto do projeto definidas na [Home](../home/home.md).
+
 ## [Brainstorm](tecnicas.md#brainstorming)
 
 Utilizamos a técnica descrita em [brainstorm](tecnicas.md#brainstorming), baseados nas categorias do FURPS e na ISO/IEC 25010. As categorias do FURPS são Funcionalidade, Usabilidade, Confiabilidade, Desempenho e Suportabilidade, e da ISO são Adequação Funcional, Eficiência de Performance, Compatibilidade, Usabilidade, Confiabilidade, Segurança, Manutenibilidade e Portabilidade. Porém, não fizemos os funcionais, pois já foram elicitados em [elictação](../elicitacao/elicitacao.md), e Manutenibilidade porque não temos acesso ao código do app.
 
-![alt text](../assets/imagens/brainstorm<a name="RNF"></a> RNF.jpg)
+![alt text](../assets/imagens/brainstormRNF.jpg)
 
 *Autores: Carlos Alves & Hugo Queiroz*
 
