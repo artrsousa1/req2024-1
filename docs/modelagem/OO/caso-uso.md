@@ -23,7 +23,7 @@ Esta técnica esta definifa em [Diagrama de caso de uso](oo.md#d.cs)
 ## Versão 01
 Este é uma primeira versão de uma visão mais geral da play store e dentro dela outros dois sistemas que achamos relevantes ter, baseados nos [requisitos elicitados](../../elicitacao/elicitacao.md)
 
-![alt text](../assets/imagens/Caso%20de%20uso%20-%20Play%20Store%20-%20Page%201%20Caso%20de%20Uso.png)
+![alt text](../../assets/imagens/Caso%20de%20uso%20-%20Play%20Store%20-%20Page%201%20Caso%20de%20Uso.png)
 
 *Autores: Carlos Alves, Cecília Quaresma, Hugo Queiroz & Larissa Vieira*
 
