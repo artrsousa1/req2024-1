@@ -29,6 +29,40 @@ Para esta parte, definimos uma lista de funcionalidades baseadas nos [requisitos
 | <a name="US017"></a> US017 | [REQ18](../../elicitacao/elicitacao.md#REQ18) | Usuário | Poder manter salva minhas formas de pagamento | Economize tempo em futuras compras | Must |
 
 
+## Granularização de Histórias de Usuário
+
+
+| Tema | Épico | Feature                                  | User Story                                                                                                                                  |
+|--------------------------------|------------------------------------------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Gerenciamento de Apps e Jogos** | Como usuário, eu quero buscar e instalar apps e jogos para encontrar e adicionar novos conteúdos no meu dispositivo. | Busca por Apps e Jogos                   | **US001** |
+|                                |                                                | Instalação de Apps e Jogos               | **US002**                                  |
+|                                | Como usuário, eu quero atualizar e remover apps e jogos para manter meu dispositivo organizado e com o conteúdo mais recente. | Atualização de Apps e Jogos              | **US003**|
+|                                |                                                | Desinstalação de Apps e Jogos            | **US004**                      |
+|                                | Como usuário, eu quero acessar informações detalhadas sobre os apps e jogos para entender melhor suas funcionalidades e compatibilidade. | Informações técnicas sobre Apps e Jogos  | **US006**      |
+|                                |                                                |                                          | **US007**      |
+| **Privacidade e Segurança**      | Como usuário, eu quero entender e controlar a política de privacidade e os dados coletados pelos apps e jogos para garantir minha segurança e privacidade. | Visualização da Política de Privacidade  | **US005** |
+|                                |                                                | Informações sobre Coleta de Dados        | **US008**|
+|                                |                                                |                                          | **US009** |
+|                                |                                                |                                          | **US010**|
+|                                |                                                | Controle sobre Dados Coletados           | **US011** |
+| **Gerenciamento de Conta e Pagamentos** | Como usuário, eu quero gerenciar minhas contas e acessos para manter minha conta segura e personalizada. | Login e Configuração de Conta            | **US014**               |
+|                                |                                                |                                          | **US015**          |
+|                                |                                                |                                          | **US016**         |
+|                                | Como usuário, eu quero gerenciar minhas compras e métodos de pagamento para facilitar transações e obter reembolsos quando necessário. | Compra e Reembolso                       | **US012**                                              |
+|                                |                                                |                                          | **US013**|                                                
+|   |   | Formas de Pagamento                      | **US017**|
+
+
+![alt](../../assets/imagens/granularidade01.png)
+
+![alt](../../assets/imagens/granularidade02.png)
+
+![alt](../../assets/imagens/granularidade03.png)
+
+*Autores: Larissa Vieira*
+
+
+
 ## [Sprint Backlog](agil.md#sprint-backlog)
 
 Para esta parte utilizamos o método [Planning Poker](agil.md#planning-poker) com pontuação Fibonacci para priorizar as [histórias de usuário](criterio.md) que modelamos. Decidimos que nossa Sprint teria duas semanas e nossa equipe poderia entregar até 13 pontos. Também decidimos o backlog de cada Sprint us ndo como critérios acapacidade da equipe e prioridade para entrega dos itens. Segue abaixo o Sprint Backlog das 6 sprints que julgamos necessárias:
@@ -53,6 +87,16 @@ Para esta parte utilizamos o método [Planning Poker](agil.md#planning-poker) co
 | [US010](criterio.md#us010---objetivo-dos-dados-extraídos) | Saber o que o jogo faz com os dados coletados                         |    06    |   3    |
 | [US015](criterio.md#us015---remover-uma-conta-logada)     | Poder remover uma conta logada no dispositivo                         |    06    |   3    |
 
+## Planejamento de Releases
+
+Decidimos as releases hipotéticas com base nos temas que seriam entregues nas sprints. 
+
+| Release |   Sprints   |                             Descrição                                 | Total de pontos entregues |
+| ------- | ----------- | --------------------------------------------------------------------- | ------------------------- |
+|    01   | 01 e 02     | **MVP**: Busca, download, atualização e desinstalação de apps e jogos | 17 |
+|    02   | 03          | **MVP**: Pagamento de apps e jogos | 13 |
+|    03   | 04, 05 e 06 | **MVP**: Políticas de privacidade e segurança | 27 |
+
 ## Histórico de Versões
 
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
@@ -60,3 +104,5 @@ Para esta parte utilizamos o método [Planning Poker](agil.md#planning-poker) co
 | 1.0.0 | 19-08-2024 | Lançamento inicial do Backlog | Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz e Larissa Vieira |
 | 1.0.1 | 20-08-2024 | Melhorando documento textual backlog | Carlos Alves |
 | 1.0.2 | 21-08-2024 | Implementação do sprint backlog | Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Lucas Queiroz e Larissa Vieira |
+| 1.0.3 | 22-08-2024 | Adição de Planejamento de Releases | Arthur Sousa e Lucas Queiroz |
+| 1.0.4 | 22-08-2024 | Adição de Granularização de Histórias de Usuário | Cecília Quaresma e Larissa Vieira |

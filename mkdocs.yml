@@ -20,6 +20,8 @@ nav:
     - Reunião10: reunioes/reuniao10.md
     - Reunião11: reunioes/reuniao11.md
     - Reunião12: reunioes/reuniao12.md
+    - Reunião13: reunioes/reuniao13.md
+
 
 
   - Pré-Rastreabilidade: 
@@ -39,10 +41,14 @@ nav:
     - Não funcionais: 'elicitacao/nao_funcionais.md'
   - 'Modelagem':
     - Modelagem: 'modelagem/modelagem.md'
-    - Caso de uso: 'modelagem/caso-uso.md'
-    - Cenários: 'modelagem/cenarios.md'
-    - Léxico: 'modelagem/lexico.md'
-    - Especificação suplementar: 'modelagem/especificacao_suplementar.md'
+    - 'Tradicional':
+      - Tradicional: 'modelagem/tradicional/tradicional.md'
+      - Cenários: 'modelagem/tradicional/cenarios.md'
+      - Léxico: 'modelagem/tradicional/lexico.md'
+    - 'OO':
+      - Orientação a objetos: 'modelagem/OO/caso-uso.md'
+      - Caso de uso: 'modelagem/OO/caso-uso.md'
+      - Especificação suplementar: 'modelagem/OO/especificacao_suplementar.md'
     - 'Ágil':
       - Metodologia Ágil: 'modelagem/agil/agil.md'
       - Backlog: 'modelagem/agil/backlog.md'
