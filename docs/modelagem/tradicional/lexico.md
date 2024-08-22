@@ -1,6 +1,8 @@
-# Léxico
+# [Léxico](tradicional.md#lexico)
 
-Refere-se ao conjunto de termos e definições específicos utilizados em um projeto ou domínio. Em engenharia de requisitos, o léxico garante que todos os stakeholders tenham uma compreensão comum dos termos e conceitos empregados nos requisitos. Isso inclui definições de termos técnicos, nomes de entidades e processos, e pode ajudar a evitar ambiguidades e mal-entendidos ao comunicar e documentar requisitos.
+Esta técnica esta definifa em [léxico](tradicional.md#lexico).
+
+## Resultado da técnica
 
 Para esta modelagem, utilizamos o seguinte método para definir os termos.
 
@@ -281,3 +283,4 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 | 1.0.0 | 14-08-2024 | Lançamento inicial do léxico | Cecília Quaresma, Hugo Queiroz, Larissa Vieira |
 | 1.0.1 | 15-08-2024 | Arrumando arquivo do léxico | Arthur Ribeiro, Carlos Alves e Hugo Queiroz|
 | 1.0.2 | 16-08-2024 | Adicionando novas tabelas, a descrição e arrumando os conceitos | Carlos Alves, Cecília Quaresma e Hugo Queiroz|
+| 1.0.3 | 22-08-2024 | Arrumando doc textual | Carlos Alves e Hugo Queiroz|
