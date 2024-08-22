@@ -19,7 +19,7 @@ Na engenharia de requisitos orientada a objetos, técnicas como casos de uso, vi
 
 Um caso de uso consiste em uma descrição detalhada relativa à maneira como os usuários interagem com o sistema para alcançar um determinado objetivo. Ao mapear as intruções entre os atores e o sistema, o artefato faz uma descrição clara das etapas necessárias que precisam ser seguidas para alcançar o objetivo.
 
-#### <a name="d.cs"></a> Diagram de caso de uso
+#### <a name="d.cs"></a> Diagrama de caso de uso
 
 Um diagrama de caso de uso é uma representação visual que descreve como um sistema interage com usuários ou outros sistemas (atores) para realizar tarefas específicas (casos de uso). Ele mostra as funcionalidades do sistema e as interações entre os atores e essas funcionalidades, ajudando a identificar e entender os requisitos do sistema de maneira clara e concisa.
 
