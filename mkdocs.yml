@@ -59,7 +59,10 @@ nav:
       - GORE: 'modelagem/GORE/gore.md'
       - NFR: 'modelagem/GORE/nfrFramework.md'
 
-  - Análise: analise/analise.md
+  - 'Análise':
+      - Análise: analise/analise.md
+      - Sugestão de nova funcionalidade: analise/prototipo.md
+
   - Rastreabilidade: rastreabilidade/rastreabilidade.md
 
 theme:
