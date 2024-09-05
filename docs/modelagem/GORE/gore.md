@@ -25,9 +25,14 @@ Que é um gráfico que é utilizado para representar as metas flexíveis que se 
 | **Argumentation**  | Anotações que podem ser acrescentadas ao modelo, argumentando algo sobre um ponto específico da modelagem. Escrita em linguagem natural.                        | ![nuvem](../../assets/imagens/nuvem02.png)                    |
 | **Contributions**      | Usadas para representar as relações ou interações entre nuvens                                   | ![setas](../../assets/imagens/NFRsetas.png)                         |
 
+### Istar
+
+A técnica i* (iStar ou i*) é um framework usado na engenharia de requisitos para modelar e analisar sistemas organizacionais, focando em atores (indivíduos ou sistemas) e suas interações. Ele permite entender as metas, intenções, e dependências entre os atores, facilitando a identificação de requisitos funcionais e não funcionais com base nos objetivos estratégicos da organização. A técnica i* é útil para capturar o contexto social e organizacional no qual um sistema será implementado.
+
 
 ## Histórico de Versões
 
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 21-08-2024 | Lançamento inicial  | Carlos Alves |
+| 1.0.1 | 03-09-2024 | Adicionando técnicas  | Carlos Alves |
