@@ -164,7 +164,7 @@ Para esta técnica dividimos os requistos priorizados como must em [requisitos e
 | **Contexto** | **Local:** Tela para instalar [app](lexico.md#app)   /jogo<br>**Tempo:** Aproximadamente 30 segundos<br>**Pré-condições:** O [usuário](lexico.md#usuario) deve estar conectado à internet. |
 | **Atores** | [usuário](lexico.md#usuario) |
 | **Recursos** | [dispositivo compatível](lexico.md#dispositivo-compatível) (celular, tablet ou computador) com acesso à Play Store |
-| **Episódios** | 1. O [[usuário](lexico.md#usuario)](lexico.md#usuario) acessa a Play Store.<br>2. O [usuário](lexico.md#usuario) busca pelo [app](lexico.md#app)     ou jogo desejado.<br>3. O [usuário](lexico.md#usuario) [clica](lexico.md#clicar) na página do [app](lexico.md#app)     ou jogo.<br>4. O [usuário](lexico.md#usuario) acessa a seção de "Dados Coletados".<br>5. O sistema exibe quais dados são coletados pelo [app](lexico.md#app)     ou jogo. |
+| **Episódios** | 1. O [usuário](lexico.md#usuario) acessa a Play Store.<br>2. O [usuário](lexico.md#usuario) busca pelo [app](lexico.md#app)     ou jogo desejado.<br>3. O [usuário](lexico.md#usuario) [clica](lexico.md#clicar) na página do [app](lexico.md#app)     ou jogo.<br>4. O [usuário](lexico.md#usuario) acessa a seção de "Dados Coletados".<br>5. O sistema exibe quais dados são coletados pelo [app](lexico.md#app)     ou jogo. |
 | **Restrições** | As informações devem ser claras e detalhadas. |
 | **Exceções** | Falta de conexão com a internet e informações sobre dados coletados não disponíveis. |
 | **Rastreabilidade** | [REQ09](../../elicitacao/elicitacao.md#REQ09) |

@@ -62,7 +62,6 @@ Medida da eficiência com que um sistema ou software realiza suas tarefas, inclu
 | Requisito      | Descrição                                                                                                               |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | [RNF](../../elicitacao/nao_funcional#RNF) | O sistema deve ser eficaz em qualquer tipo de rede.                                                                       |
-| [RNF](../../elicitacao/nao_funcional#RNF) | O sistema deve se adaptar a todo tipo de tela.                                                                            |
 | [RNF](../../elicitacao/nao_funcional#RNF) | Lidar com picos de tráfego e alta demanda.                                                                                |
 | [RNF](../../elicitacao/nao_funcional#RNF) | O sistema deve carregar o conteúdo das páginas de forma rápida.                                                           |
 | [RNF](../../elicitacao/nao_funcional#RNF) | O sistema deve retornar o objeto de pesquisa rapidamente.                                                                 |
@@ -80,6 +79,7 @@ Capacidade de um sistema ou software de ser utilizado em diferentes ambientes ou
 | [RNF](../../elicitacao/nao_funcional#RNF) | O aplicativo deve funcionar em qualquer dispositivo Android.                                                              |
 | [RNF](../../elicitacao/nao_funcional#RNF) | O sistema deve funcionar bem em qualquer navegador.                                                                       |
 | [RNF](../../elicitacao/nao_funcional#RNF) | Assegurar que a Play Store funcione de maneira consistente em diferentes dispositivos e sistemas operacionais.            |
+| [RNF](../../elicitacao/nao_funcional#RNF) | O sistema deve se adaptar a todo tipo de tela.                                                                            |
 
 
 ## Segurança
@@ -181,3 +181,4 @@ Exemplo detalhado de informações de espaço e versão android:
 | 1.0.0 | 15-08-2024 | Lançamento inicial da especificação | Arthur Ribeiro, Carlos Alves e Hugo Queiroz,  |
 | 1.0.1 | 16-08-2024 | Arrumando o especificação | Carlos Alves, Cecília Quaresma e Hugo Queiroz,  |
 | 1.0.2 | 22-08-2024 | Adição de observações legais | Arthur Ribeiro, Carlos Alves, Cecília Quaresma, Larissa Vieira e Lucas Queiroz |
+| 1.0.3 | 05-08-2024 | Alteração de categoria de requisito | Lucas Queiroz |
