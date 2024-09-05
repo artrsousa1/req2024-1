@@ -25,4 +25,4 @@ Criamos um protótipo no Figma para apresentar a nossa solução de forma visual
 | **Versão** | **Data**   | **Alterações Principais**                                                 | **Autor**                                      |
 |:----------:|:----------:|:-------------------------------------------------------------------------:|:----------------------------------------------:|
 | 1.0.0      | 03-09-2024 | Criação do documento | Cecília Quaresma |
-| 1.0.1      | 04-09-2024 | Adição dos iFrames do protótipo no Figma | Carlos Alves, Cecília Quaresma, Hugo Queiroz, Larissa Vieira, Lucas Queiroz |
+| 1.1.0      | 04-09-2024 | Adição dos iFrames do protótipo no Figma | Carlos Alves, Cecília Quaresma, Hugo Queiroz, Larissa Vieira, Lucas Queiroz |

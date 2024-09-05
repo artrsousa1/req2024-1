@@ -22,5 +22,5 @@ Baseado nos [perfis](perfil.md) fizemos as personas que seguem abaixo:
 | **Versão** | **Data** | **Alterações Principais** | **Autor** |
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 21-08-2024 | Criação do documento | Arthur Sousa, Carlos Alves, Cecília Quaresma, Larissa Vieira, Lucas Queiroz e Hugo Queiroz |
-| 1.0.1 | 31-07-2024 | Criação das personas e atualização da documentação | Arthur Sousa, Carlos Alves, Cecília Quaresma, Larissa Vieira, Lucas Queiroz e Hugo Queiroz |
+| 1.0.1 | 21-08-2024 | Criação das personas e atualização da documentação | Arthur Sousa, Carlos Alves, Cecília Quaresma, Larissa Vieira, Lucas Queiroz e Hugo Queiroz |
 

@@ -118,4 +118,4 @@ Esta seção é destinada para a elicitação dos requisitos de todas as áreas 
 | 1.0.3      | 15-08-2024 | Adicionando links para referenciar os requisitos                          | Hugo Queiroz e Carlos Alves                                                                |
 | 1.0.4      | 20-08-2024 | Adicionando novos requisitos não funcionais                               | Lucas Queiroz, Arthur Sousa, Cecília Quaresma, Hugo Queiroz, Carlos Alves e Larissa Vieira |
 | 1.0.5      | 20-08-2024 | Adicionando requisitos não funcionais e sua priorização                   | Lucas Queiroz, Arthur Sousa, Hugo Queiroz, Carlos Alves e Larissa Vieira                   |
-| 1.0.6      | 21-08-2024 | Adicionando ratreabilidade                                                | Lucas Queiroz, Arthur Sousa, Carlos Alves e Larissa Vieira                                 |
+| 1.0.6      | 21-08-2024 | Adicionando rastreabilidade                                                | Lucas Queiroz, Arthur Sousa, Carlos Alves e Larissa Vieira                                 |

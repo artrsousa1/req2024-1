@@ -62,8 +62,11 @@ nav:
   - 'Análise':
       - Análise: analise/analise.md
       - Sugestão de nova funcionalidade: analise/prototipo.md
+      - Checklist: analise/checklist.md
 
-  - Rastreabilidade: rastreabilidade/rastreabilidade.md
+  - 'Rastreabilidade': 
+      - Rastreabilidade: rastreabilidade/rastreabilidade.md
+      - Matriz de rastreabilidade: rastreabilidade/matriz.md
 
 theme:
   name: material
