@@ -12,7 +12,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Usabilidade](../assets/imagens/)
+![Usabilidade](../assets/imagens/nfr1.jpeg)
 
 *Autores: Toda equipe*
 
@@ -27,7 +27,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Desempenho](../assets/imagens/)
+![Desempenho](../assets/imagens/nfr2.jpeg)
 
 *Autores: Toda equipe*
 
@@ -43,7 +43,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Confiabilidade](../assets/imagens/)
+![Confiabilidade](../assets/imagens/nfr3.jpeg)
 
 *Autores: Toda equipe*
 
@@ -59,7 +59,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Segurança](../assets/imagens/)
+![Segurança](../assets/imagens/nfr4.jpeg)
 
 *Autores: Toda equipe*
 
@@ -75,7 +75,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Portabilidade](../assets/imagens/)
+![Portabilidade](../assets/imagens/nfr5.jpeg)
 
 *Autores: Toda equipe*
 
@@ -95,4 +95,4 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 | :--: | :--: | :--: | :--: | 
 | 1.0.0 | 20-08-2024 | Criação do documento de inclusão dos iFrames | Arthur Sousa, Carlos Alves, Cecília Quaresma, Larissa Vieira, Lucas Queiroz e Hugo Queiroz |
 | 1.0.1 | 21-08-2024 | Ajustando textos  | Carlos Alves |
-| 1.0.2 | 05-09-2024 | Atualizando documento  | Larissa Vieira |
+| 1.0.2 | 05-09-2024 | Atualizando documento  | Larissa Vieira, Hugo Queiroz |
