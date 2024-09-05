@@ -2,6 +2,16 @@
 
 ## NFR framework
 
+### Compatibilidade
+
+### Segurança
+
+### Confiabilidade
+
+### Usabilidade
+
+### Portabilidade
+
 <form>
   <ul>
     <li><input type="checkbox" disabled><label for=""> As metas de qualidade estão representadas como softgoals que não possuem um critério binário (satisfeito ou não satisfeito).</label></li>

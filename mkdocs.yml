@@ -58,6 +58,7 @@ nav:
     - 'GORE': 
       - GORE: 'modelagem/GORE/gore.md'
       - NFR: 'modelagem/GORE/nfrFramework.md'
+      - I*: 'modelagem/GORE/istar.md'
 
   - 'Análise':
       - Análise: analise/analise.md
@@ -67,6 +68,7 @@ nav:
   - 'Rastreabilidade': 
       - Rastreabilidade: rastreabilidade/rastreabilidade.md
       - Matriz de rastreabilidade: rastreabilidade/matriz.md
+      - Pós rastreabilidade: rastreabilidade/pos-rastreabilidade.md
 
 theme:
   name: material
