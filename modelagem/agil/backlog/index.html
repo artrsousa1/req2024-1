@@ -1,0 +1,1673 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../agil/">
+      
+      
+        <link rel="next" href="../criterio/">
+      
+      
+      <link rel="icon" href="../../../assets/google_play.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
+    
+    
+      
+        <title>Backlog - Play Store - Requisitos de Software</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35f28582.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Poppins";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="light-blue" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#backlog" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Play Store - Requisitos de Software" class="md-header__button md-logo" aria-label="Play Store - Requisitos de Software" data-md-component="logo">
+      
+  <img src="../../../assets/imagens/google_play.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Play Store - Requisitos de Software
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Backlog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="light-blue" data-md-color-primary="blue" data-md-color-accent="indigo"  aria-label="Alternar para modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Alternar para modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Alternar para modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Alternar para modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/artrsousa1/req2024-1" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Requisitos de Software - Play Store
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../home/home/" class="md-tabs__link">
+        
+  
+    
+  
+  Projeto
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../apresentacoes/apresentacoes/" class="md-tabs__link">
+        
+  
+    
+  
+  Apresentações
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../reunioes/reunioes/" class="md-tabs__link">
+          
+  
+  Reuniões
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../pre-ras/pre-ras/" class="md-tabs__link">
+          
+  
+  Pré-Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../elicitacao/tecnicas/" class="md-tabs__link">
+          
+  
+  Elicitação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../modelagem/" class="md-tabs__link">
+          
+  
+  Modelagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../analise/analise/" class="md-tabs__link">
+          
+  
+  Análise
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../rastreabilidade/rastreabilidade/" class="md-tabs__link">
+          
+  
+  Rastreabilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Play Store - Requisitos de Software" class="md-nav__button md-logo" aria-label="Play Store - Requisitos de Software" data-md-component="logo">
+      
+  <img src="../../../assets/imagens/google_play.png" alt="logo">
+
+    </a>
+    Play Store - Requisitos de Software
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/artrsousa1/req2024-1" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Requisitos de Software - Play Store
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../home/home/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/apresentacoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../reunioes/reunioes/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Reuniões
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../pre-ras/pre-ras/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Pré-Rastreabilidade
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../elicitacao/tecnicas/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Elicitação
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../modelagem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../tradicional/tradicional/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Tradicional
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../OO/oo/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    OO
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Ágil
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Ágil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agil/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metodologia Ágil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#product-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Product Backlog
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#granularizacao-de-historias-de-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Granularização de Histórias de Usuário
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sprint-backlog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sprint Backlog
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planejamento-de-releases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Planejamento de Releases
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../criterio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    História de usuário
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../GORE/gore/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    GORE
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../analise/analise/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Análise
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../rastreabilidade/rastreabilidade/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Rastreabilidade
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="backlog"><a href="../agil/#backlog">Backlog</a></h1>
+<p>A explicação da técnica esta definida em <a href="../agil/#backlog">Backlog</a>.</p>
+<h2 id="product-backlog"><a href="../agil/#product-backlog">Product Backlog</a></h2>
+<p>A explicação da técnica esta definida em <a href="../agil/#product-backlog">product backlog</a>.</p>
+<p>Para esta parte, definimos uma lista de funcionalidades baseadas nos <a href="../../../elicitacao/elicitacao/">requisitos elicitados</a> e priorizadas de acordo com sua importância. As funcionalidades foram descritas em histórias de usuário, detalhadas na seção <a href="../criterio/">Histórias de Usuário</a>.</p>
+<table>
+<thead>
+<tr>
+<th>História</th>
+<th>Requisito</th>
+<th>Como</th>
+<th>Desejo</th>
+<th>Para que</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a name="US001"></a> US001</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ01">REQ01</a></td>
+<td>Usuário</td>
+<td>Poder buscar por um app ou jogo</td>
+<td>Eu consiga instalar, atualizar ou desintalar o app que eu desejo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US002"></a> US002</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ02">REQ02</a></td>
+<td>Usuário</td>
+<td>Instalar um app ou jogo</td>
+<td>Faça uso do app no meu dispositivo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US003"></a> US003</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ03">REQ03</a></td>
+<td>Usuário</td>
+<td>Desejo atualizar um app ou jogo pra a versão mais atual</td>
+<td>Para ter todas as correções de bugs e acesso a novas funcionalidades</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US004"></a> US004</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ04">REQ04</a></td>
+<td>Usuário</td>
+<td>Desinstalar um app ou jogo</td>
+<td>Libere armazenamento e remova um app indesejado</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US005"></a> US005</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ05">REQ05</a></td>
+<td>Usuário</td>
+<td>Conhecer a política de privacidade do app</td>
+<td>eu com reenda como meus dados serão usados e o que o app deve acessar no meu dispositivo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US006"></a> US006</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ06">REQ06</a></td>
+<td>Usuário</td>
+<td>Ver em quais sistemas operacionais um app ou jogo roda</td>
+<td>Eu saiba se meu dispositivo é compatível</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US007"></a> US007</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ07">REQ07</a></td>
+<td>Usuário</td>
+<td>Visualizar a data de lançamento de um app ou jogo</td>
+<td>Eu baixa o app original e não cópias</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US008"></a> US008</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ08">REQ08</a></td>
+<td>Usuário</td>
+<td>Saber quais são os dados que um app ou jogo extrai dos usuários</td>
+<td>Possa proteger meus dados</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US009"></a> US009</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ09">REQ09</a></td>
+<td>Usuário</td>
+<td>Saber quais são as permissões que um app ou jogo tem na minha máquina</td>
+<td>Eu esteja de acordo com o que o app é permitido fazer no meu dispositivo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US010"></a> US010</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ10">REQ10</a></td>
+<td>Usuário</td>
+<td>Saber o que um app ou jogo faz com os meus dados</td>
+<td>Eu possa decidir instalar ou não um app ou jogo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US011"></a> US011</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ11">REQ11</a></td>
+<td>Usuário</td>
+<td>Poder pedir a deleção dos dados coletados por um jogo ou app</td>
+<td>Ter controle sobre minhas informações e dados</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US012"></a> US012</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ12">REQ12</a></td>
+<td>Usuário</td>
+<td>Comprar um app ou jogo</td>
+<td>Eu tenha acesso a itens pagos</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US013"></a> US013</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ13">REQ13</a></td>
+<td>Usuário</td>
+<td>Pedir reembolso por um app ou jogo</td>
+<td>Eu resgate o dinheiro de um app ou jogo que eu não gostei</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US014"></a> US014</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ14">REQ14</a></td>
+<td>Usuário</td>
+<td>Entrar com a minha conta Google</td>
+<td>Eu use a minha conta em um celular novo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US015"></a> US015</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ16">REQ16</a></td>
+<td>Usuário</td>
+<td>Poder remover uma conta logada no dispositivo</td>
+<td>Eu possa retirar contas que não utilizo mais</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US016"></a> US016</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ17">REQ17</a></td>
+<td>Usuário</td>
+<td>Trocar a conta principal do meu dispositivo</td>
+<td>Poder gerenciar minhas contas pessoas e de trabalho</td>
+<td>Must</td>
+</tr>
+<tr>
+<td><a name="US017"></a> US017</td>
+<td><a href="../../../elicitacao/elicitacao/#REQ18">REQ18</a></td>
+<td>Usuário</td>
+<td>Poder manter salva minhas formas de pagamento</td>
+<td>Economize tempo em futuras compras</td>
+<td>Must</td>
+</tr>
+</tbody>
+</table>
+<h2 id="granularizacao-de-historias-de-usuario">Granularização de Histórias de Usuário</h2>
+<table>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Épico</th>
+<th>Feature</th>
+<th>User Story</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gerenciamento de Apps e Jogos</strong></td>
+<td>Como usuário, eu quero buscar e instalar apps e jogos para encontrar e adicionar novos conteúdos no meu dispositivo.</td>
+<td>Busca por Apps e Jogos</td>
+<td><strong>US001</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Instalação de Apps e Jogos</td>
+<td><strong>US002</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Como usuário, eu quero atualizar e remover apps e jogos para manter meu dispositivo organizado e com o conteúdo mais recente.</td>
+<td>Atualização de Apps e Jogos</td>
+<td><strong>US003</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Desinstalação de Apps e Jogos</td>
+<td><strong>US004</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Como usuário, eu quero acessar informações detalhadas sobre os apps e jogos para entender melhor suas funcionalidades e compatibilidade.</td>
+<td>Informações técnicas sobre Apps e Jogos</td>
+<td><strong>US006</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>US007</strong></td>
+</tr>
+<tr>
+<td><strong>Privacidade e Segurança</strong></td>
+<td>Como usuário, eu quero entender e controlar a política de privacidade e os dados coletados pelos apps e jogos para garantir minha segurança e privacidade.</td>
+<td>Visualização da Política de Privacidade</td>
+<td><strong>US005</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Informações sobre Coleta de Dados</td>
+<td><strong>US008</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>US009</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>US010</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Controle sobre Dados Coletados</td>
+<td><strong>US011</strong></td>
+</tr>
+<tr>
+<td><strong>Gerenciamento de Conta e Pagamentos</strong></td>
+<td>Como usuário, eu quero gerenciar minhas contas e acessos para manter minha conta segura e personalizada.</td>
+<td>Login e Configuração de Conta</td>
+<td><strong>US014</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>US015</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>US016</strong></td>
+</tr>
+<tr>
+<td></td>
+<td>Como usuário, eu quero gerenciar minhas compras e métodos de pagamento para facilitar transações e obter reembolsos quando necessário.</td>
+<td>Compra e Reembolso</td>
+<td><strong>US012</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>US013</strong></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Formas de Pagamento</td>
+<td><strong>US017</strong></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="alt" src="../../../assets/imagens/granularidade01.png" /></p>
+<p><img alt="alt" src="../../../assets/imagens/granularidade02.png" /></p>
+<p><img alt="alt" src="../../../assets/imagens/granularidade03.png" /></p>
+<p><em>Autores: Larissa Vieira</em></p>
+<h2 id="sprint-backlog"><a href="../agil/#sprint-backlog">Sprint Backlog</a></h2>
+<p>Para esta parte utilizamos o método <a href="../agil/#planning-poker">Planning Poker</a> com pontuação Fibonacci para priorizar as <a href="../criterio/">histórias de usuário</a> que modelamos. Decidimos que nossa Sprint teria duas semanas e nossa equipe poderia entregar até 13 pontos. Também decidimos o backlog de cada Sprint us ndo como critérios acapacidade da equipe e prioridade para entrega dos itens. Segue abaixo o Sprint Backlog das 6 sprints que julgamos necessárias:</p>
+<table>
+<thead>
+<tr>
+<th>História</th>
+<th>Nome</th>
+<th>Sprint</th>
+<th>Pontos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../criterio/#us001---buscar-app-ou-jogo">US001</a></td>
+<td>Buscar app ou jogo</td>
+<td>01</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us002---instalar-app-ou-jogo">US002</a></td>
+<td>Instalar app ou jogo</td>
+<td>01</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us014---entrar-com-minha-conta-google">US014</a></td>
+<td>Entrar com minha conta Google</td>
+<td>01</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us003---atualizar-app-ou-jogo">US003</a></td>
+<td>Atualizar app ou jogo</td>
+<td>02</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us004---desistalar-app-ou-jogo">US004</a></td>
+<td>Desinstalar app ou jogo</td>
+<td>02</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us012---comprar-app-ou-jogo">US012</a></td>
+<td>Comprar app ou jogo</td>
+<td>03</td>
+<td>8</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us013---pedir-reembolso">US013</a></td>
+<td>Pedir reembolso</td>
+<td>03</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us006---sistema-operacional-compatível">US006</a></td>
+<td>Sistema operacional compatível</td>
+<td>04</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us007---visualizar-data-de-lançamento">US007</a></td>
+<td>Visualizar data de lançamento</td>
+<td>04</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us016---trocar-a-conta-principal">US016</a></td>
+<td>Trocar a conta principal</td>
+<td>04</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us017---manter-forma-de-pagamentos-salva">US017</a></td>
+<td>Manter forma de pagamentos salva</td>
+<td>04</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us005---política-de-privacidade">US005</a></td>
+<td>Política de privacidade</td>
+<td>05</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us008---dados-extraídos-dos-usuários">US008</a></td>
+<td>Saber quais são os dados que um app ou jogo extrai dos usuários</td>
+<td>05</td>
+<td>5</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us009---permissões-de-app-ou-jogo">US009</a></td>
+<td>Saber quais são as permissões que um app ou jogo tem na minha máquina</td>
+<td>05</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us011---pedir-deleção-dos-dados">US011</a></td>
+<td>Pedir deleção dos dados coletados</td>
+<td>06</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us010---objetivo-dos-dados-extraídos">US010</a></td>
+<td>Saber o que o jogo faz com os dados coletados</td>
+<td>06</td>
+<td>3</td>
+</tr>
+<tr>
+<td><a href="../criterio/#us015---remover-uma-conta-logada">US015</a></td>
+<td>Poder remover uma conta logada no dispositivo</td>
+<td>06</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h2 id="planejamento-de-releases">Planejamento de Releases</h2>
+<p>Decidimos as releases hipotéticas com base nos temas que seriam entregues nas sprints. </p>
+<table>
+<thead>
+<tr>
+<th>Release</th>
+<th>Sprints</th>
+<th>Descrição</th>
+<th>Total de pontos entregues</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>01 e 02</td>
+<td><strong>MVP</strong>: Busca, download, atualização e desinstalação de apps e jogos</td>
+<td>17</td>
+</tr>
+<tr>
+<td>02</td>
+<td>03</td>
+<td><strong>MVP</strong>: Pagamento de apps e jogos</td>
+<td>13</td>
+</tr>
+<tr>
+<td>03</td>
+<td>04, 05 e 06</td>
+<td><strong>MVP</strong>: Políticas de privacidade e segurança</td>
+<td>27</td>
+</tr>
+</tbody>
+</table>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Versão</strong></th>
+<th style="text-align: center;"><strong>Data</strong></th>
+<th style="text-align: center;"><strong>Alterações Principais</strong></th>
+<th style="text-align: center;"><strong>Autor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1.0.0</td>
+<td style="text-align: center;">19-08-2024</td>
+<td style="text-align: center;">Lançamento inicial do Backlog</td>
+<td style="text-align: center;">Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz e Larissa Vieira</td>
+</tr>
+<tr>
+<td style="text-align: center;">1.0.1</td>
+<td style="text-align: center;">20-08-2024</td>
+<td style="text-align: center;">Melhorando documento textual backlog</td>
+<td style="text-align: center;">Carlos Alves</td>
+</tr>
+<tr>
+<td style="text-align: center;">1.0.2</td>
+<td style="text-align: center;">21-08-2024</td>
+<td style="text-align: center;">Implementação do sprint backlog</td>
+<td style="text-align: center;">Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Lucas Queiroz e Larissa Vieira</td>
+</tr>
+<tr>
+<td style="text-align: center;">1.0.3</td>
+<td style="text-align: center;">22-08-2024</td>
+<td style="text-align: center;">Adição de Planejamento de Releases</td>
+<td style="text-align: center;">Arthur Sousa e Lucas Queiroz</td>
+</tr>
+<tr>
+<td style="text-align: center;">1.0.4</td>
+<td style="text-align: center;">22-08-2024</td>
+<td style="text-align: center;">Adição de Granularização de Histórias de Usuário</td>
+<td style="text-align: center;">Cecília Quaresma e Larissa Vieira</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../agil/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Metodologia Ágil">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Metodologia Ágil
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../criterio/" class="md-footer__link md-footer__link--next" aria-label="Próximo: História de usuário">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                História de usuário
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.prune", "navigation.top", "navigation.footer", "navigations.indexes", "content.code.copy", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      
+    
+  </body>
+</html>
