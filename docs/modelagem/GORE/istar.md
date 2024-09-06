@@ -1,6 +1,6 @@
 # [Istar](gore.md#istar)
 
-A técnica Istar esta definida em [Istar](gore.md#istar)
+A técnica Istar esta definida em [Istar](gore.md#istar).
 
 ## Resultado da técnica
 
@@ -10,7 +10,7 @@ A técnica Istar esta definida em [Istar](gore.md#istar)
 
 ### Strategic Dependency Model (SD)
 
-<iframe width="768" height="432" src="https://miro.cararaom/app/live-embed/uXjVKjwf1-4=/?moveToViewport=-1680,-920,3311,1566&embedId=443740889607" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKjwf1-4=/?moveToViewport=-1988,-935,5031,1831&embedId=729802147341" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 ## Histórico de Versões
 

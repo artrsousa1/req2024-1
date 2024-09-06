@@ -2,7 +2,9 @@
 
 A técnica Inspeção está definida em [Inspeção](analise.md#inspeção).
 
-## iStar 
+Para esta secção criamos checklist para cada técnica e aplicamos nos artafetos feitos pelo grupo.
+
+## [iStar](../modelagem/GORE/istar.md) 
 
 ### Strategic Rationale Model (SR)
 
@@ -27,7 +29,7 @@ A técnica Inspeção está definida em [Inspeção](analise.md#inspeção).
   <li><input type="checkbox" checked disabled><label for="">O modelo é completo e coerente</label></li>
 </ol>
 
-## NFR framework
+## [NFR framework](../modelagem/GORE/nfrFramework.md)
 
 <form>
   <ol>
@@ -93,7 +95,7 @@ A técnica Inspeção está definida em [Inspeção](analise.md#inspeção).
   </ol>
 </form>
 
-## Cenários
+## [Cenários](../modelagem/tradicional/cenarios.md)
 
 <form>
   <ol>
@@ -515,7 +517,7 @@ A técnica Inspeção está definida em [Inspeção](analise.md#inspeção).
 > O tópico 4 foi corrigido
 
 
-## Léxicos
+## [Léxicos](../modelagem/tradicional/lexico.md)
 
 <form>
   <ol>
@@ -861,7 +863,7 @@ A técnica Inspeção está definida em [Inspeção](analise.md#inspeção).
 > Os tópicos 4, 5 e 6 foram corrigidos
 
 
-## Histórias de Usuário
+## [Histórias de Usuário](../modelagem/agil/criterio.md)
 
 <form>
   <ol>
@@ -1080,7 +1082,7 @@ A técnica Inspeção está definida em [Inspeção](analise.md#inspeção).
   </ol>
 </form>
 
-## Caso de uso
+## [Caso de uso](../modelagem/OO/caso-uso.md)
 
 <form>
   <ol>

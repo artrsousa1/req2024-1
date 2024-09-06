@@ -33,7 +33,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.1
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKnulZUk=/?moveToViewport=-2700,-847,4654,2341&embedId=795896470252" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKhmWgpw=/?moveToViewport=-1763,-469,3572,1702&embedId=266725989314" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 *Autores: Toda equipe*
 

@@ -7,7 +7,7 @@ Sendo cada pasta destinada a uma das técnicas utilizadas, e os artefatos gerado
 
 ## Inspeção
 
-A técnica de Inspeção tem como objetivo verificar se o modelo ou artefato de requisitos está de acordo com a notação do modelo. 
+A técnica de Inspeção tem como objetivo verificar se o modelo ou artefato de requisitos está de acordo com a notação do modelo. Para aplicá-la, produzimos check-lists de elementos ou características que fazem parte fundamental dos modelos e garantem qualidade.
 
 ## Protótipo 
 

@@ -1,6 +1,6 @@
 # [Matriz de rastreabilidade](analise.md#matrix-de-rastreabilidade)
 
-Para esta técnica definimos um conjunto de tabelas que achamos interessante para restrearmos a origem e evolução dos requisitos.
+Para esta técnica definimos um conjunto de tabelas que achamos interessante para rastrearmos a origem e evolução dos requisitos.
 
 ## Requisito funcional x História de Usuário
 

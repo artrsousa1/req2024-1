@@ -60,6 +60,7 @@ O 5W2H é um método simples e de fácil aplicação para elucidar a visão dos 
 -Quanto irá custar? Custo de desenvolvimento, despesas envolvidas (How much).
 
 ![alt text](../assets/imagens/5w2h.jpeg)
+
 *Autores: Carlos Alves & Hugo Queiroz*
 
 
