@@ -45,6 +45,8 @@ Essas são as ferrmantas utilizadas na criação deste projeto.
 | <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6918e57475a843f59f_icon_clyde_black_RGB.svg" alt="Logo do Discord" width="100px"> | <strong>[Discord](#anchor_4)</strong> | Reuniões. |
 | <img src="https://anthonyblackham.com/mkdocs-material/icons/logo.svg" alt="Logo do Mkdocs" width="100px"> | <strong>[Mkdocs](#anchor_5)</strong> | Documentação. |
 | <img src="https://play-lh.googleusercontent.com/o4vT3StM8rw3Hn15GMtLjuTA6VUWt6jxDvV4d5ahKj9E9nGaLut06tM83NESuTBr-t0=w240-h480" alt="Logo do LucidChart" width="100px"> | <strong>[LucidChart](#anchor_14)</strong> | Criação de diagramas. |
+| <img src="https://logosandtypes.com/wp-content/uploads/2020/10/figma.svg" alt="Logo do miro" width="100px"> | <strong>[Miro](#anchor_15)</strong> | Criação de diagramas. |
+| <img src="https://logosandtypes.com/wp-content/uploads/2022/04/miro.svg" alt="Logo do figma" width="100px"> | <strong>[Figma](#anchor_16)</strong> | Criação de protótipos. |
 
 
 # Histórico de Versões
