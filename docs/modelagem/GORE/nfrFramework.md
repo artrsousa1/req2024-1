@@ -12,7 +12,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Usabilidade](../assets/imagens/nfr1.jpeg)
+![Usabilidade](../../assets/imagens/nfr1.jpeg)
 
 *Autores: Toda equipe*
 
@@ -27,13 +27,13 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Desempenho](../assets/imagens/nfr2.jpeg)
+![Desempenho](../../assets/imagens/nfr2.jpeg)
 
 *Autores: Toda equipe*
 
 #### Versão 1.1
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKnulZUk=/?moveToViewport=-2700,-847,4654,2341&embedId=795896470252" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKhmWgpw=/?moveToViewport=-1763,-469,3572,1702&embedId=266725989314" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 *Autores: Toda equipe*
 
@@ -43,7 +43,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Confiabilidade](../assets/imagens/nfr3.jpeg)
+![Confiabilidade](../../assets/imagens/nfr3.jpeg)
 
 *Autores: Toda equipe*
 
@@ -59,7 +59,7 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 #### Versão 1.0
 
-![Segurança](../assets/imagens/nfr4.jpeg)
+![Segurança](../../assets/imagens/nfr4.jpeg)
 
 *Autores: Toda equipe*
 
@@ -69,9 +69,11 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 *Autores: Toda equipe*
 
+### Portabilidade
+
 #### Versão 1.0
 
-![Portabilidade](../assets/imagens/nfr5.jpeg)
+![Portabilidade](../../assets/imagens/nfr5.jpeg)
 
 *Autores: Toda equipe*
 

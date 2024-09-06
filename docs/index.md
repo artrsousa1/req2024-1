@@ -1,24 +1,24 @@
 # Google Play Store
 <p align="center" ><br><img src="assets/imagens/google_play.png" width = 40%></p>
 
-Este repositório foi criado para a documentção do projeto da matéria Requisitos de software, lecionada na Universidade de Brasília - Faculdade do Gama,no semestre 2024.1, pelo docente Maurício Serrano. 
+Este repositório foi criado para a documentação do projeto da matéria Requisitos de software, lecionada na Universidade de Brasília - Faculdade do Gama, no semestre 2024.1, pelo docente Maurício Serrano. 
 
 
 ## Objetivo
-Este projeto tem como objetivo aplicar as técnicas da engenharia de requisitos, atráves da engenharia reversa do aplicativo Play Store.
+O objetivo deste projeto é o de aplicar as técnicas da Engenharia de Requisitos, atráves da engenharia reversa do aplicativo Play Store.
 
 ## Organização do projeto
-Esta wiki esta organizada em pastas, 
+Esta wiki esta organizada em pastas: 
 
-- [Início](index.md): Fala sobre este repositório;
-- [Projeto](home/home.md): Fala sobre definição do projeto e sua estruturação;
-- [Apresentações](apresentacoes/apresentacoes.md): Entregas requeridas pela meteria;
-- [Reuniões](home/home.md): Contém os links das reuniões feitas os membros presentes e o que foi feito;
-- [Pré-Rastreabilidade](pre-ras/pre-ras.md): Fala sobre a fase antes dos requisitos e seus rastros;
-- [Elicitação](elicitacao/elicitacao.md): Fala sobre a fase de levantamento de requisitos;
-- [Modelagem](modelagem/modelagem.md): Fala sobre a fase de modelagem dos requisitos elicitados;
-- [Análise](analise/analise.md): Fala sobre a fase de analisar os requisitos e as técnicas e artefatos gerados;
-- [Rastreabilidade](rastreabilidade/rastreabilidade.md): Fala sobre o rastro dos requisitos e sua pós rastreabilidade.
+- [Início](index.md): Informações gerais sobre o projeto e a wiki;
+- [Projeto](home/home.md): Contém a definição do projeto e sua estruturação;
+- [Apresentações](apresentacoes/apresentacoes.md): Contém as entregas requeridas pela matéria;
+- [Reuniões](home/home.md): Contém os links das reuniões feitas, os membros presentes em cada uma e o que foi feito;
+- [Pré-Rastreabilidade](pre-ras/pre-ras.md): Contém informações de pré-rastreabilidade dos requisitos e as técnicas utilizadas;
+- [Elicitação](elicitacao/elicitacao.md): Contém a elicitação inicial dos requisitos e as técnicas utilizadas pra realizá-la;
+- [Modelagem](modelagem/modelagem.md): Contém os modelos gerados a partir dos requisitos elicitados e suas várias abordagens diferentes;
+- [Análise](analise/analise.md): Contém a análise dos modelos e técnicas utilizadas durante todo o projeto;
+- [Rastreabilidade](rastreabilidade/rastreabilidade.md): Contém informações de rastreabilidade dos requisitos e do universo de informações do projeto.
 
 
 ## Equipe
@@ -35,7 +35,7 @@ Esta wiki esta organizada em pastas,
 
 
 ## Ferramentas 
-Essas são as ferrmantas utilizadas na criação deste projeto.
+Essas são as ferramentas utilizadas na criação deste projeto:
 
 | Ferramenta | Nome | Descrição |
 | :-- | :-- | :-- |
@@ -45,6 +45,8 @@ Essas são as ferrmantas utilizadas na criação deste projeto.
 | <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6918e57475a843f59f_icon_clyde_black_RGB.svg" alt="Logo do Discord" width="100px"> | <strong>[Discord](#anchor_4)</strong> | Reuniões. |
 | <img src="https://anthonyblackham.com/mkdocs-material/icons/logo.svg" alt="Logo do Mkdocs" width="100px"> | <strong>[Mkdocs](#anchor_5)</strong> | Documentação. |
 | <img src="https://play-lh.googleusercontent.com/o4vT3StM8rw3Hn15GMtLjuTA6VUWt6jxDvV4d5ahKj9E9nGaLut06tM83NESuTBr-t0=w240-h480" alt="Logo do LucidChart" width="100px"> | <strong>[LucidChart](#anchor_14)</strong> | Criação de diagramas. |
+| <img src="https://logosandtypes.com/wp-content/uploads/2020/10/figma.svg" alt="Logo do Figma" width="100px"> | <strong>[Figma](#anchor_15)</strong> | Criação de protótipos. |
+| <img src="https://logosandtypes.com/wp-content/uploads/2022/04/miro.svg" alt="Logo do Miro" width="100px"> | <strong>[Miro](#anchor_16)</strong> | Criação de diagramas. |
 
 
 # Histórico de Versões
@@ -53,6 +55,5 @@ Essas são as ferrmantas utilizadas na criação deste projeto.
 |--------|------------|---------------------------------------------------|--------------|
 | 1.0.0  | 25-07-2024 | Lançamento inicial da documentação.               | Carlos Alves |
 | 1.0.1  | 06-09-2024 | Atualizando documentação.               | Carlos Alves |
-
-
-
+| 1.0.2  | 06-09-2024 | Atualizando documentação.               | Arthur Ribeiro |
+| 2.0.0  | 06-09-2024 | Revisão geral do documento para entrega final | Arthur Ribeiro, Lucas Queiroz |

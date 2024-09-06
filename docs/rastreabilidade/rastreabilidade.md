@@ -1,9 +1,13 @@
 # Rastreabilidade
 
 A rastreabilidade é uma técnica que permite que os requisitos elicitados sejam rastreados ao longo do ciclo de vida do projeto, desde a sua concepção até a sua implementação e validação. Utilizam-se técnicas que buscam responder às seguintes perguntas:
+
 - Quem sugeriu esse requisito?
+
 - Em quais situações esse requisito foi mencionado?
+
 - Quais foram as mudanças causadas por esse requisito?
+
 - Quais foram as mudanças que foram causadas no requisito?
 
 Esta secção é destinada a rastreabilidade e a pós rastreabilidade deste projeto, e a explicação das técnicas utilizadas.
