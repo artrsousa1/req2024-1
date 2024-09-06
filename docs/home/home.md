@@ -136,6 +136,8 @@ Para segunda entrega, resolvemos mudar as categorias por dupla visando olhar det
 
 - Fluxo de Usuário - Arthur Ribeiro e Lucas Queiroz
 
+Para terceira entrega, juntamos todo o grupo para analisarmos todas as técnicas e artefatos feitos, e colocarmos a rastreabilidade do nosso projeto.
+
 [Vídeo da reunião - 25/07/2024 ](https://drive.google.com/file/d/1dOZtm7r8HbKJ7u3yDaViFvzDe5CbB4tG/view?usp=sharing) do minuto 13:57 até o fim.
 
 ## Histórico de Versões
@@ -147,4 +149,6 @@ Para segunda entrega, resolvemos mudar as categorias por dupla visando olhar det
 | 1.0.2  | 31-07-2014 | Adicionando visão do produto e projeto | Lucas Queiroz, Arthur Sousa, Cecília Quaresma, Hugo Queiroz, Carlos Alves e Larissa Vieira |
 | 1.0.3  | 09-08-2014 | Melhorando descrição do projeto | Hugo Queiroz, Carlos Alves |
 | 1.0.4  | 12-08-2014 | Melhorando descrição do projeto | Carlos Alves |
+| 1.0.4  | 12-08-2014 | Adicionando mais informações do projeto na terceira entrega| Carlos Alves, Hugo Queiroz, Lucas Queiroz, Cecília Quaresma, Larissa Vieira e Artur Ribeiro |
+
 

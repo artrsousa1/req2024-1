@@ -1,6 +1,8 @@
 # Pós rastreabilidade
 
-Após realizar a análise dos requisitos e das histórias de usuário, capturamos imagens do aplicativo em funcionamento na Play Store. Essas capturas de tela foram utilizadas para ilustrar o projeto de maneira clara, proporcionando exemplos práticos do sistema em operação. Essa abordagem facilita a visualização dos requisitos implementados, conectando teoria e prática e ajudando a validar o cumprimento das expectativas do usuário final.
+Como não implementemos só utilizamos a técnica de engenharia reversa, desenvolvemos está secção para mostrar como aquele requisito é implementado na Play Store.
+
+ Para isto realizamos a análise dos requisitos e das histórias de usuário, capturamos imagens do aplicativo em funcionamento na Play Store. Essas capturas de tela foram utilizadas para ilustrar o projeto de maneira clara, proporcionando exemplos práticos do sistema em operação. Essa abordagem facilita a visualização dos requisitos implementados, conectando teoria e prática e ajudando a validar o cumprimento das expectativas do usuário final.
 
 
 ## [US01](../modelagem/agil/criterio.md)
@@ -87,3 +89,10 @@ Após realizar a análise dos requisitos e das histórias de usuário, capturamo
 ![us017 - imagem 1](../assets/imagens/us17.1.jpeg)
 ![us017 - imagem 2](../assets/imagens/us17.2.jpeg)
 ![us017 - imagem 3](../assets/imagens/us17.3.jpeg)
+
+
+## Histórico de Versões
+
+| **Versão** | **Data**   | **Alterações Principais**                                                 | **Autor**                                                                                  |
+| :---: | :---: | :---: | :----: |
+| 1.0.0      | 05-09-2024 | Criação do documento e adição das fotos | Arthur Ribeiro, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |

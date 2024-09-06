@@ -1,26 +1,97 @@
-# Inspeção
+# [Inspeção](analise.md)
+
+A técnica Inspeção está definida em [Inspeção](analise.md#inspeção).
+
+## iStar 
+
+### Strategic Rationale Model (SR)
+
+<ol>
+  <li><input type="checkbox" checked disabled><label for="">Todos os atores relevantes foram identificados</label></li>
+  <li><input type="checkbox" checked disabled><label for="">As metas e softgoals de cada ator estão claramente definidos</label></li>
+  <li><input type="checkbox" checked disabled><label for="">As tarefas e recursos necessários estão especificados e atribuídos corretamente</label></li>
+  <li><input type="checkbox" checked disabled><label for="">As dependências entre atores estão claras e classificadas corretamente.</label></li>
+  <li><input type="checkbox" checked disabled><label for=""> Os links entre metas, tarefas, recursos e dependências estão corretos e justificados</label></li>
+  <li><input type="checkbox" checked disabled><label for="">O modelo é completo e coerente</label></li>
+  <li><input type="checkbox" checked disabled><label for="">A notação i* foi utilizada de forma consistente.</label></li>
+</ol>
+
+### Strategic Dependency Model (SD)
+
+<ol>
+  <li><input type="checkbox" checked disabled><label for=" ">Todos os atores relevantes foram identificados</label></li>
+  <li><input type="checkbox" disabled><label for="">As metas e softgoals de cada ator estão claramente definidos</label></li>
+  <li><input type="checkbox" checked disabled><label for="">As dependências estão claramente rotuladas e com o tipo correto (objetivo, tarefa, recurso, softgoal)</label></li>
+  <li><input type="checkbox" checked disabled><label for="">As dependências entre atores estão claras e classificadas corretamente</label></li>
+  <li><input type="checkbox" checked disabled><label for=""> Os links entre metas, tarefas, recursos e dependências estão corretos e justificados?</label></li>
+  <li><input type="checkbox" checked disabled><label for="">O modelo é completo e coerente</label></li>
+</ol>
 
 ## NFR framework
-
-### Compatibilidade
-
-### Segurança
-
-### Confiabilidade
-
-### Usabilidade
-
-### Portabilidade
 
 <form>
   <ol>
     <li><input type="checkbox" disabled><label for=""> As metas de qualidade estão representadas como softgoals que não possuem um critério binário (satisfeito ou não satisfeito).</label></li>
     <li><input type="checkbox" disabled><label for=""> Cada softgoal principal foi decomposto em subgoals específicos e menores.</label></li>
     <li><input type="checkbox" disabled><label for=""> Decomposição “AND” ou “OR” para indicar como os subgoals contribuem para o objetivo principal.</label></li>
-    <li><input type="checkbox" disabled><label for=""> Os elos de contribuição indicam corretamente o impacto positivo (help + / make ++), negativo (hurt - / break --), ou neutro nas metas relacionadas.</label></li>
+    <li><input type="checkbox" disabled><label for=""> Os links de contribuição indicam corretamente o impacto positivo (help + / make ++), negativo (hurt - / break --), ou neutro nas metas relacionadas.</label></li>
   </ol>
 </form>
 
+### Confiabilidade
+
+<form>
+  <ol>
+    <li><input type="checkbox" checked disabled><label for=""> As metas de qualidade estão representadas como softgoals que não possuem um critério binário (satisfeito ou não satisfeito).</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Cada softgoal principal foi decomposto em subgoals específicos e menores.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Decomposição “AND” ou “OR” para indicar como os subgoals contribuem para o objetivo principal.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Os links de contribuição indicam corretamente o impacto positivo (help + / make ++), negativo (hurt - / break --), ou neutro nas metas relacionadas.</label></li>
+  </ol>
+</form>
+
+### Desempenho
+
+<form>
+  <ol>
+    <li><input type="checkbox" checked disabled><label for=""> As metas de qualidade estão representadas como softgoals que não possuem um critério binário (satisfeito ou não satisfeito).</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Cada softgoal principal foi decomposto em subgoals específicos e menores.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Decomposição “AND” ou “OR” para indicar como os subgoals contribuem para o objetivo principal.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Os links de contribuição indicam corretamente o impacto positivo (help + / make ++), negativo (hurt - / break --), ou neutro nas metas relacionadas.</label></li>
+  </ol>
+</form>
+
+### Segurança
+
+<form>
+  <ol>
+    <li><input type="checkbox" checked disabled><label for=""> As metas de qualidade estão representadas como softgoals que não possuem um critério binário (satisfeito ou não satisfeito).</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Cada softgoal principal foi decomposto em subgoals específicos e menores.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Decomposição “AND” ou “OR” para indicar como os subgoals contribuem para o objetivo principal.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Os links de contribuição indicam corretamente o impacto positivo (help + / make ++), negativo (hurt - / break --), ou neutro nas metas relacionadas.</label></li>
+  </ol>
+</form>
+
+### Usabilidade
+
+<form>
+  <ol>
+    <li><input type="checkbox" checked disabled><label for=""> As metas de qualidade estão representadas como softgoals que não possuem um critério binário (satisfeito ou não satisfeito).</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Cada softgoal principal foi decomposto em subgoals específicos e menores.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Decomposição “AND” ou “OR” para indicar como os subgoals contribuem para o objetivo principal.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Os links de contribuição indicam corretamente o impacto positivo (help + / make ++), negativo (hurt - / break --), ou neutro nas metas relacionadas.</label></li>
+  </ol>
+</form>
+
+### Portabilidade
+
+<form>
+  <ol>
+    <li><input type="checkbox" checked disabled><label for=""> As metas de qualidade estão representadas como softgoals que não possuem um critério binário (satisfeito ou não satisfeito).</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Cada softgoal principal foi decomposto em subgoals específicos e menores.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Decomposição “AND” ou “OR” para indicar como os subgoals contribuem para o objetivo principal.</label></li>
+    <li><input type="checkbox" checked disabled><label for=""> Os links de contribuição indicam corretamente o impacto positivo (help + / make ++), negativo (hurt - / break --), ou neutro nas metas relacionadas.</label></li>
+  </ol>
+</form>
 
 ## Cenários
 
@@ -44,7 +115,7 @@
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
-    <li><mark><input type="checkbox" disabled><label for=""> O resultado final da interação é claramente descrito. </label></mark></li>
+    <li><input type="checkbox" disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
   </ol>
 </form>
 
@@ -239,7 +310,7 @@
   </ol>
 </form>
 
-> O tópico 4 foi corrigido
+> O tópico 4 foi corrigido.
 
 ### Cenário 15
 
@@ -293,6 +364,8 @@
   </ol>
 </form>
 
+> Os tópicos 4 foi corrigido.
+
 ### Cenário 19
 
 <form>
@@ -306,6 +379,8 @@
   </ol>
 </form>
 
+> Os tópicos 3 e 4 foram corrigidos.
+
 ### Cenário 20
 
 <form>
@@ -318,6 +393,8 @@
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
   </ol>
 </form>
+
+> O tópico 4 foi corrigido.
 
 ### Cenário 21
 
@@ -521,8 +598,7 @@
   </ol>
 </form>
 
-> Os tópicos 5, 6 e 8 fo
-am corrigidos.
+> Os tópicos 5, 6 e 8 foram corrigidos.
 
 ### Bem avaliados
 
@@ -557,7 +633,7 @@ am corrigidos.
   </ol>
 </form>
 
-> Os tópicos 4, 5, 6 e 8 foram corrigidos
+> Os tópicos 4, 5, 6 e 8 foram corrigidos.
 
 ### Buscar por texto
 
@@ -575,7 +651,7 @@ am corrigidos.
 </form>
 
 
-> Os tópicos 5, 6 e 8 foram corrigidos
+> Os tópicos 5, 6 e 8 foram corrigidos.
 
 ### Buscar por voz
 
@@ -592,7 +668,7 @@ am corrigidos.
   </ol>
 </form>
 
-> Os tópicos 5, 6 e 8 foram corrigidos
+> Os tópicos 5, 6 e 8 foram corrigidos.
 
 
 ### Clicar
@@ -610,7 +686,7 @@ am corrigidos.
   </ol>
 </form>
 
-> Os tópicos 5, 6 e 8 foram corrigidos
+> Os tópicos 5, 6 e 8 foram corrigidos.
 
 ### Descrição do app
 
@@ -626,6 +702,8 @@ am corrigidos.
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
   </ol>
 </form>
+
+> Os tópicos 5, 6 e 8 foram corrigidos.
 
 
 ### Desinstalar
@@ -1095,3 +1173,4 @@ am corrigidos.
 |:----------:|:----------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|
 | 1.0.0      | 05-09-2024 | Criação do documento e adição de checklists com base nos modelos | Arthur Ribeiro, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |
 | 1.0.1      | 06-09-2024 | Atualização dos documentos do checklist | Arthur Ribeiro, Cecília Quaresma, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |
+| 1.0.2      | 06-09-2024 | Adiciona checklists do NRF Framework e iStar | Arthur Ribeiro, Carlos Alves, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |
