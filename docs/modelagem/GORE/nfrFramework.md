@@ -69,10 +69,6 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 
 *Autores: Toda equipe*
 
-
-### Portabilidade
-<!--iFrame de Portabilidade-->
-
 #### Versão 1.0
 
 ![Portabilidade](../assets/imagens/nfr5.jpeg)
@@ -86,8 +82,13 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 *Autores: Toda equipe*
 
 
+### Análise geral
 
+#### Versão 1.0
 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVKhgSTqA=/?moveToViewport=-10953,-4743,26561,9670&embedId=159460149680" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+*Autores: Toda equipe*
 
 ## Histórico de Versões
 
@@ -96,3 +97,4 @@ Utilizamos os requisitos não funcionais elicitados através de brainstorm para 
 | 1.0.0 | 20-08-2024 | Criação do documento de inclusão dos iFrames | Arthur Sousa, Carlos Alves, Cecília Quaresma, Larissa Vieira, Lucas Queiroz e Hugo Queiroz |
 | 1.0.1 | 21-08-2024 | Ajustando textos  | Carlos Alves |
 | 1.0.2 | 05-09-2024 | Atualizando documento  | Larissa Vieira, Hugo Queiroz |
+| 1.0.3 | 06-09-2024 | Adição de análise geral | Arthur Ribeiro |

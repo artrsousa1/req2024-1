@@ -17,8 +17,8 @@ Esta wiki esta organizada em pastas,
 - [Pré-Rastreabilidade](pre-ras/pre-ras.md): Fala sobre a fase antes dos requisitos e seus rastros;
 - [Elicitação](elicitacao/elicitacao.md): Fala sobre a fase de levantamento de requisitos;
 - [Modelagem](modelagem/modelagem.md): Fala sobre a fase de modelagem dos requisitos elicitados;
-- [Análise](analise/analise.md): Em breve;
-- [Rastreabilidade](rastreabilidade/rastreabilidade.md): Em breve.
+- [Análise](analise/analise.md): Fala sobre a fase de analisar os requisitos e as técnicas e artefatos gerados;
+- [Rastreabilidade](rastreabilidade/rastreabilidade.md): Fala sobre o rastro dos requisitos e sua pós rastreabilidade.
 
 
 ## Equipe
@@ -52,5 +52,7 @@ Essas são as ferrmantas utilizadas na criação deste projeto.
 | Versão | Data       | Alterações Principais                             | Autor        |
 |--------|------------|---------------------------------------------------|--------------|
 | 1.0.0  | 25-07-2024 | Lançamento inicial da documentação.               | Carlos Alves |
+| 1.0.1  | 06-09-2024 | Atualizando documentação.               | Carlos Alves |
+
 
 
