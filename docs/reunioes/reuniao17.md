@@ -32,4 +32,4 @@ Reunião não foi gravada.
 
 | Versão | Data       | Alterações Principais                             | Autor        |
 |--------|------------|---------------------------------------------------|--------------|
-| 1.0.0  | 05-09-2024 | Criação do arquivo e adicionando iTraces | Arthur Souza, Cecília Quaresma |
+| 1.0.0  | 05-09-2024 | Criação do arquivo e adicionando iTraces | Arthur Souza, Cecília Quaresma e Hugo Queiroz |
