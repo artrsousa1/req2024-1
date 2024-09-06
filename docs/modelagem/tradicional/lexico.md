@@ -37,8 +37,8 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 | **Nome**| Aba |
 | **Classificação** | Objeto   |
 | **Sinônimos** | Tela, página, menu  |
-| **Noção** | Elemento da interface gráfica que agrupa conteúdos relacionados |
-| **Impactos** |   * O usuário pode interagir com as funcionalidades disponiveis |
+| **Noção** | Componente da interface gráfica que organiza e exibe seções de conteúdo relacionadas de forma categorizada, permitindo fácil navegação entre diferentes funcionalidades ou informações dentro do aplicativo |
+| **Impactos** |   * O usuário pode interagir com as funcionalidades disponiveis<br> * O usuário pode trocar de aba e explorar diferentes telas do app<br> * O usuário pode visualizar diferentes categorias em cada aba |
 
 ## App 
 
@@ -49,7 +49,7 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 | **Nome**| App | 
 | **Classificação** | Objeto   |
 | **Sinônimos** | Aplicativo, aplicação  |
-| **Noção** |  Software desenvolvido para dispositivos eletrônicos |
+| **Noção** |  Aplicação de software desenvolvida especificamente para dispositivos móveis ou eletrônicos, projetada para executar tarefas específicas, oferecer funcionalidades diversas e interagir diretamente com os usuários por meio de uma interface intuitiva. |
 | **Impactos** |   * O app pode ser instalado<br>  * O app pode ser desinstalado<br>   * O app pode ser atualizado|
 
 ## Atualizar
@@ -61,8 +61,8 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 | **Nome**| Atualizar |
 | **Classificação** |   Verbo |
 | **Sinônimos** | - |
-| **Noção** | Substituir uma versão antiga para uma versão mais nova | 
-| **Impactos** |   * O app vai para uma versão mais nova<br>   * Novas funcionalidades<br> * Correções de bugs |
+| **Noção** | Processo de substituição de uma versão anterior de um software ou aplicativo por uma versão mais recente, visando melhorias em desempenho, segurança, correções de erros ou novas funcionalidades, garantindo que o sistema esteja sempre otimizado e atualizado. | 
+| **Impactos** |   * O app vai para uma versão mais nova<br>   * Ao atualizar surgem novas funcionalidades<br> * Atualizar leva a correções de bugs |
 
 
 
@@ -76,8 +76,8 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 | **Nome**| Barra de pesquisa |
 | **Classificação** |   Objeto |
 | **Sinônimos** | Buscar, lupa, pesquisar |
-| **Noção** | A barra de pesquisa é capaz de buscar um conteúdo pelo nome |
-| **Impactos** |   * O usuário pode buscarr um app pelo nome |
+| **Noção** | Componente da interface que permite ao usuário localizar rapidamente conteúdos ou funcionalidades específicas inserindo palavras-chave ou nomes, facilitando a navegação dentro do aplicativo. |
+| **Impactos** |   * O usuário pode buscar um app pelo nome<br> * A barra de pesquisa aparece no canto inferior da tela inicial|
 
 
 
@@ -91,8 +91,10 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 | **Nome**| Bem avaliados|
 | **Classificação** |   Estado |
 | **Sinônimos** | Boa avaliação |
-| **Noção** | Estado do app que possui muitas boas avaliações dentro da Play Store |
-| **Impactos** |   * O app bem avaliado é mais recomendado ao usuário|
+| **Noção** |  Estado de um aplicativo na Play Store que apresenta uma alta média de avaliações positivas dos usuários, refletindo satisfação geral com suas funcionalidades, desempenho e experiência de uso. |
+| **Impactos** |  * Aplicativos bem avaliados tendem a ser mais recomendados aos usuários pela Play Store.<br>
+  * Aplicativos com boas avaliações podem aparecer em listas de destaque, como "Novidades" ou "Recomendados".<br>
+  * A classificação de um app depende diretamente do feedback e das avaliações dos usuários, influenciando sua visibilidade e downloads futuros.|
 
 
 
@@ -105,21 +107,25 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 | **Nome**| Botão de instalar |
 |**Classificação** |   Objeto |
 | **Sinônimos** | -  |
-| **Noção** |  Botão tipicamente azul na página do aplicativo, que permite ao usuário obter um app|
-| **Impactos** |   * O usuário pode clicar no botão de instalar para obter um app |
+| **Noção** |  Elemento interativo, geralmente azul, localizado na página do aplicativo na Play Store, que permite ao usuário iniciar o processo de download e instalação do app no dispositivo.|
+| **Impactos** |   * Ao clicar no botão de instalar, o usuário inicia o download e a instalação do aplicativo no seu dispositivo.<br>
+  * O botão de instalar facilita o acesso rápido e intuitivo ao app diretamente pela Play Store. |
 
 
 ## Buscar por texto
 
 ---
 
+
 |  |  |
 | :--- | :-- |
-| **Nome**| Buscar por texto |
-| **Classificação** |   Verbo |
-| **Sinônimos** | -  |
-| **Noção** |  Ao clicar na barra de pesquisa, o usuário pode escolher entre buscar por voz ou por texto. Na busca por texto, o teclado é acionado e o usuário digita o nome do app que procura|
-| **Impactos** |   * O usuário pode buscar por texto um app |
+| **Nome** | Buscar por texto |
+| **Classificação** | Verbo |
+| **Sinônimos** | - |
+| **Noção** | Ação realizada pelo usuário ao clicar na barra de pesquisa e optar por digitar manualmente o nome do aplicativo que deseja encontrar, utilizando o teclado virtual do dispositivo. |
+| **Impactos** | 
+  * Permite ao usuário localizar aplicativos específicos digitando diretamente na barra de pesquisa.<br>  * Facilita a busca por apps com nomes conhecidos, oferecendo maior precisão na pesquisa. |
+
 
 
 
@@ -129,11 +135,13 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**| Buscar por voz |
-| **Classificação** |  Verbo |
-| **Sinônimos** | -  |
-| **Noção** |  Ao clicar na barra de pesquisa, o usuário pode escolher entre buscar por voz ou por texto. Na busca por voz, o microfone é acionado e o usuário fala o nome do app que procura|
-| **Impactos** |  * O usuário pode buscar por voz um app Em Alta|
+| **Nome** | Buscar por voz |
+| **Classificação** | Verbo |
+| **Sinônimos** | - |
+| **Noção** | Ação realizada pelo usuário ao clicar na barra de pesquisa e optar pela busca por voz, ativando o microfone para falar o nome do aplicativo que deseja encontrar. |
+| **Impactos** | 
+  * Permite ao usuário localizar aplicativos por meio de comandos de voz, oferecendo uma experiência mais rápida e conveniente. <br> * Facilita a busca por apps, incluindo aqueles em destaque, sem a necessidade de digitação. |
+
 
 ## Clicar
 
@@ -141,11 +149,12 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**| Clicar |
-| **Classificação** |  Verbo |
-| **Sinônimos** | Apertar, segurar, tocar |
-| **Noção** |  Ação do usuário de clicar em um elemento no app, como botões, menus, ícones |
-| **Impactos** |  * O usuário pode clicar no botão de instalar para obter um app |
+| **Nome** | Clicar |
+| **Classificação** | Verbo |
+| **Sinônimos** | Tocar, pressionar, selecionar |
+| **Noção** | Ação do usuário de interagir com elementos da interface do app, como botões, menus ou ícones, ao tocar na tela ou pressionar o mouse, executando a função associada. |
+| **Impactos** | 
+  * Permite ao usuário iniciar ações, como instalar um app, abrir menus ou navegar entre diferentes seções do aplicativo.<br>  * A interação por clique é essencial para a navegação e uso das funcionalidades do aplicativo.|
 
 
 
@@ -155,11 +164,13 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**| Descrição do app |
-| **Classificação** |   Objeto |
+| **Nome** | Descrição do app |
+| **Classificação** | Objeto |
 | **Sinônimos** | Informações do app |
-| **Noção** |  Na página do aplicativo, ficam dispostas diferentes informações úteis ao usuário sobre como o app|funciona, qual seu tamanho, quantas instalações etc. 
-| **Impactos** | * O usuário pode encontrar informações essenciais do app na parte de descrição|
+| **Noção** | Seção na página do aplicativo que fornece informações detalhadas sobre o funcionamento do app, seu tamanho, número de instalações, funcionalidades e outras características relevantes para o usuário. |
+| **Impactos** | 
+  * O usuário pode acessar informações essenciais sobre o aplicativo, facilitando a decisão de download e instalação.<br>* A descrição ajuda a entender as funcionalidades e benefícios do app antes de sua instalação.|
+
 
 ## Desinstalar
 
@@ -167,11 +178,12 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**| Desinstalar                                                                      |
-| **Classificação**   | Verbo                                                                            |
-| **Sinônimos**       | Retirar, remover, excluir                                                        |
-| **Noção**           | Remover um app já instalado no dispositivo                                       |
-| **Impactos**        | * O usuário pode clicar no botão de desinstalar para excluir um app<br> * O app vai para uma versão mais nova<br>   * Novas funcionalidades<br> * Correções de bugs                                                              |
+| **Nome** | Desinstalar |
+| **Classificação** | Verbo |
+| **Sinônimos** | Retirar, remover, excluir |
+| **Noção** | Ação de remover um aplicativo já instalado do dispositivo, liberando espaço e eliminando o acesso ao app. |
+| **Impactos** | 
+  * O usuário pode clicar no botão de desinstalar para remover o app do dispositivo.<br>  * A desinstalação libera espaço de armazenamento e pode melhorar o desempenho do dispositivo.<br>* A exclusão do app impede o uso de suas funcionalidades e acesso a atualizações futuras.|
 
 ## Dispositivo compatível
 
@@ -179,11 +191,13 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**            | Dispositivo compatível                                                           |
-| **Classificação**   | Objeto                                                                           |
-| **Sinônimos**       | Aparelho suportado                                                               |
-| **Noção**           | Dispositivo eletrônico que é capaz de reconhecer e rodar um app                  |
-| **Impactos**        | * O usuário pode instalar e desinstalar apps                                     |
+| **Nome** | Dispositivo compatível |
+| **Classificação** | Objeto |
+| **Sinônimos** | Aparelho suportado |
+| **Noção** | Dispositivo eletrônico que atende aos requisitos técnicos necessários para reconhecer, instalar e executar um aplicativo corretamente. |
+| **Impactos** | 
+  * O usuário pode instalar e desinstalar apps de forma adequada no dispositivo.<br>  * A compatibilidade garante que o aplicativo funcione conforme esperado, proporcionando uma experiência de uso adequada.<br>  * Dispositivos compatíveis podem receber atualizações e novas funcionalidades do app, mantendo o software atualizado e funcional.|
+
 
 ## Em Alta
 
@@ -191,11 +205,12 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**            | Em Alta                                                                          |
-| **Classificação**   | Objeto                                                                           |
-| **Sinônimos**       | -                                                                                |
-| **Noção**           | Aba responsável por mostrar os apps mais baixados recentemente. Os apps mais atrativos para os usuários |
-| **Impactos**        | * O usuário encontra novidades na aba Em Alta                                    |
+| **Nome** | Em Alta |
+| **Classificação** | Objeto |
+| **Sinônimos** | - |
+| **Noção** | Seção da Play Store que exibe os aplicativos mais baixados e populares no momento, destacando os que estão em alta entre os usuários. |
+| **Impactos** | 
+  * O usuário pode descobrir novos aplicativos que estão em alta e têm atraído muita atenção recentemente.<br>  * A aba Em Alta ajuda a identificar tendências e aplicativos populares, facilitando a escolha de novos downloads.|
 
 ## Forma de pagamento
 
@@ -203,11 +218,12 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**            | Forma de pagamento                                                               |
-| **Classificação**   | Objeto                                                                           |
-| **Sinônimos**       | Método de pagamento                                                              |
-| **Noção**           | Modo com o qual o usuário paga pelo app. Pode ser pix, cartão de crédito, boleto etc. |
-| **Impactos**        | * O usuário utiliza uma forma de pagamento ao comprar um app                     |
+| **Nome** | Forma de pagamento |
+| **Classificação** | Objeto |
+| **Sinônimos** | Método de pagamento |
+| **Noção** | Modo pelo qual o usuário realiza o pagamento para adquirir um aplicativo, podendo incluir opções como cartão de crédito, débito, boleto, ou outros métodos de pagamento eletrônico como Pix. |
+| **Impactos** | 
+  * O usuário seleciona uma forma de pagamento para completar a compra do aplicativo.<br>  * A escolha da forma de pagamento pode influenciar a facilidade e a segurança da transação.<br>  * Oferecer várias formas de pagamento pode aumentar a acessibilidade e a satisfação do usuário ao adquirir o app.| 
 
 ## Novidade
 
@@ -215,11 +231,13 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**            | Novidade                                                                         |
-| **Classificação**   | Objeto                                                                           |
-| **Sinônimos**       | Inovação, app novo                                                               |
-| **Noção**           | Um aplicativo diferente por sua perspectiva inovadora, nova abordagem, ou algum elemento que desperta interesse do público |
-| **Impactos**        | * O usuário encontra novidades na aba Em Alta                                    |
+| **Nome** | Novidade |
+| **Classificação** | Objeto |
+| **Sinônimos** | Inovação, app novo |
+| **Noção** | Aplicativo que se destaca por sua abordagem inovadora, recursos únicos ou elementos que capturam o interesse do público, muitas vezes sendo promovido como uma novidade na Play Store. |
+| **Impactos** | 
+  * O usuário pode encontrar e explorar novos aplicativos que oferecem funcionalidades inéditas ou abordagens diferentes.<br>  * A presença na aba "Em Alta" ou similar pode aumentar a visibilidade e atratividade do app para novos usuários.<br>  * Novidades podem atrair mais downloads e avaliações, ajudando a construir a reputação e o sucesso do aplicativo.|
+
 
 
 
@@ -229,11 +247,13 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**| Permissão |
-| **Classificação** |   Verbo |
+| **Nome** | Permissão |
+| **Classificação** | Verbo |
 | **Sinônimos** | Autorização, permitir, licença |
-| **Noção** |  Conceder ao app a autorização para acessar determinadas funcionalidades, dados ou recursos do seu dispositivo|
-| **Impactos** |   * Permite ao usuário acesso a funcionalidades essenciais do aplicativo |
+| **Noção** | Ação de conceder a um aplicativo a autorização necessária para acessar e utilizar certas funcionalidades, dados ou recursos do dispositivo, como câmeras, microfone, ou localização. |
+| **Impactos** | 
+  * Permite ao aplicativo acessar e usar recursos essenciais, possibilitando o funcionamento completo de suas funcionalidades.<br>  * Concede ao usuário controle sobre quais informações e recursos o aplicativo pode utilizar, impactando a privacidade e a segurança.<br> * A concessão de permissões é fundamental para a operação do aplicativo e a realização de suas funções previstas.|
+
 
 
 ## Rede
@@ -242,12 +262,13 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**| Rede |
-| **Classificação** |   Objeto |
+| **Nome** | Rede |
+| **Classificação** | Objeto |
 | **Sinônimos** | Internet, conexão |
-| **Noção** | Conjunto de dispositivos interconectados que comparilham dados e recursos |
-| **Impactos** |   * Acesso à informaçaõ<br>   * Acesso á serviços<br>  * Possibilita instalar app|
-| **Impactos** |   * A tela inicial mostra os principais apps<br>  * A tela inicial mostra a barra de pesquisa no topo<br> * A tela inicial mostra novidades |
+| **Noção** | Conjunto de dispositivos interconectados que compartilham dados e recursos, permitindo comunicação e acesso a informações e serviços online. |
+| **Impactos** | 
+  * Permite o acesso a informações e serviços disponíveis na internet.<br>  * Facilita a instalação e atualização de aplicativos através de conexões online.<br>  * É essencial para a operação de muitos aplicativos e serviços que dependem de comunicação em tempo real ou acesso a dados remotos.|
+
 
 ## Tela inicial
 
@@ -255,11 +276,13 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**| Tela inicial |
-| **Classificação** |   Objeto |
-| **Sinônimos** | Página inicial, menu inicial, página principal   |
-| **Noção** |  Primeira aba que o usuário visualiza ao clicar na Play Store |
-| **Impactos** |    * O usuario pode navegar pelas opções<br>   * O usuário pode buscar por app/jogos<br>   * O usuário pode configurar sua conta |
+| **Nome** | Tela inicial |
+| **Classificação** | Objeto |
+| **Sinônimos** | Página inicial, menu inicial, página principal |
+| **Noção** | Primeira aba que o usuário visualiza ao acessar a Play Store, servindo como ponto de partida para explorar aplicativos, jogos e outras funcionalidades. |
+| **Impactos** | 
+  * O usuário pode navegar pelas diferentes opções e categorias disponíveis na Play Store.<br>  * Facilita a busca por aplicativos e jogos através de uma barra de pesquisa ou seções destacadas.<br>  * Permite ao usuário acessar e configurar sua conta, visualizar novidades e recomendações personalizadas.|
+
 
 
 ## Usuário
@@ -268,12 +291,11 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 
 |  |  |
 | :--- | :-- |
-| **Nome**| Usuário |
+| **Nome**        | Usuário |
 | **Classificação** | Sujeito   |
-| **Sinônimos** |  User |
-| **Noção** |  Pessoa que utiliza a Play Store, pessoa que navega e utiliza apps em dispositivos eletrônicos |
-| **Impactos** |   * O usuário pode instalar apps<br>  * O usuário pode desinstalar apps<br>   * O usuário pode atualizar apps<br> * O usuário pode avaliar apps<br>   * O usuário pode comprar apps |
- 
+| **Sinônimos**     | User, Consumidor, Cliente |
+| **Noção**         | Pessoa que utiliza a Play Store para navegar, instalar, desinstalar, atualizar, avaliar e comprar aplicativos em dispositivos eletrônicos. |
+| **Impactos**      | * O usuário pode instalar, desinstalar e atualizar aplicativos.<br> * O usuário pode avaliar aplicativos.<br> * O usuário pode realizar compras de aplicativos e conteúdos adicionais.<br> * O usuário pode interagir com desenvolvedores e outros usuários por meio de avaliações e feedback. |
 
 
 ## Histórico de Versões
@@ -284,3 +306,4 @@ Então, abaixo estão todos os termos que julgamos interessantes para o projeto.
 | 1.0.1 | 15-08-2024 | Arrumando arquivo do léxico | Arthur Ribeiro, Carlos Alves e Hugo Queiroz|
 | 1.0.2 | 16-08-2024 | Adicionando novas tabelas, a descrição e arrumando os conceitos | Carlos Alves, Cecília Quaresma e Hugo Queiroz|
 | 1.0.3 | 22-08-2024 | Arrumando doc textual | Carlos Alves e Hugo Queiroz|
+| 1.1.0 | 06-09-2024 | Corrigindo o léxico baseado no checklist de análise| Cecília Quaresma e Hugo Queiroz|

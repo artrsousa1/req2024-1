@@ -156,7 +156,7 @@ Critérios de aceitação:
 
 ## US014 - Entrar com minha conta Google
 
-Como [usuário](../../elicitacao/personas.md), eu desejo poder entrar com minha conta Google, para que usar a minha conta em um dispositivo novo.
+Como [usuário](../../elicitacao/personas.md), eu desejo me autenticar na Play Store com minha conta Google, para usar a minha conta em um dispositivo novo, e acessar itens que já baixei ou comprei no passado com essa conta.
 
 Critérios de aceitação:
 
@@ -211,3 +211,4 @@ Critérios de aceitação:
 | ---- | ---- | ---- | --- | 
 | 1.0.0 | 19-08-2024 | Criação dos critérios de aceitação das US's | Arthur Sousa, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |
 | 1.0.1 | 20-08-2024 | Melhorando documento textual US | Carlos Alves |
+| 2.0.0 | 06-09-2024 | Atualizando com base no checklist de verificação | Lucas Queiroz |
