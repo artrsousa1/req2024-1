@@ -1,10 +1,10 @@
 # [Caso de uso](oo.md#cs)
 
-Esta técnica esta definifa em [Caso de uso](oo.md#cs)
+Esta técnica esta definida em [Caso de uso](oo.md#cs)
 
 ## [Diagrama de caso de uso](oo.md#d.cs)
 
-Esta técnica esta definifa em [Diagrama de caso de uso](oo.md#d.cs)
+Esta técnica esta definida em [Diagrama de caso de uso](oo.md#d.cs)
 
 
 ## Aplicação da técnica
@@ -69,7 +69,8 @@ Explicando a tabela:
 | **Descrição**      | O usuário deseja instalar em seu dispositivo apps/jogos |
 | **Ator(es)**       | Usuário e a Play Store                                  |
 | **Pré-Requisitos** | Possuir a Play Store, ter rede, espaço suficiente e bateria |
-| **Fluxo Principal** | 1. Usuário segue o [fluxo de visualizar app](#visualizar-appjogo). <br> 2. O usuário clica no botão de "instalar". [FE02](#fe02) [FE03](#fe03) [FE04](#fe04) <br> 3. Usuário aguarda a instalação do app/jogo no seu dispositivo. |
+| **Fluxo Principal** | 1. Usuário segue o [fluxo de visualizar app](#visualizar-appjogo), [FE06](#fe06). <br> 2. O usuário clica no botão de "instalar". [FE02](#fe02) [FE03](#fe03) [FE04](#fe04) <br> 3. Usuário aguarda a instalação do app/jogo no seu dispositivo. |
+| **Fluxo Alternativo** | <a name="fa0"></a>**FA06: O usuário acessa um link** <br> 1. O usuário abre a página do jogo por um link. <br> 2. O usuário segue o fluxo principal segundo passo. |
 | **Fluxo de Exceção** | <a name="fe02"></a>**FE02: Falha na rede** <br> 1. A Play Store para a instalação. <br> 2. A Play Store fica aguardando a conexão voltar. <br><br> <a name="fe03"></a>**FE03: O dispositivo acaba a bateria durante a instalação** <br> 1. Após iniciar a instalação, o dispositivo acaba a bateria. <br> 2. O usuário coloca o dispositivo para carregar. <br> 3. O usuário reinicia o fluxo principal. <br><br> <a name="fe04"></a>**FE04: O dispositivo não está com espaço suficiente** <br> 1. Após iniciar a instalação, a Play Store informa que não há espaço disponível. <br> 2. O usuário soluciona o problema para continuar e retoma o fluxo principal. |
 
 ---
@@ -141,3 +142,4 @@ Explicando a tabela:
 | 1.0.3 | 15-08-2024 | Arrumando  documento de caso de uso | Carlos Alves, Hugo Queiroz e Arthur Ribeiro|
 | 1.0.4 | 21-08-2024 | Adição de especificação de caso de uso | Lucas Queiroz |
 | 1.0.5 | 22-08-2024 | Adição de links para as técnicas | Carlos Alves e Hugo Queiroz |
+| 2.0.0 | 06-09-2024 | Atualização do documento com base no checklist | Lucas Queiroz e Hugo Queiroz |

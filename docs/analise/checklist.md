@@ -1,4 +1,4 @@
-# Checklist
+# Inspeção
 
 ## NFR framework
 
@@ -13,398 +13,435 @@
 ### Portabilidade
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled><label for=""> As metas de qualidade estão representadas como softgoals que não possuem um critério binário (satisfeito ou não satisfeito).</label></li>
     <li><input type="checkbox" disabled><label for=""> Cada softgoal principal foi decomposto em subgoals específicos e menores.</label></li>
     <li><input type="checkbox" disabled><label for=""> Decomposição “AND” ou “OR” para indicar como os subgoals contribuem para o objetivo principal.</label></li>
     <li><input type="checkbox" disabled><label for=""> Os elos de contribuição indicam corretamente o impacto positivo (help + / make ++), negativo (hurt - / break --), ou neutro nas metas relacionadas.</label></li>
-  </ul>
+  </ol>
 </form>
 
 
 ## Cenários
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 01
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
-    <li><input type="checkbox" disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+    <li><mark><input type="checkbox" disabled><label for=""> O resultado final da interação é claramente descrito. </label></mark></li>
+  </ol>
 </form>
+
+> O tópico 6 foi corrigido
 
 ### Cenário 02
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox"  disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 3 e 6 foram corrigidos.
 
 ### Cenário 03
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox"  checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox"  disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 4 e 6 foram corrigidos.
 
 ### Cenário 04
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox"   disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox"  checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 3 foi corrigido.
 
 ### Cenário 05
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox"   disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox"  checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 3 foi corrigido.
 
 ### Cenário 06
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
-    <li><input type="checkbox"   disabled><label for=""> Os episódios estão bem construídos?</label></li>
-    <li><input type="checkbox"   disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
+    <li><input type="checkbox" disabled><label for=""> Os episódios estão bem construídos?</label></li>
+    <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 3 e 4 foram corrigidos.
 
 ### Cenário 07
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox"   checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox"   disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido.
 
 ### Cenário 08
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox"   checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox"   disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido.
 
 ### Cenário 09
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox"   checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox"   disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido.
 
 ### Cenário 10
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox"   checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox"   checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 11
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 12
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
-    <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
+    <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido.
 
 ### Cenário 13
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
-    <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
+    <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido.
 
 ### Cenário 14
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" ckecked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido
 
 ### Cenário 15
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 16
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 17
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 18
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
-    <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
+    <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 19
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
-    <li><input type="checkbox" checked disabled><label for=""> Os episódios estão bem construídos?</label></li>
-    <li><input type="checkbox" checked disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
+    <li><input type="checkbox" disabled><label for=""> Os episódios estão bem construídos?</label></li>
+    <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" checked disabled><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 20
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 21
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido
 
 ### Cenário 22
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido
 
 ### Cenário 23
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido
 
 ### Cenário 24
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Cenário 25
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido
 
 ### Cenário 26
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido
 
 ### Cenário 27
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 4 foi corrigido
 
 ### Cenário 28
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>objetivos</b>, <b>contexto</b>, <b>atores</b>, <b>recursos</b>, <b>episódios</b>, <b>restrições</b> e <b>exceções</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O contexto deve ter <b>local</b> e <b>pré-condição</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Os episódios estão bem construídos?</label></li>
     <li><input type="checkbox" disabled><label for=""> As restrições e exceções têm mais de um caso?</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As ações estão na ordem lógica em que devem acontecer. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> O resultado final da interação é claramente descrito. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> O tópico 4 foi corrigido
 
 
 ## Léxicos
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -413,13 +450,13 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Aba
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -428,14 +465,16 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 3, 4, 5, 6 e 8 foram corrigidos.
 
 
 ### App
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -444,14 +483,16 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 3, 4 e 5 foram corrigidos.
 
 
 ### Atualizar
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -460,14 +501,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 4, 5 e 6 foram corrigidos.
 
 ### Barra de pesquisa
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -476,15 +518,17 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 5, 6 e 8 fo
+am corrigidos.
 
 ### Bem avaliados
 
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -493,13 +537,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 4, 5, 6 e 8 foram corrigidos.
 
 ### Botão de instalar
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -508,14 +554,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 4, 5, 6 e 8 foram corrigidos
 
 ### Buscar por texto
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -524,14 +571,16 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+
+> Os tópicos 5, 6 e 8 foram corrigidos
 
 ### Buscar por voz
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -540,14 +589,16 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>   
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 5, 6 e 8 foram corrigidos
 
 
 ### Clicar
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -556,14 +607,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 5, 6 e 8 foram corrigidos
 
 ### Descrição do app
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -572,14 +624,14 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
 
 ### Desinstalar
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -588,14 +640,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 5 e 6 foram corrigidos
 
 ### Dispositivo Compatível
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -604,14 +657,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 4, 5, 6 e 8 foram corrigidos
 
 ### Em Alta
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -620,14 +674,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 4, 5, 6 e 8 foram corrigidos
 
 ### Forma de pagamento
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -636,14 +691,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 4, 5, 6 e 8 foram corrigidos
 
 ### Novidade
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -652,14 +708,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
 
+> Os tópicos 4, 5, 6 e 8 foram corrigidos
 
 ### Permissão
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -668,14 +725,16 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled ><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 4, 5, 6 e 8 foram corrigidos
 
 
 ### Rede
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -684,13 +743,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 4, 5 e 6 foram corrigidos
 
 ### Tela inicial
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -699,13 +760,15 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 4, 5 e 6 foram corrigidos
 
 ### Usuário
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> <b>Atores</b>, <b>objetos</b> e <b>verbos</b> principais foram identificados.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> Todos os símbolos possuem definições claras e objetivas.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> As descrições são consistentes e sem ambiguidades.</label></li>
@@ -714,315 +777,321 @@
     <li><input type="checkbox" disabled><label for=""> O léxico está alinhado com os <b>casos de uso e requisitos</b>.</label></li>  
     <li><input type="checkbox" disabled checked><label for="">  Existe rastreabilidade entre os símbolos e os requisitos do sistema.</label></li>    
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos dois <b>impactos</b>. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> Os tópicos 4, 5 e 6 foram corrigidos
 
 
 ## Histórias de Usuário
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled ><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled ><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled ><label for=""> A história de usuário é fácil d ser entendida. </label></li>
     <li><input type="checkbox" disabled ><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled ><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US001
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US002
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US003
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 
 ### US004
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US005
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US006
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US007
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US008
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US009
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US010
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US011
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US012
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US013
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US014
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 3 foi corrigido
 
 ### US015
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US016
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é fácil de ser entendida. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ### US017
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> A história de usuário tem <b>perfil</b>, <b>ação </b> e <b>motivação</b>.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> A história de usuário foi priorizada. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> A história de usuário é fácil d ser entendida. </label></li> 
     <li><input type="checkbox" checked disabled><label for=""> A história de usuário é testável.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> A história de usuário tem critérios de aceitação. </label></li>
-  </ul>
+  </ol>
 </form>
 
 ## Caso de uso
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled><label for=""> Possui <b>descrição</b>, <b>ator(es)</b>, <b>pré-requisitos</b>, <b>fluxo principal</b>. </label></li>
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos um <b>fluxo alternativo</b>. </label></li>
     <li><input type="checkbox" disabled><label for=""> Possui pelo menos um <b>fluxo de exceção</b>.</label></li> 
     <li><input type="checkbox" disabled><label for=""> O fluxo principal é bem descrito.</label></li>
     <li><input type="checkbox" disabled><label for=""> O fluxo principal referencia outros fluxos.</label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Visualizar app/jogo
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>descrição</b>, <b>ator(es)</b>, <b>pré-requisitos</b>, <b>fluxo principal</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Possui pelo menos um <b>fluxo alternativo</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Possui pelo menos um <b>fluxo de exceção</b>.</label></li> 
     <li><input type="checkbox" checked disabled><label for=""> O fluxo principal é bem descrito.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O fluxo principal referencia outros fluxos.</label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Instalar aplicativos
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>descrição</b>, <b>ator(es)</b>, <b>pré-requisitos</b>, <b>fluxo principal</b>. </label></li>
     <li><input type="checkbox" disabled ><label for=""> Possui pelo menos um <b>fluxo alternativo</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos um <b>fluxo de exceção</b>.</label></li> 
     <li><input type="checkbox" disabled checked><label for=""> O fluxo principal é bem descrito.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O fluxo principal referencia outros fluxos.</label></li>
-  </ul>
+  </ol>
 </form>
+
+> O tópico 2 foi corrigido
 
 ### Atualizar Aplicativos
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>descrição</b>, <b>ator(es)</b>, <b>pré-requisitos</b>, <b>fluxo principal</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Possui pelo menos um <b>fluxo alternativo</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Possui pelo menos um <b>fluxo de exceção</b>.</label></li> 
     <li><input type="checkbox" checked disabled><label for=""> O fluxo principal é bem descrito.</label></li>
     <li><input type="checkbox" checked disabled><label for=""> O fluxo principal referencia outros fluxos.</label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Desinstalar aplicativos
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>descrição</b>, <b>ator(es)</b>, <b>pré-requisitos</b>, <b>fluxo principal</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos um <b>fluxo alternativo</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos um <b>fluxo de exceção</b>.</label></li> 
     <li><input type="checkbox" disabled checked><label for=""> O fluxo principal é bem descrito.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O fluxo principal referencia outros fluxos.</label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Avaliar aplicativos
 
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" disabled checked><label for=""> Possui <b>descrição</b>, <b>ator(es)</b>, <b>pré-requisitos</b>, <b>fluxo principal</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos um <b>fluxo alternativo</b>. </label></li>
     <li><input type="checkbox" disabled checked><label for=""> Possui pelo menos um <b>fluxo de exceção</b>.</label></li> 
     <li><input type="checkbox" disabled checked><label for=""> O fluxo principal é bem descrito.</label></li>
     <li><input type="checkbox" disabled checked><label for=""> O fluxo principal referencia outros fluxos.</label></li>
-  </ul>
+  </ol>
 </form>
 
 ### Configurar conta
 
 <form>
-  <ul>
+  <ol>
     <li><input type="checkbox" checked disabled><label for=""> Possui <b>descrição</b>, <b>ator(es)</b>, <b>pré-requisitos</b>, <b>fluxo principal</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Possui pelo menos um <b>fluxo alternativo</b>. </label></li>
     <li><input type="checkbox" checked disabled><label for=""> Possui pelo menos um <b>fluxo de exceção</b>.</label></li> 
     <li><input type="checkbox" checked disabled><label for=""> O fluxo principal é bem descrito.</label></li>
     <li><input type="checkbox" disabled><label for=""> O fluxo principal referencia outros fluxos.</label></li>
-  </ul>
+  </ol>
 </form>
-
 
 ## Histórico de Versões
 
 | **Versão** | **Data**   | **Alterações Principais**                                                 | **Autor**                                                                                  |
 |:----------:|:----------:|:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|
 | 1.0.0      | 05-09-2024 | Criação do documento e adição de checklists com base nos modelos | Arthur Ribeiro, Carlos Alves, Cecília Quaresma, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |
+| 1.0.1      | 06-09-2024 | Atualização dos documentos do checklist | Arthur Ribeiro, Cecília Quaresma, Hugo Queiroz, Larissa Vieira e Lucas Queiroz |
